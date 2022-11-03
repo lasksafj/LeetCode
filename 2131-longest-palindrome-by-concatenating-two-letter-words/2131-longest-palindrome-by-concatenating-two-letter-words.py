@@ -1,19 +1,14 @@
 class Solution:
     def longestPalindrome(self, words: List[str]) -> int:
-        m = defaultdict(str)
-        res = 0
-        for w in words:
-            tmp = w[::-1]
-            if tmp in m and m[tmp] > 0:
-                res += 2
-                m[tmp] -= 1
+        count = Counter(words)
+        # print(count)
+        res,same = 0,0
+        for w, cnt in count.items():
+            if w[0] == w[1]:
+                res += cnt//2 * 2
+                if cnt%2:
+                    if same == 0:
+                        same = 1
             else:
-                if w in m:
-                    m[w] += 1
-                else:
-                    m[w] = 1
-        for e in m:
-            if e[0] == e[1] and m[e] == 1:
-                res += 1
-                break
-        return res * 2
+                res += min(cnt, count[w[::-1]])
+        return (res+same) * 2
