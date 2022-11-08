@@ -1,11 +1,9 @@
 class Solution:
     def makeGood(self, s: str) -> str:
-        i = 0
-        while i < (len(s)-1):
-            if abs(ord(s[i]) - ord(s[i+1])) == 32:
-                s = s[:i] + s[i+2:]
-                if i > 0:
-                    i -= 1
+        st = []
+        for c in s:
+            if st and abs(ord(c) - ord(st[-1])) == 32:
+                st.pop()
             else:
-                i += 1
-        return s
+                st.append(c)
+        return ''.join(st)
