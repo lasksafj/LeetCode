@@ -10,6 +10,8 @@ class Solution:
         while pq:
             cur_prob, cur_e = heapq.heappop(pq)
             cur_prob *= -1
+            if cur_e == end:
+                return cur_prob
             for ne, np in adj[cur_e]:
                 if prob[ne] < cur_prob * np:
                     prob[ne] = cur_prob * np
