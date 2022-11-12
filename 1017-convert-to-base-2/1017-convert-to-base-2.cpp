@@ -9,8 +9,9 @@ public:
                 rem += 2;
                 n++;
             }
-            res = to_string(rem) + res;
+            res += to_string(rem);
         }
+        reverse(res.begin(), res.end());
         return res == ""? "0" : res;
     }
 };
