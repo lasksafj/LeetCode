@@ -2,14 +2,11 @@ class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
         n = len(stones)
         adj = [[] for _ in range(n)]
-        deg = [0] * n
         for i in range(n):
             for j in range(i+1, n):
                 if stones[i][0] == stones[j][0] or stones[i][1] == stones[j][1]:
                     adj[i].append(j)
                     adj[j].append(i)
-                    deg[i] += 1
-                    deg[j] += 1
         vis = [0] * n
         def dfs(i):
             if vis[i]:
