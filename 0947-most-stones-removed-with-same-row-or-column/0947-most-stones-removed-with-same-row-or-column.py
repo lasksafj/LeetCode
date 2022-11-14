@@ -1,28 +1,25 @@
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
         n = len(stones)
-        adj = [[] for _ in range(n)]
-        for i in range(n):
-            for j in range(i+1, n):
-                if stones[i][0] == stones[j][0] or stones[i][1] == stones[j][1]:
-                    adj[i].append(j)
-                    adj[j].append(i)
-        vis = [0] * n
-        def dfs(i):
-            if vis[i]:
-                return 0
-            vis[i] = 1
-            res = 1
-            for ne in adj[i]:
-                res += dfs(ne)
-            return res
+        f = {}
         
-        res = 0
-        for i in range(n):
-            a = 0
-            if adj[i] != [] and vis[i] == 0:
-                a = -1
-                a += dfs(i)
-            res += a
-        return res
+        def find(a):
+            if a not in f:
+                f[a] = a
+            if f[a] == a:
+                return a
+            return find(f[a])
+        
+        def union(a, b):
+            x,y = find(a),find(b)
+            if x != y:
+                f[y] = x
+                
+        for stone in stones:
+            union(stone[0], ~stone[1])
+        no_group = 0
+        for x in f:
+            if find(x) == x:
+                no_group += 1
+        return n - no_group
                     
