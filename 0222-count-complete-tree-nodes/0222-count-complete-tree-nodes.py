@@ -31,14 +31,11 @@ class Solution:
         r = l*2
         n = l
         a = 1 << cnt
-        # print(check(0|a),check(1|a),check(2|a),check(3|a))
-        while l < r:
+        while l <= r:
             m = (l+r)//2
-            if m == l:
-                break
             if check((m-n-1)|a):
-                l = m
+                l = m+1
             else:
                 r = m-1
-        return r if check(r) else l
+        return r
             
