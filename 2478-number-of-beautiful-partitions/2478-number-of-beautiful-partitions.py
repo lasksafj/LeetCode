@@ -13,5 +13,7 @@ class Solution:
             return res % 1000000007
         if s[0] not in '2357' or s[-1] in '2357':
             return 0
-        return sol(minLength, k-1) % 1000000007
+        res = sol(minLength, k-1) % 1000000007
+        sol.cache_clear()
+        return res
             
