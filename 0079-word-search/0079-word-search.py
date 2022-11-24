@@ -21,6 +21,12 @@ class Solution:
             return res
         
         cnt = Counter(word)
+        if len(word) > m*n:
+            return False
+        board_cnt = Counter(sum(board, []))
+        for e,k in cnt.items():
+            if k > board_cnt[e]:
+                return False
         if cnt[word[0]] > cnt[word[-1]]:
             word = word[::-1]
         for i in range(m):
