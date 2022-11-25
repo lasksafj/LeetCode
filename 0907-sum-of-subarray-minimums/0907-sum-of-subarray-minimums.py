@@ -1,6 +1,6 @@
 class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:
-        st = deque()
+        st = []
         res = 0
         arr.append(0)
         for i in range(len(arr)):
