@@ -1,5 +1,7 @@
 class Solution:
     def closeStrings(self, word1: str, word2: str) -> bool:
+        if len(word1) != len(word2):
+            return False
         w1 = [0]*26
         w2 = [0]*26
         for c in word1:
