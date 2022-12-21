@@ -4,20 +4,25 @@ class Solution:
         for a,b in dislikes:
             adj[a].append(b)
             adj[b].append(a)
-        vis = [0]*(n+1)
         
-        def dfs(cur, color):
-            vis[cur] = color
-            for ne in adj[cur]:
-                if vis[ne] == color:
-                    return False
-                elif vis[ne] == 0 and not dfs(ne, 3 - vis[cur]):
-                    return False
-            return True
+        parent = [i for i in range(n+1)]
+        def root(x):
+            if parent[x] == x:
+                return x
+            return root(parent[x])
+        
+        def union(x,y):
+            xr,yr = root(x),root(y)
+            if xr == yr:
+                return False
+            parent[y] = xr
+        
         
         for i in range(1,n+1):
-            if vis[i] == 0 and not dfs(i, 1):
-                return False
+            for ne in adj[i]:
+                if root(i) == root(ne):
+                    return False
+                union(adj[i][0], ne)
         return True
             
         
