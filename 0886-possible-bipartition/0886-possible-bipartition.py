@@ -5,7 +5,8 @@ class Solution:
             adj[a].append(b)
             adj[b].append(a)
         
-        parent = [i for i in range(n+1)]
+        parent = list(range(n+1))
+        rank = [0]*(n+1)
         def root(x):
             if parent[x] == x:
                 return x
@@ -14,8 +15,14 @@ class Solution:
         def union(x,y):
             xr,yr = root(x),root(y)
             if xr == yr:
-                return False
-            parent[y] = xr
+                return
+            if rank[xr] < rank[yr]:
+                parent[xr] = yr
+            elif rank[xr] > rank[yr]:
+                parent[yr] = xr
+            else:
+                parent[yr] = xr
+                rank[xr] += 1
         
         
         for i in range(1,n+1):
