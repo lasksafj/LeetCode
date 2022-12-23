@@ -15,7 +15,7 @@ class Solution:
             xr,yr = root(x),root(y)
             if xr == yr:
                 return False
-            parent[y] = xr
+            parent[yr] = xr
         
         
         for i in range(1,n+1):
