@@ -8,10 +8,7 @@ class Solution:
             pre[i] = pre[i-1] + nums[i]
         res = []
         for q in queries:
-            a = bisect_left(pre, q)
-            if a == n or pre[a] != q:
-                res.append(a)
-            else:
-                res.append(a+1)
+            a = bisect_right(pre, q)
+            res.append(a)
                 
         return res
