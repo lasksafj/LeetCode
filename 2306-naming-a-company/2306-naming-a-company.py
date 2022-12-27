@@ -6,5 +6,7 @@ class Solution:
         res = 0
         for a,seta in m.items():
             for b,setb in m.items():
+                if a <= b:
+                    continue
                 res += len(seta - setb) * len(setb - seta)
-        return res
+        return res*2
