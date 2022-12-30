@@ -3,18 +3,14 @@ class Solution:
         n = len(graph)
         res = []
         path = []
-        vis = [False]*n
         def dfs(cur, n):
             path.append(cur)
             if cur == n-1:
                 res.append(path[:])
                 path.pop()
                 return
-            vis[cur] = True
             for ne in graph[cur]:
-                if not vis[ne]:
-                    dfs(ne, n)
-            vis[cur] = False
+                dfs(ne, n)
             path.pop()
         dfs(0, n)
         return res
