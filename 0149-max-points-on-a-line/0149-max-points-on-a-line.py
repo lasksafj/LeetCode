@@ -9,17 +9,8 @@ class Solution:
                 x1,y1 = points[i]
                 x2,y2 = points[j]
                 a,b = x1-x2, y1-y2
-                g = 0
-                if a != 0 and b != 0:
-                    g = gcd(a,b)
-                    a,b = a//g, b//g
-                    if (a*b < 0 and a > 0) or (a*b > 0 and a < 0):
-                        a,b = -a,-b
-                elif a == 0:
-                    b = y1
-                elif b == 0:
-                    a = x1
-                s = str(a) + '*' + str(b)
+                s = b/a if a != 0 else None
+                # s = atan2(b,a)
                 m[s] += 1
                 c = max(c, m[s])
                 # print(points[i],points[j],a,b, m[s])
