@@ -6,15 +6,15 @@ class Solution:
             adj[b].append(a)
         
         res = [0] * n
-        def dfs(prev, cur):
-            m = defaultdict(int)
-            m[labels[cur]] = 1
+        m = defaultdict(int)
+        def dfs(prev, cur, m):
+            bef = m[labels[cur]]
             for ne in adj[cur]:
                 if ne != prev:
-                    for c,v in dfs(cur, ne).items():
-                        m[c] += v
-            res[cur] = m[labels[cur]]
-            return m
-        dfs(-1, 0)
+                    dfs(cur, ne, m)
+            m[labels[cur]] += 1
+            res[cur] = m[labels[cur]] - bef
+
+        dfs(-1, 0, m)
         return res
                     
