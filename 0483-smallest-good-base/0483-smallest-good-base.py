@@ -6,7 +6,12 @@ class Solution:
             while i < p:
                 a += k**i
                 i += 1
-            return a
+            if a < n:
+                return -1
+            elif a > n:
+                return 1
+            else:
+                return 0
         
         n = int(n)
         max_m = int(math.log(n,2))
@@ -15,9 +20,9 @@ class Solution:
             while l <= r:
                 m = (l+r)//2
                 y = check(m, i)
-                if y < n:
+                if y == -1:
                     l = m+1
-                elif y > n:
+                elif y == 1:
                     r = m-1
                 else:
                     return str(m)
