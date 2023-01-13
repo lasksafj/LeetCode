@@ -9,7 +9,8 @@ class Solution:
             return a
         
         n = int(n)
-        for i in range(60,0,-1):
+        max_m = int(math.log(n,2))
+        for i in range(max_m+1,0,-1):
             l,r = 2,n
             while l <= r:
                 m = (l+r)//2
