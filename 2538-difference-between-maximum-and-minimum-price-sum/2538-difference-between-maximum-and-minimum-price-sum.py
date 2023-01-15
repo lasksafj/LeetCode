@@ -1,9 +1,9 @@
 class Solution:
     def maxOutput(self, n: int, edges: List[List[int]], price: List[int]) -> int:
-        adj = defaultdict(set)
+        adj = defaultdict(list)
         for a,b in edges:
-            adj[a].add(b)
-            adj[b].add(a)
+            adj[a].append(b)
+            adj[b].append(a)
         @cache
         def dfs(cur,prev):
             res = 0
