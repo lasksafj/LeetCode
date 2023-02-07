@@ -13,6 +13,7 @@ class Solution:
             while j <= i and l > 2:
                 m[fruits[j]] -= 1
                 if m[fruits[j]] == 0:
+                    del m[fruits[j]]
                     l -= 1
                 s -= 1
                 j += 1
