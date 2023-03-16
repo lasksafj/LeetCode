@@ -15,8 +15,6 @@ class Solution:
                 return None
             v = postorder[i[0]]
             i[0] -= 1
-            if l == r:
-                return TreeNode(v, None, None)
             rtree = sol(m[v]+1, r)
             ltree = sol(l,m[v]-1)
             return TreeNode(v, ltree, rtree)
