@@ -10,7 +10,7 @@ class Solution:
         x,y = 0,0
         for i in range(1,n*n):
             a,b = m[i]
-            if (a,b) not in [(x+1,y+2),(x+2,y+1),(x-1,y-2),(x-2,y-1),(x-1,y+2),(x-2,y+1),(x+1,y-2),(x+2,y-1)]:
+            if not ((abs(a-x) == 1 and abs(b-y) == 2) or (abs(a-x) == 2 and abs(b-y) == 1)):
                 return False
             x,y = a,b
         return True
