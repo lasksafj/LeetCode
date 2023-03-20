@@ -1,21 +1,17 @@
 class Solution:
     def beautifulSubsets(self, nums: List[int], k: int) -> int:
-        nums.sort()
-        m = {}
-        res = [0]
-        def sol(i):
-            for j in range(i+1,len(nums)):
-                a = nums[j]-k
-                if a not in m:
-                    if nums[j] not in m:
-                        m[nums[j]] = 1
-                    else:
-                        m[nums[j]] += 1
-                    sol(j)
-                    m[nums[j]] -= 1
-                    if m[nums[j]] == 0:
-                        del m[nums[j]]
-            if len(m) > 0:
-                res[0] += 1
-        sol(-1)
-        return res[0]
+        m = [defaultdict(int) for _ in range(k)]
+        for n in nums:
+            m[n%k][n] += 1
+        res = 1
+        for i in range(k):
+            dp0,dp1,prev = 1,0,0    #dp0 number of subsets not pick cur, dp1 number of subsets pick cur, prev previous number of cur in arr
+            for cur in sorted(m[i]):
+                v = pow(2, m[i][cur]) - 1 #number of subsets contain only cur, not include empty subset
+                if cur-k == prev:
+                    dp0,dp1 = dp0+dp1, dp0*v
+                else:
+                    dp0,dp1 = dp0+dp1, (dp0+dp1)*v
+                prev = cur
+            res *= (dp0+dp1)
+        return res-1
