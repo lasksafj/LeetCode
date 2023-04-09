@@ -4,25 +4,25 @@ class Solution:
         for a,b in edges:
             adj[a].append(b)
         path = [False]*len(colors)
-        vis = [False]*len(colors)
-        count = [defaultdict(int) for _ in range(len(colors))]
-        path = [False]*len(colors)
+        @cache
         def dfs(cur):
-            if path[cur]:
-                return inf
-            if vis[cur]:
-                return count[cur][colors[cur]]
             path[cur] = True
-            vis[cur] = True
+            count = defaultdict(int)
             for ne in adj[cur]:
-                if dfs(ne) == inf:
-                    return inf
+                if path[ne]:
+                    return None
+                a = dfs(ne)
+                if a == None:
+                    return None
                 for c in string.ascii_lowercase:
-                    count[cur][c] = max(count[cur][c], count[ne][c])
+                    count[c] = max(count[c], a[c])
             path[cur] = False
-            count[cur][colors[cur]] += 1
-            return count[cur][colors[cur]]
+            count[colors[cur]] += 1
+            return count
         res = 0
         for i in range(len(colors)):
-            res = max(res, dfs(i))
-        return res if res < inf else -1
+            a = dfs(i)
+            if a == None:
+                return -1
+            res = max(res, max([a[v] for v in a]))
+        return res
