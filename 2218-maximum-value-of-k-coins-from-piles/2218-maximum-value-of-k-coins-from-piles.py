@@ -1,19 +1,16 @@
 class Solution:
     def maxValueOfCoins(self, piles: List[List[int]], k: int) -> int:
-        prev = [0]
-        for i in range(len(piles)):
-            s = len(piles[i])
-            l = len(prev)
-            # prefix_sum[i] = sum(pile[:i])
-            prefix_sum = [0] * (s + 1)
-            for j in range(s):
-                prefix_sum[j + 1] = prefix_sum[j] + piles[i][j]
-            max_size = s + l
-            dp = [0] * min(k + 1, max_size)
-            for j in range(len(dp) - 1, -1, -1):
-                temp = 0
-                for q in range(max(0, j - l + 1), min(s ,j) + 1):
-                    temp = max(temp, prev[j - q] + prefix_sum[q])
-                dp[j] = temp
-            prev = dp
+        n = len(piles)
+        if n == 1:
+            return sum(piles[0][:k])
+        dp,prev_dp = [0]*(k+1),[0]*(k+1)
+        for p in piles:
+            for i in range(1, len(p)):
+                p[i] += p[i - 1]
+            for j in range(1,k+1):
+                dp[j] = prev_dp[j]
+                for l in range(1, min(j, len(p))+1):
+                    dp[j] = max(dp[j], prev_dp[j-l] + p[l-1])
+            prev_dp = dp[:]
+        # print(dp)
         return dp[k]
