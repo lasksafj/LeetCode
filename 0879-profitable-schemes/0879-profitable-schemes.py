@@ -1,13 +1,15 @@
 class Solution:
     def profitableSchemes(self, n: int, minProfit: int, group: List[int], profit: List[int]) -> int:
-        @cache
-        def dfs(i, minProfit, pp):
-            if pp > n:
-                return 0
-            if i == len(profit):
-                if pp <= n and minProfit == 0:
-                    return 1
-                return 0
-            return (dfs(i+1, max(0,minProfit-profit[i]), pp+group[i]) % 1000000007)\
-                + (dfs(i+1, minProfit, pp) % 1000000007) % 1000000007
-        return dfs(0,minProfit,0) % 1000000007
+        dp = [[[0]*(minProfit+1) for _ in range(n+1)] for _ in range(len(profit)+1)]
+        dp[0][0][0] = 1
+        for i in range(len(profit)):
+            for p in range(n+1):
+                for m in range(minProfit+1):
+                    dp[i+1][p][m] += dp[i][p][m]
+                    if p-group[i] >= 0:
+                        dp[i+1][p][min(minProfit,m+profit[i])] += dp[i][p-group[i]][m]
+                    
+        res = 0
+        for p in range(n+1):
+            res += dp[-1][p][minProfit]
+        return res % 1000000007
