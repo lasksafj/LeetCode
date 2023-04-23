@@ -12,5 +12,6 @@ class Solution:
                 dp[i] += dp[j]
                 num = num*10 + (int(s[j]) if j < n else 0)
                 j += 1
-        return dp[0] % 1000000007
+            dp[i] %= 1000000007
+        return dp[0]
                 
