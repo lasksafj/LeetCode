@@ -22,7 +22,6 @@ class Solution:
             if a == b:
                 return True
             return False
-        edges.sort(key=lambda x: x[0], reverse=True)
         res = 0
         for t,a,b in edges:
             if t == 3:
@@ -31,12 +30,13 @@ class Solution:
                 else:
                     union(a,b,f1,r1)
                     union(a,b,f2,r2)
-            elif t == 2:
+        for t,a,b in edges:
+            if t == 2:
                 if check(a,b,f2):
                     res += 1
                 else:
                     union(a,b,f2,r2)
-            else:
+            elif t == 1:
                 if check(a,b,f1):
                     res += 1
                 else:
