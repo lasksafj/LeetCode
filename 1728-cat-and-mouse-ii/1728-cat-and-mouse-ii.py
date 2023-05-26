@@ -7,9 +7,8 @@ class Solution:
             if grid[mx][my] == 'F':
                 return True
             if mturn:
-                res = False
                 for d in [[1,0],[-1,0],[0,1],[0,-1]]:
-                    for j in range(mouseJump+1):
+                    for j in range(1,mouseJump+1):
                         nmx,nmy = mx+d[0]*j, my+d[1]*j
                         if nmx<0 or nmy<0 or nmx>=m or nmy>=n or grid[nmx][nmy]=='#':
                             break
@@ -18,7 +17,6 @@ class Solution:
                             return True
                 return False
             else:
-                res = True
                 for d in [[1,0],[-1,0],[0,1],[0,-1]]:
                     for j in range(catJump+1):
                         ncx,ncy = cx+d[0]*j, cy+d[1]*j
