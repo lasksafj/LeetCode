@@ -1,8 +1,6 @@
 class Solution:
     def minimumCost(self, s: str) -> int:
         n = len(s)
-        dpr = [[0]*2 for _ in range(n)]
-        dpl = [[0]*2 for _ in range(n)]
         @cache
         def f(i,ch, d):
             if (i == 0 and d==-1) or (i == n-1 and d==1):
