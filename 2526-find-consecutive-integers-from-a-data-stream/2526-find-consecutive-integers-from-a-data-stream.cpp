@@ -3,22 +3,24 @@ public:
     int v;
     int k;
     int cnt = 0;
-    queue<int> q;
+    int f = 0;
     DataStream(int value, int _k) {
         v = value;
         k = _k;
+        f = _k;
     }
     
     bool consec(int num) {
-        if (q.size() == k) {
-            if (q.front() == v)
-                cnt--;
-            q.pop();
+        cnt++;
+        if (num == v) {
+            f--;
+            if (f <= 0 and cnt >= k)
+                return true;
+            
+            return false;
         }
-        q.push(num);
-        if (num == v)
-            cnt++;
-        return cnt == k;
+        f = k;
+        return false;
     }
 };
 
