@@ -25,18 +25,20 @@ class Solution:
             return len(st) == 0
         
         res = []
-        def dfs(s, ind, l, r):
+        def dfs(i, s, l, r):
             if l == 0 and r == 0 and check(s):
                 res.append(s)
                 return
-            for i in range(ind, len(s)):
-                if i > ind and s[i] == s[i-1]:
-                    continue
-                if r > 0 and s[i] == ")":
-                    dfs(s[:i] + s[i+1:], i, l, r-1)
-                elif l > 0 and s[i] == "(":
-                    dfs(s[:i] + s[i+1:], i, l-1, r)
-        path = []
-        dfs(s, 0, a, b)
+            idx = i
+            while idx < len(s):
+                if s[idx] == '(' and l > 0:
+                    dfs(idx, s[:idx] + s[idx+1:], l-1, r)
+                elif s[idx] == ')' and r > 0:
+                    dfs(idx, s[:idx] + s[idx+1:], l, r-1)
+                while idx < len(s)-1 and s[idx] == s[idx+1]:
+                    idx += 1
+                idx += 1
+
+        dfs(0, s, a, b)
         return res
                 
