@@ -9,12 +9,16 @@ class Solution:
         for i,r in enumerate(grid):
             m[getmask(r)] = i
         # print(m)
+        n = len(grid[0])
         for i,r in enumerate(grid):
             a = getmask(r)
             if a == 0:
                 return [i]
-            for b in range(1,pow(2,len(grid[0]))+1):
-                if a&b == 0 and b in m:
-                    return [i,m[b]]
+            b = (2**n-1) ^ a
+            c = b
+            while c > 0:
+                if c in m:
+                    return [i,m[c]]
+                c = b&(c-1)
         return []
             
