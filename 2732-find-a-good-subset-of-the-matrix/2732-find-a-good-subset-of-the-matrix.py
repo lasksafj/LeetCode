@@ -6,9 +6,6 @@ class Solution:
                 res |= a << i
             return res
         m = {}
-        for i,r in enumerate(grid):
-            m[getmask(r)] = i
-        # print(m)
         n = len(grid[0])
         for i,r in enumerate(grid):
             a = getmask(r)
@@ -18,7 +15,8 @@ class Solution:
             c = b
             while c > 0:
                 if c in m:
-                    return [i,m[c]]
+                    return [m[c],i]
                 c = b&(c-1)
+            m[a] = i
         return []
             
