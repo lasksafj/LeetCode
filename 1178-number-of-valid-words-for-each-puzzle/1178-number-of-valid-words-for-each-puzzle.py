@@ -13,11 +13,10 @@ class Solution:
         for puzzle in puzzles:
             puzzles_mask = getmask(puzzle[1:])
             a = puzzles_mask
-            cnt = 0
             first_char = 1 << (ord(puzzle[0]) - ord('a'))
+            cnt = m[first_char]
             while a > 0:
                 cnt += m[a | first_char]
                 a = (a-1) & puzzles_mask
-            cnt += m[a | first_char]
             res.append(cnt)
         return res
