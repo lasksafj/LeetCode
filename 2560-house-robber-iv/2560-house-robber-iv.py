@@ -1,7 +1,6 @@
 class Solution:
     def minCapability(self, nums: List[int], k: int) -> int:
         n = len(nums)
-        A = sorted(Counter(nums).keys())
         def check(x, k):
             i = 0
             while i < n:
@@ -13,11 +12,11 @@ class Solution:
                 else:
                     i += 1
             return False
-        l,r = 0, len(A)-1
+        l,r = min(nums),max(nums)
         while l <= r:
             m = (l+r)//2
-            if check(A[m],k):
+            if check(m,k):
                 r = m-1
             else:
                 l = m+1
-        return A[l]
+        return l
