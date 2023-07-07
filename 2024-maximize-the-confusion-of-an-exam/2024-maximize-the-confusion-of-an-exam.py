@@ -10,5 +10,6 @@ class Solution:
             if ma+k < i-j+1:
                 freq[A[j]] -= 1
                 j += 1
-            res = max(res, i-j+1)
+            else:
+                res = max(res, i-j+1)
         return res
