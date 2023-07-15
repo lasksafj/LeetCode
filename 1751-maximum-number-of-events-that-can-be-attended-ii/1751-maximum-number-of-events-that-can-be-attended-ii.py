@@ -1,11 +1,16 @@
 class Solution:
     def maxValue(self, events: List[List[int]], k: int) -> int:
         events.sort()
-        @cache
-        def dfs(i, k):
+        n = len(events)
+        dp = [[-1] * n for _ in range(k + 1)]
+        def dfs(i, k, prev_ending_time):
             if i == len(events) or k == 0:
                 return 0
-            j = bisect_right(events, [events[i][1], inf, inf])
-            res = max(dfs(i+1, k), dfs(j, k-1) + events[i][2])
+            if events[i][0] <= prev_ending_time:            
+                return dfs(i + 1, k, prev_ending_time)
+            if dp[k][i] != -1:
+                return dp[k][i]
+            res = max(dfs(i+1, k, prev_ending_time), dfs(i+1, k-1, events[i][1]) + events[i][2])
+            dp[k][i] = res
             return res
-        return dfs(0,k)
+        return dfs(0,k,-1)
