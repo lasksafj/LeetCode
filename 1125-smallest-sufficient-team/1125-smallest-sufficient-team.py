@@ -3,17 +3,21 @@ class Solution:
         m = {}
         for i,skill in enumerate(req_skills):
             m[skill] = 1<<i
-        fin = 2**len(req_skills)-1
-        @cache
-        def dfs(i, d):
-            if d == fin:
-                return []
-            if i == len(people):
-                return [0]*100
-            a = dfs(i+1, d)
+        dp = [[] for _ in range(2**len(req_skills))]
+        skills_mask_of_person = [0]*len(people)
+        for i in range(len(people)):
             for s in people[i]:
                 if s in m:
-                    d |= m[s]
-            b = dfs(i+1, d) + [i]
-            return a if len(a) < len(b) else b
-        return dfs(0,0)
+                    skills_mask_of_person[i] |= m[s]
+
+        def dfs(d):
+            if dp[d] != []:
+                return dp[d]
+            for i in range(len(people)):
+                nd = d | skills_mask_of_person[i]
+                if nd != d:
+                    a = [i] + dfs(nd)
+                    if dp[d] == [] or len(a) < len(dp[d]):
+                        dp[d] = a
+            return dp[d]
+        return dfs(0)
