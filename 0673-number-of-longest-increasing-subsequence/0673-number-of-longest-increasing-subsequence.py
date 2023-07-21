@@ -1,18 +1,13 @@
 class Solution:
-    def findNumberOfLIS(self, nums: List[int]) -> int:
-        dp = [1]*len(nums)
-        res = [1]*len(nums)
-        # res[0] = 1
-        for i in range(len(nums)):
-            ma = 0
-            for j in range(i):
-                if nums[i] > nums[j]:
-                    if dp[j] > ma:
-                        dp[i] = dp[j]+1
-                        res[i] = res[j]
-                        ma = dp[j]
-                    elif dp[j] == ma:
-                        res[i] += res[j]
-            # print(res, dp)
-        ma = max(dp)
-        return sum(a for i,a in enumerate(res) if dp[i] == ma)
+    def findNumberOfLIS(self, nums):
+        dp = collections.defaultdict(collections.Counter)
+        dp[-1][-1e9] = 1
+        table = []
+        for i in nums:
+            index = bisect.bisect_left(table, i)
+            if index == len(table):
+                table.append(i)
+            else:
+                table[index] = i 
+            dp[index][i] += sum(dp[index-1][j] for j in dp[index-1] if j < i)
+        return sum(dp[max(0, len(table)-1)].values()) 
