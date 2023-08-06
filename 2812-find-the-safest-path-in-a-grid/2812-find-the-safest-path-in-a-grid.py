@@ -17,13 +17,13 @@ class Solution:
         while q:
             s,i,j = heappop(q)
             for ni,nj in [[i+1,j],[i-1,j],[i,j+1],[i,j-1]]:
-                if 0<=ni<n and 0<=nj<n and A[ni][nj] == inf:
+                if 0<=ni<n and 0<=nj<n and A[ni][nj] > s+1:
                     A[ni][nj] = s+1
                     heappush(q, (s+1,ni,nj))
 
         q = [(-A[0][0],0,0)]
         vis = [[0]*n for _ in range(n)]
-        vis[0][0] = 1
+        vis[0][0] = A[0][0]
         while q:
             # print(q)
             s,i,j = heappop(q)
@@ -32,9 +32,9 @@ class Solution:
                 return s
 
             for ni,nj in [[i+1,j],[i-1,j],[i,j+1],[i,j-1]]:
-                if 0<=ni<n and 0<=nj<n and vis[ni][nj] == 0:
+                if 0<=ni<n and 0<=nj<n and vis[ni][nj] < min(s, A[ni][nj]):
                     d = min(s, A[ni][nj])
                     heappush(q, (-d, ni,nj))
-                    vis[ni][nj] = 1
+                    vis[ni][nj] = d
             
         return 0
