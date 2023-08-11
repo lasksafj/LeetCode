@@ -14,9 +14,7 @@ class Solution:
                 return 1
             if i == len(coins):
                 return 0
-            res = 0
-            while a >= 0:
-                res += dfs(i+1,a)
-                a -= coins[i]
-            return res
+            if a < coins[i]:
+                return dfs(i+1,a)
+            return dfs(i+1,a) + dfs(i, a-coins[i])
         return dfs(0,amount)
