@@ -1,7 +1,9 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int:
-        n = len(nums)
-        dp = [0] * n
-        for i,v in enumerate(nums):
-            dp[i] = max((dp[i-2] if i>=2 else 0) + v, dp[i-1] if i>=1 else 0)
-        return dp[n-1]
+    def rob(self, inputArr: List[int]) -> int:
+        N = len(inputArr)
+        if N == 1:
+            return inputArr[0]
+        dp = [inputArr[0], max(inputArr[0], inputArr[1]), 0]
+        for i in range(2, N):
+            dp[i%3] = max(dp[(i-1)%3], dp[(i-2)%3] + inputArr[i])
+        return dp[(N-1)%3]
