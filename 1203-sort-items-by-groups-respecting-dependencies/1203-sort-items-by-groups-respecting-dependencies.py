@@ -1,13 +1,7 @@
 class Solution:
     def sortItems(self, n: int, m: int, group: List[int], beforeItems: List[List[int]]) -> List[int]:
         def topo(adj, deg):
-            q = deque()
-            res = []
-            for i in range(len(deg)):
-                if deg[i] == 0:
-                    q.append(i)
-            if not q:
-                return []
+            q = deque([i for i in range(len(deg)) if deg[i] == 0])
             res = []
             while q:
                 for _ in range(len(q)):
