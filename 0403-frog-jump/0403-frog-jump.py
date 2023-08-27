@@ -1,18 +1,16 @@
 class Solution:
     def canCross(self, stones: List[int]) -> bool:
+        mp = {}
+        for i,st in enumerate(stones):
+            mp[st] = i
         @cache
         def dfs(i, prev):
             if i == len(stones)-1:
                 return True
             k = stones[i] - stones[prev]
-            ne = stones[i] + k
-            p = bisect_left(stones, ne)
-            if i < p < len(stones) and abs(stones[p] - stones[i] - k) <= 1 and dfs(p, i):
-                return True
-            if i < p-1 < len(stones) and abs(stones[p-1] - stones[i] - k) <= 1 and dfs(p-1, i):
-                return True
-            if i < p+1 < len(stones) and abs(stones[p+1] - stones[i] - k) <= 1 and dfs(p+1, i):
-                return True
+            for ne in range(stones[i] + k-1, stones[i] + k+2):
+                if ne in mp and i < mp[ne] and dfs(mp[ne], i):
+                    return True
             return False
         if stones[1] - stones[0] != 1:
             return False
