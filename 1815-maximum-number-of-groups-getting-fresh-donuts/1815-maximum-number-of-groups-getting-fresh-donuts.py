@@ -1,8 +1,16 @@
 class Solution:
     def maxHappyGroups(self, batchSize: int, groups: List[int]) -> int:
         freq = [0]*batchSize
+        res = 0
         for g in groups:
-            freq[g % batchSize] += 1
+            g %= batchSize
+            if g == 0:
+                res += 1
+            elif freq[batchSize - g] > 0:
+                freq[batchSize - g] -= 1
+                res += 1
+            else:
+                freq[g % batchSize] += 1
         
         @cache
         def dfs(freq, r):
@@ -19,4 +27,4 @@ class Solution:
                 if r == 0:
                     res += 1
             return res
-        return dfs(tuple(freq), 0)
+        return dfs(tuple(freq), 0) + res
