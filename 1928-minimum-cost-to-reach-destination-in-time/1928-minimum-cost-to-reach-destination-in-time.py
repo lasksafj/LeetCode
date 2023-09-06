@@ -5,15 +5,15 @@ class Solution:
             adj[a].append([b,c])
             adj[b].append([a,c])
         n = len(passingFees)
-        @cache
-        def dfs(cur, t):
-            if t > maxTime:
-                return inf
-            if cur == n-1:
-                return 0
-            res = inf
-            for ne,d in adj[cur]:
-                res = min(res, dfs(ne, t+d) + passingFees[ne])
-            return res
-        res = dfs(0, 0)
-        return res+passingFees[0] if res < inf else -1
+        pq = [[passingFees[0], 0, 0]]
+        time = [inf]*n
+        time[0] = 0
+        while pq:
+            c, t, u = heappop(pq)
+            if u == n-1:
+                return c
+            for v,d in adj[u]:
+                if time[v] > t + d and t + d <= maxTime:
+                    time[v] = t + d
+                    heappush(pq, [c + passingFees[v], t + d, v])
+        return -1
