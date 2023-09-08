@@ -19,14 +19,13 @@ class Solution:
                 r[b] += 1
         
         vis = [0] * (n+1)
-        for i in range(threshold+1, n+1):
-            if vis[i]:
-                continue
-            vis[i] = 1
-            for j in range(i+i, n+1, i):
-                union(i,j)
-                if not vis[j]:
-                    vis[j] = 1
+        for i in range(1, n+1):
+            for j in range(1, int(sqrt(i))+1):
+                if i%j == 0:
+                    if j > threshold:
+                        union(i,j)
+                    if i//j > threshold:
+                        union(i, i//j)
 
         res = []
         for a,b in queries:
