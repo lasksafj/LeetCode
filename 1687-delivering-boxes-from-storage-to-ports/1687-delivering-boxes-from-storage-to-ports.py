@@ -1,7 +1,7 @@
 class Solution:
     def boxDelivering(self, boxes: List[List[int]], portsCount: int, maxBoxes: int, maxWeight: int) -> int:
         N = len(boxes)
-        dp = [inf]*N
+        dp = [0] + [inf]*N
         trip = 0
         prev_j = 0
         j = 0
@@ -11,12 +11,11 @@ class Solution:
                 maxWeight -= boxes[j][1]
                 if j == 0 or boxes[j][0] != boxes[j-1][0]:
                     trip += 1
-                    prev_j = j - 1
+                    prev_j = j
                 j += 1
             
-            dp[j-1] = min(dp[j-1], (dp[i-1] if i>0 else 0) + trip + 1)
-            if prev_j >= 0:
-                dp[prev_j] = min(dp[prev_j], (dp[i-1] if i>0 else 0) + trip)
+            dp[j] = min(dp[j], dp[i] + trip + 1)
+            dp[prev_j] = min(dp[prev_j], dp[i] + trip)
             
             maxBoxes += 1
             maxWeight += boxes[i][1]
