@@ -1,13 +1,9 @@
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
-        @cache
-        def dfs(i):
-            if i == len(strs[0]):
-                return 0
-            res = 1
-            for j in range(i+1, len(strs[0])):
+        N = len(strs[0])
+        dp = [1]*N
+        for i in range(N-2,-1,-1):
+            for j in range(i+1,N):
                 if all(strs[r][i] <= strs[r][j] for r in range(len(strs))):
-                    res = max(res, dfs(j) + 1)
-            return res
-        # print(dfs(1))
-        return len(strs[0]) - max(dfs(i) for i in range(len(strs[0])))
+                    dp[i] = max(dp[i], dp[j] + 1)
+        return N - max(dp)
