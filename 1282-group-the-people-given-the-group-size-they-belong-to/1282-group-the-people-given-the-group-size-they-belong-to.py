@@ -1,17 +1,11 @@
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         N = len(groupSizes)
-        p = sorted(list(range(N)), key=lambda i:groupSizes[i])
-        tmp = []
+        m = defaultdict(list)
         res = []
-        sz = 0
-        for i in p:
-            if sz == 0:
-                sz = groupSizes[i]
-            if sz > 0:
-                tmp.append(i)
-                sz -= 1
-            if sz == 0:
-                res.append(tmp[:])
-                tmp = []
+        for i,sz in enumerate(groupSizes):
+            m[sz].append(i)
+            if len(m[sz]) == sz:
+                res.append(m[sz])
+                m[sz] = []
         return res
