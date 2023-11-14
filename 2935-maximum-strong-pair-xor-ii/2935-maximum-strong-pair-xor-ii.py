@@ -29,35 +29,29 @@ class Trie:
 
 class Solution:
     def maximumStrongPairXor(self, nums: List[int]) -> int:
-        def bin32(n):
-            res = ['0']*32
+        def bin20(n):
+            res = ['0']*20
             i = 0
             for c in bin(n)[2:][::-1]:
                 res[i] = c
                 i += 1
             return res
         def maxXor(n, trie):
-            n = bin32(n)
+            n = bin20(n)
             cur = trie.root
             res = 0
-            # print(n)
-            for i in range(31,-1,-1):
-                # print(n[i])
+            for i in range(19,-1,-1):
                 if n[i] == '1':
                     if '0' in cur.next:
-                        # print('------0')
                         cur = cur.next['0']
                         res += 1<<i
                     else:
-                        # print('------1')
                         cur = cur.next['1']
                 else:
                     if '1' in cur.next:
-                        # print('------1')
                         cur = cur.next['1']
                         res += 1<<i
                     else:
-                        # print('------0')
                         cur = cur.next['0']
             return res
         
@@ -68,10 +62,8 @@ class Solution:
         res = 0
         for i in range(N):
             while j < N and nums[j] <= nums[i]*2:
-                trie.add(bin32(nums[j])[::-1])
+                trie.add(bin20(nums[j])[::-1])
                 j += 1
-            # print(i,j)
             res = max(res, maxXor(nums[i], trie))
-            # print('--',res)
-            trie.remove(bin32(nums[i])[::-1])
+            trie.remove(bin20(nums[i])[::-1])
         return res
