@@ -1,15 +1,14 @@
 class Solution:
     def findMaximumLength(self, nums: List[int]) -> int:
         N = len(nums)
-        acc = [0]*(N+1)
-        for i in range(1,N+1):
-            acc[i] = acc[i-1] + nums[i-1]
-        dp = [0]*(N+1)
-        pre = [0]*(N+2)
-        j = 0
-        for i in range(1,N+1):
-            j = max(j, pre[i])
-            dp[i] = dp[j]+1
-            p = bisect_left(acc, 2*acc[i] - acc[j])
-            pre[p] = i
-        return dp[-1]
+        dq = deque([(0,0,0)]) #s+last,s,dp
+        s = 0
+        for i in range(N):
+            s += nums[i]
+            while dq and dq[0][0] <= s:
+                _,pre_s,pre_dp = dq.popleft()
+            s_last = s + (s - pre_s)
+            while dq and dq[-1][0] >= s_last:
+                dq.pop()
+            dq.append((s_last, s, pre_dp+1))
+        return dq[-1][2]
