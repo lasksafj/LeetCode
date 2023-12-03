@@ -3,7 +3,6 @@ class Solution:
         res = 0
         pa,pb = points[0]
         for a,b in points[1:]:
-            mi = min(abs(a-pa),abs(b-pb))
-            res += mi + abs(a-pa)-mi + abs(b-pb)-mi
+            res += max(abs(a-pa),abs(b-pb))
             pa,pb = a,b
         return res
