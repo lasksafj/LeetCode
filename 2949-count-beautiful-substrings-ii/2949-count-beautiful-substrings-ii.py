@@ -13,6 +13,7 @@ class Solution:
         res = 0
         for i in range(N):
             diff += 1 if s[i] in 'ueoai' else -1
+            # count number of subarray end at i
             res += m[diff][(i+1)%l]
             m[diff][(i+1)%l] += 1
             
