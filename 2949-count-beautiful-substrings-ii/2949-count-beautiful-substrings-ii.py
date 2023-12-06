@@ -7,12 +7,13 @@ class Solution:
             if (i*i) % k == 0:
                 l = i*2
                 break
-        m[0][l-1] = 1
+        # l*l % k == 0, let d = l*l, d%k == 0 => 4d,9d,16d,... %k == 0 => l,2l,3l,... valid length of substring
+        m[0][0] = 1
         diff = 0
         res = 0
         for i in range(N):
             diff += 1 if s[i] in 'ueoai' else -1
-            res += m[diff][i%l]
-            m[diff][i%l] += 1
+            res += m[diff][(i+1)%l]
+            m[diff][(i+1)%l] += 1
             
         return res
