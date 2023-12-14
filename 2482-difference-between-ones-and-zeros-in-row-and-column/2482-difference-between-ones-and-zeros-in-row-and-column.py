@@ -3,18 +3,12 @@ class Solution:
         M,N = len(grid),len(grid[0])
         onesRow = [0]*M
         onesCol = [0]*N
-        zerosRow = [0]*M
-        zerosCol = [0]*N
         for i in range(M):
             for j in range(N):
-                if grid[i][j]:
-                    onesRow[i] += 1
-                    onesCol[j] += 1
-                else:
-                    zerosRow[i] += 1
-                    zerosCol[j] += 1
+                onesRow[i] += grid[i][j]
+                onesCol[j] += grid[i][j]
         res = [[0]*N for _ in range(M)]
         for i in range(M):
             for j in range(N):
-                res[i][j] = onesRow[i] + onesCol[j] - zerosRow[i] - zerosCol[j]
+                res[i][j] = 2*onesRow[i] + 2*onesCol[j] - M - N
         return res
