@@ -5,8 +5,14 @@ class Solution:
         dp[0] = 1
         for d in range(n):
             ndp = [0]*(target+1)
-            for i in range(target+1):
-                for j in range(1,min(i,k)+1):
-                    ndp[i] = (ndp[i] + dp[i-j]) % MOD
+            s = dp[0]
+            for i in range(1,target+1):
+                ndp[i] = s
+                s = (s + dp[i]) % MOD
+                if i >= k:
+                    s = (s - dp[i-k]) % MOD
+                
+                # for j in range(1,min(i,k)+1):
+                #     ndp[i] = (ndp[i] + dp[i-j]) % MOD
             dp = ndp
         return dp[target]
