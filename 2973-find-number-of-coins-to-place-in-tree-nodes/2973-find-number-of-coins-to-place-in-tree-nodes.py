@@ -7,7 +7,7 @@ class Solution:
         res = [0]*len(cost)
         def dfs(i,prev):
             a,b,c = cost[i],-inf,-inf
-            d,e = inf,cost[i]
+            d,e = cost[i],inf
             for ne in adj[i]:
                 if ne != prev:
                     na,nb,nc,nd,ne = dfs(ne,i)
