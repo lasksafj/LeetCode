@@ -19,20 +19,16 @@ class Solution:
                 mB[ch][i] = mB[ch][i-1] + (B[i] == ch)
         
         bad = []
+        dif = [0]*(N//2+1)
         for i in range(N//2):
-            if s[i] != s[N-i-1]:
-                bad.append(i)
-        if len(bad) == 0:
+            dif[i+1] = dif[i] + (s[i] != s[N-i-1])
+        if dif[-1] == 0:
             return [True]*len(queries)
-        
+
         res = []
         for a,b,c,d in queries:
             i1,j1 = a,b
             i2,j2 = N-d-1,N-c-1
-            if (i1 > bad[0] and i2 > bad[0]) or (j1 < bad[-1] and j2 < bad[-1]) \
-            or (i1 > bad[-1] and i2 > bad[-1]) or (j1 < bad[0] and j2 < bad[0]):
-                res.append(False)
-                continue
             
             if i2 < i1:
                 tA,tB = mB,mA
@@ -41,9 +37,12 @@ class Solution:
             else:
                 tA,tB = mA,mB
             
+            if dif[i1] - dif[0] + dif[N//2] - dif[max(j1,j2)+1] > 0:
+                res.append(False)
+                continue
+
             if i2 > j1:
-                p = bisect_right(bad, j1)
-                if p < len(bad) and bad[p] < i2:
+                if dif[i2] - dif[j1+1] > 0:
                     res.append(False)
                     continue
                 r = cover(i1,j1,i1,j1,tA,tB) & cover(i2,j2,i2,j2,tB,tA)
