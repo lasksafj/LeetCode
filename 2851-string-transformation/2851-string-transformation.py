@@ -19,8 +19,8 @@ class Solution:
         Z = Z_func(s)
         
         mod = 10**9+7
-        # a(k) = 0 # number of way rotate s by 0 in k step
-        # b(k) = 1 # number of way rotate s by x in k step, 0 < x < N
+        # a(k) # number of way rotate s by 0 in k step
+        # b(k) # number of way rotate s by x in k step, 0 < x < N
         # a(k) = (n-1)*b(k-1)
         # b(k) = (n-2)*b(k-1) + a(k-1)
         # solve Recurrence Relation
@@ -28,12 +28,8 @@ class Solution:
         # b(k) = ((n - 1)^k - (-1)^k) / n
         # a(k) = ((n - 1)^k - (-1)^k) / n + (-1)^k
         
-        # for i in range(1,k):
-        #     a,b = b*(N-1) % mod, (b*(N-2) + a) % mod
-        
         a = (pow((n - 1),k,mod) - (-1)**k) * pow(n,-1,mod) + (-1)**k
         b = (pow((n - 1),k,mod) - (-1)**k) * pow(n,-1,mod)
-        # print(a,b)
         
         res = 0
         for i in range(n+1, 2*n+1):
