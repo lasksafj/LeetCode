@@ -1,16 +1,11 @@
 def f(nums):
-    # print(nums)
     A = [nums[0]]
     for n in nums[1:]:
         if n >= A[-1]:
             A.append(n)
         else:
-            p = bisect_left(A, n)
-            if A[p] > n:
-                A[p] = n
-            else:
-                A[p+1] = n
-    # print(A)
+            p = bisect_right(A, n)
+            A[p] = n
     return len(nums) - len(A)
 
 class Solution:
