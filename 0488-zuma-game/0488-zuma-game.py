@@ -24,7 +24,7 @@ class Solution:
                 if i == 0 or ch != hand[i-1]:
                     hh = hand[:i] + hand[i+1:]
                     for j in range(len(s)):
-                        if ch == s[j] or (j and s[j] == s[j-1]):
+                        if (ch == s[j] and (j == 0 or (j and s[j] != s[j-1]))) or (j and s[j] == s[j-1]):
                             # print('111',s[:j] + ch + s[j:], ch, hand)
                             tmp = update(s[:j] + ch + s[j:])
                             # print('222',tmp)
