@@ -3,7 +3,7 @@ class Solution:
         @cache
         def dfs(i,change,mask):
             if i == len(s):
-                return 0
+                return 1
             d = ord(s[i]) - ord('a')
             mask2 = mask|(1<<d)
             cnt = mask2.bit_count()
@@ -21,4 +21,4 @@ class Solution:
                         res = max(res, dfs(i+1,0,mask2))
             return res
         
-        return dfs(0,1,0)+1
+        return dfs(0,1,0)
