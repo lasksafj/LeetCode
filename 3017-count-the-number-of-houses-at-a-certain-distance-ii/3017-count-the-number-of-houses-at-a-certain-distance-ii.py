@@ -4,7 +4,7 @@ class Solution:
             x,y = y,x
         A = [0]*(n+1)
         for i in range(1,n+1):
-            A[1] += 2   # node i can go all left and right, so every distance += 1
+            A[1] += 2   # node i can go all left and right, so every distance += 2
                         # 12i45, i->2:1, i->4:1, i->1:2, i->5:2, so res[1] += 2, res[2] += 2, ... 
                         # so update range [1,n] += 2 using diff array A
             
