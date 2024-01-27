@@ -5,7 +5,7 @@ class Solution:
             while x[i] == s2[i]:
                 i += 1
             for j in range(i+1, len(x)):
-                if x[j] == s2[i]:
+                if x[j] == s2[i] and x[j] != s2[j]:
                     yield x[:i] + x[j] + x[i+1:j] + x[i] + x[j+1:]
         
         q = deque([s1])
