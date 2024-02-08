@@ -1,6 +1,6 @@
 class Solution:
     def removeBoxes(self, boxes: List[int]) -> int:
-        #dp: maximum value of removing boxes if we have k extra boxes of color A[i] to the left of A[i:j+1]
+        #dp: maximum value of removing boxes if we have k extra boxes of color A[i] to the left of A[i:j]
         @cache
         def dp(l,r,k):
             if l > r:
