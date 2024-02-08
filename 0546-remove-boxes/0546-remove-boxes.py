@@ -1,16 +1,18 @@
 class Solution:
     def removeBoxes(self, boxes: List[int]) -> int:
-        #dp: maximum value of removing boxes if we have k extra boxes of color A[i] to the left of A[i:j]
+        # [1,3,2,2,2,3,4,3,1] -> [(1,1),(3,1),(2,3),(3,1),(4,1),(3,1),(1,1)]
+        boxes = tuple((k, len(list(g))) for k,g in groupby(boxes))
+        
         @cache
-        def dp(l,r,k):
-            if l > r:
+        def dp(grps):
+            if not grps:
                 return 0
-            while l<r and boxes[l] == boxes[l+1]:
-                l += 1
-                k += 1
-            res = dp(l+1,r,0) + (k+1)*(k+1)
-            for mi in range(l+1,r+1):
-                if boxes[l] == boxes[mi]:
-                    res = max(res, dp(mi,r,k+1) + dp(l+1,mi-1,0))
+            num_left,len_grp_left = grps[0]
+            grps = grps[1:]
+            res = dp(grps) + len_grp_left**2
+            
+            for i, (num, len_grp) in enumerate(grps):
+                if num == num_left:
+                    res = max(res, dp(grps[:i]) + dp( ((num_left,len_grp_left+len_grp),) + grps[i+1:]) )
             return res
-        return dp(0,len(boxes)-1,0)
+        return dp(boxes)
