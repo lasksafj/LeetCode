@@ -8,12 +8,7 @@ class Solution:
                 return []
             A = dfs(i+1,prev)
             B = []
-            if nums[i] % nums[prev] == 0:
+            if prev == -1 or nums[i] % nums[prev] == 0:
                 B = [nums[i]] + dfs(i+1,i)
             return A if len(A) > len(B) else B
-        res = []
-        for i in range(N):
-            tmp = dfs(i,i)
-            if len(tmp) > len(res):
-                res = tmp
-        return res
+        return dfs(0,-1)
