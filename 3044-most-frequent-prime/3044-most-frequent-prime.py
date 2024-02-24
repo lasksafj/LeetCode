@@ -1,8 +1,8 @@
 prime = [1]*(1000000)
 prime[0] = prime[1] = 0
-for i in range(2,999999):
+for i in range(2,int(sqrt(1000000))):
     if prime[i]:
-        for j in range(i+i, 999999, i):
+        for j in range(i*i, 1000000, i):
             prime[j] = 0
 
 class Solution:
