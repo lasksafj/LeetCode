@@ -7,13 +7,15 @@ class Solution:
                 first.add(idx)
 
         def check(x):
-            # numbers which are marked
+            # numbers which are already marked
             pq = []
             mark = 0
             for i in range(x-1,-1,-1):
                 if i in first_idx:
                     n = nums[changeIndices[i]-1]
                     heappush(pq, n)
+                    # if still have mark, just make number zero and mark the number
+                    # else, get a number already maked to zero and marked, undo it (choose the smallest number)
                     if mark:
                         mark -= 1
                     else:
@@ -21,6 +23,7 @@ class Solution:
                         heappop(pq)
                 else:
                     mark += 1
+            # check if have enough mark to minus 1 every number to zero and mark them
             return sum(nums) + len(nums) - sum(pq) - len(pq) <= mark
         
         l,r = 0,len(changeIndices)+1
