@@ -6,11 +6,15 @@ class Solution:
             pre[i+1] = pre[i] + nums[i]
         def cal_sum(a,b):
             return pre[b] - pre[a]
-
+        
+        # dp1[i][j] = best_index, such as sum(i, best_index) * j * (-1)**(j-1) + dp2[best_index][j-1] is max
         dp1 = [[-1]*(k+1) for _ in range(N+1)]
+        
+        # dp2[i][j] = answer for nums[i..] with j disjoint subarrays
         dp2 = [[-inf]*(k+1) for _ in range(N+1)]
         for i in range(N+1):
             dp2[i][0] = 0
+            
         for i in range(N-1,-1,-1):
             for j in range(1,min(k, N-i)+1):
                 b = dp1[i+1][j]
