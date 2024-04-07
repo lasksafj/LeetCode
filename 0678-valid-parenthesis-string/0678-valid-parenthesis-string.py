@@ -1,14 +1,16 @@
 class Solution:
     def checkValidString(self, s: str) -> bool:
-        @cache
-        def dfs(i,cnt):
-            if cnt < 0:
+        N = len(s)
+        l,r = 0,0
+        for i in range(N):
+            if s[i] == '(' or s[i] == '*':
+                l += 1
+            else:
+                l -= 1
+            if s[N-i-1] == ')' or s[N-i-1] == '*':
+                r += 1
+            else:
+                r -= 1
+            if l < 0 or r < 0:
                 return False
-            if i == len(s):
-                return cnt == 0
-            if s[i] == '(':
-                return dfs(i+1,cnt+1)
-            elif s[i] == ')':
-                return dfs(i+1,cnt-1)
-            return dfs(i+1,cnt) or dfs(i+1,cnt+1) or dfs(i+1,cnt-1)
-        return dfs(0,0)
+        return True
