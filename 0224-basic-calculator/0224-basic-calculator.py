@@ -20,16 +20,6 @@ class Solution:
             elif ch == '(':
                 prev_operator = '('
                 st.append(ch)
-            elif ch == ')':
-                prev_operator = ''
-                while st and st[-1] != '(':
-                    b = postfix.pop()
-                    a = postfix.pop()
-                    if st.pop() == '+':
-                        postfix.append(a+b)
-                    else:
-                        postfix.append(a-b)
-                st.pop()
             else:
                 if st and st[-1] != '(':
                     b = postfix.pop()
@@ -38,10 +28,12 @@ class Solution:
                         postfix.append(a+b)
                     else:
                         postfix.append(a-b)
-                if prev_operator == '(':
-                    postfix.append(0)
-                st.append(ch)
+                if ch == ')':
+                    st.pop()
+                else:
+                    if prev_operator == '(':
+                        postfix.append(0)
+                    st.append(ch)
                 prev_operator = ''
             i += 1
-            # print(postfix,st)
         return postfix[0]
