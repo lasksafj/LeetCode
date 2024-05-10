@@ -1,24 +1,24 @@
 class Solution:
     def findKthSmallest(self, coins: List[int], k: int) -> int:
-        def dfs(i, p):
-            if p == 0:
-                return 
         coins.sort()
-        res = coins[0]
+        mp = [0] * 2**len(coins)
+        for mask in range(1, 2**len(coins)):
+            A = [v for i,v in enumerate(coins) if (1<<i)&mask > 0]
+            d = A[0]
+            for a in A:
+                d = lcm(d,a)
+            mp[mask] = d
+        
         l,r = 0,k*coins[0]
         while l <= r:
             mi = (l+r)//2
             no = 0
             # inclusion-exclusion principle
             for mask in range(1, 2**len(coins)):
-                A = [v for i,v in enumerate(coins) if (1<<i)&mask > 0]
-                d = A[0]
-                for a in A:
-                    d = lcm(d,a)
                 if bin(mask).count('1') % 2:
-                    no += mi//d
+                    no += mi//mp[mask]
                 else:
-                    no -= mi//d
+                    no -= mi//mp[mask]
             
             if no < k:
                 l = mi+1
