@@ -5,6 +5,8 @@ class Solution:
             adj[a].append(b)
             adj[b].append(a)
         def dfs(prev,i):
+            if len(adj[i]) == 1 and prev != -1:
+                return nums[i],-inf
             # dpa: i not xor k, dpb: i xor k
             dpa,dpb = nums[i],-inf
             for ne in adj[i]:
@@ -22,7 +24,5 @@ class Solution:
                                 dpa+(nums[i]^k)-nums[i] + a-nums[ne]+(nums[ne]^k), 
                                 dpa+(nums[i]^k)-nums[i] + b-(nums[ne]^k)+nums[ne])
                     dpa,dpb = n_dpa,n_dpb
-            if len(adj[i]) == 1 and prev != -1:
-                return nums[i],-inf
             return dpa,dpb
         return max(dfs(-1,0))
