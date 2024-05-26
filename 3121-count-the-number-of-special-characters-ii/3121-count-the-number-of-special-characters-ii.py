@@ -1,7 +1,7 @@
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
         res = 0
-        for ch in set([w.lower() for w in word]):
+        for ch in ascii_lowercase:
             first_upper = False
             first_lower = False
             ok = True
