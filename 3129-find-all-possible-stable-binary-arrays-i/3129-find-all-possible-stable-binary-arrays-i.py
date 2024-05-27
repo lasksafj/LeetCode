@@ -18,6 +18,9 @@ class Solution:
         
         # Solve 2:
         # dp[i][j][k]: number of stable arr that have i 0's, j 1's, ending with k(0,1)
+        # can add 0 to the end of any stable arr ending with 1, 
+        #    for arr ending with 0, only add arr with ending not exceed limit of 0's
+        # same for arr ending with 0
         dp = [[[0, 0] for j in range(one+1)] for i in range(zero+1)]
         for i in range(min(zero, limit) + 1):
             dp[i][0][0] = 1
@@ -28,6 +31,8 @@ class Solution:
                 dp[i][j][0] = dp[i-1][j][0] + dp[i-1][j][1]
                 if i > limit:
                     dp[i][j][0] -= dp[i-limit-1][j][1]
+                    # donot - dp[i-limit-1][j][0] b/c dp[i-1][j][0] cannot include dp[i-limit-1][j][0]
+                    # arr with [i-limit-1][j][0] -> arr with [i-1][j][0] -> unstable
                 dp[i][j][0] %= MOD
                 dp[i][j][1] = dp[i][j-1][0] + dp[i][j-1][1]
                 if j > limit:
