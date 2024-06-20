@@ -4,13 +4,15 @@ class Solution:
             return -1
         def check(x):
             res = 0
-            i = 0
-            while i < len(bloomDay):
-                j = i
-                while j < len(bloomDay) and bloomDay[j] <= x:
-                    j += 1
-                res += (j-i)//k
-                i = max(j,j+1)
+            cnt = 0
+            for d in bloomDay:
+                if d <= x:
+                    cnt += 1
+                else:
+                    cnt = 0
+                if cnt == k:
+                    res += 1
+                    cnt = 0
             return res >= m
         l,r = 0,max(bloomDay)
         while l <= r:
