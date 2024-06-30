@@ -2,9 +2,10 @@ class Solution:
     def sumDigitDifferences(self, nums: List[int]) -> int:
         def count(A):
             res = 0
+            s = 0
             for i in range(10):
-                for j in range(i):
-                    res += A[i]*A[j]
+                res += A[i]*s
+                s += A[i]
             return res
         mod = 1
         res = 0
