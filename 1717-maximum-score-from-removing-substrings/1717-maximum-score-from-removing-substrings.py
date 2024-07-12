@@ -7,19 +7,18 @@ class Solution:
             x,y = y,x
         res = 0
         st = []
+        a,b = 0,0
         for ch in s+'-':
             if ch == ch1:
-                st.append(ch1)
+                a += 1
             elif ch == ch2:
-                if st and st[-1] == ch1:
-                    st.pop()
+                if a > 0:
+                    a -= 1
                     res += x
                 else:
-                    st.append(ch2)
+                    b += 1
             else:
-                cnt = Counter(st)
-                if len(cnt) == 2:
-                    res += min(cnt.values()) * y
-                st = []
+                res += min(a,b) * y
+                a,b = 0,0
         return res
                 
