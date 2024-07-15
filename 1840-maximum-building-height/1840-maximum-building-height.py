@@ -3,7 +3,7 @@ class Solution:
         if restrictions == []:
             return n-1
         A = sorted(restrictions)
-        
+        # reduce each height in A to its highest possible -> result in st
         res = inf
         st = [[1,0]]
         for i,h in A:
@@ -12,7 +12,6 @@ class Solution:
                 st.pop()
             if not st or i-st[-1][0] + st[-1][1] >= h:
                 st.append([i,h])
-        
         res = 0
         for k in range(1,len(st)):
             li,lh = st[k-1]
