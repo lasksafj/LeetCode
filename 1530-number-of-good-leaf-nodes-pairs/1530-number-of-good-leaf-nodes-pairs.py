@@ -10,7 +10,7 @@ class Solution:
         def dfs(r):
             nonlocal ans
             
-            res = [0]*11
+            res = [0]*(distance+1)
             if not r:
                 return res
             if not r.left and not r.right:
@@ -19,11 +19,11 @@ class Solution:
             
             A = dfs(r.left)
             B = dfs(r.right)
-            for i in range(1, 10):
-                for j in range(1, 10):
+            for i in range(1, distance):
+                for j in range(1, distance):
                     if i+j <= distance:
                         ans += A[i] * B[j]
-            for i in range(1, 10):
+            for i in range(1, distance):
                 res[i+1] += A[i] + B[i]
 
             return res
