@@ -9,23 +9,23 @@ class Solution:
         ans = 0
         def dfs(r):
             nonlocal ans
+            
+            res = [0]*11
             if not r:
-                return []
+                return res
             if not r.left and not r.right:
-                return [1]
+                res[1] = 1
+                return res
+            
             A = dfs(r.left)
             B = dfs(r.right)
-            res = []
-            for a in A:
-                for b in B:
-                    if a+b <= distance:
-                        ans += 1
-            for a in A:
-                if a < distance:
-                    res.append(a+1)
-            for b in B:
-                if b < distance:
-                    res.append(b+1)
+            for i in range(1, 10):
+                for j in range(1, 10):
+                    if i+j <= distance:
+                        ans += A[i] * B[j]
+            for i in range(1, 10):
+                res[i+1] += A[i] + B[i]
+
             return res
         dfs(root)
         return ans
