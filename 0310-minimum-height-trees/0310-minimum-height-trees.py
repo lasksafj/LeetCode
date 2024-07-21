@@ -6,18 +6,16 @@ class Solution:
         for a,b in edges:
             adj[a].add(b)
             adj[b].add(a)
-        leaf_list = []
+        leaves = deque()
         for i in range(n):
             if len(adj[i]) == 1:
-                leaf_list.append(i)
-        
+                leaves.append(i)
         while n > 2:
-            n_leaf_list = []
-            for leaf in leaf_list:
-                ne = next(iter(adj[leaf]))
-                adj[ne].remove(leaf)
-                if len(adj[ne]) == 1:
-                    n_leaf_list.append(ne)
-            n -= len(leaf_list)
-            leaf_list = n_leaf_list
-        return leaf_list
+            n -= len(leaves)
+            for _ in range(len(leaves)):
+                cur = leaves.popleft()
+                for ne in adj[cur]:
+                    adj[ne].remove(cur)
+                    if len(adj[ne]) == 1:
+                        leaves.append(ne)
+        return leaves
