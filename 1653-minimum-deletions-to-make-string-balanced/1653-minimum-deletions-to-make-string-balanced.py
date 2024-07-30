@@ -1,19 +1,13 @@
 class Solution:
     def minimumDeletions(self, s: str) -> int:
         N = len(s)
-        L = [0]*(N)
-        d = 0
-        for i,ch in enumerate(s):
-            d += (ch=='a')
-            L[i] = d
-        R = [0]*(N)
-        d = 0
-        for i in range(N-1,-1,-1):
-            ch = s[i]
-            d += (ch=='a')
-            R[i] = d
-        res = min(R[0], N-R[0])
+        dp = 0
+        b_cnt = 0
         for i,ch in enumerate(s):
             if ch == 'b':
-                res = min(res, i - L[i] + R[i])
-        return res
+                # dp[i + 1] = dp[i]
+                b_cnt += 1
+            else:
+                # dp[i + 1] = min(dp[i] + 1, b_count)
+                dp = min(dp + 1, b_cnt)
+        return dp
