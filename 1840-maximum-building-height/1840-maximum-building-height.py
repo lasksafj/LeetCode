@@ -1,25 +1,28 @@
 class Solution:
     def maxBuilding(self, n: int, restrictions: List[List[int]]) -> int:
         restrictions.sort()
-        # reduce each height in A to its highest possible -> result in A
-        A = [[1,0]]
+        # print(restrictions)
+        prev_h = 0
+        prev_i = 1
+        A = []
         for i,h in restrictions:
-            li,lh = A[-1]
-            A.append([i, min(lh+i-li, h)])
-        for k in range(len(A)-2,-1,-1):
-            i,h = A[k]
-            ri,rh = A[k+1]
-            h = min(h, rh+ri-i)
-            A[k][1] = h
-        res = 0
-        # find max height between A[k-1] and A[k]
-        # x: max height
-        # li,lh = A[k-1]
-        # i,h = A[k]
-        # x-lh+x-h=i-li => 2x=h+lh+i-li
-        for k in range(1,len(A)):
-            li,lh = A[k-1]
-            i,h = A[k]
-            res = max(res, (h+lh+i-li)//2)
+            A.append([i,min(h, i-prev_i+prev_h)])
+            prev_i,prev_h = A[-1]
+        # print(A)
+        prev_h = inf
+        prev_i = n
+        for j in range(len(A)-1,-1,-1):
+            i,h = A[j]
+            A[j][1] = min(h, prev_i-i+prev_h)
+            prev_i,prev_h = A[j]
+            
+        # print(A)
         
-        return max(res, A[-1][1] + n-A[-1][0])
+        prev_h = 0
+        prev_i = 1
+        res = 0
+        for i,h in A:
+            x = (i-prev_i + (prev_h+h))//2
+            res = max(res, x)
+            prev_i,prev_h = i,h
+        return max(res, prev_h+n-prev_i)
