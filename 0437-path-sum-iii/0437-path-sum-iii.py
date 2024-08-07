@@ -11,14 +11,13 @@ class Solution:
             nonlocal res
             if not r:
                 return
-        
             cur = prev + r.val            
-            if cur-targetSum in mp:
-                res += mp[cur-targetSum]            
-            mp[cur] = mp.get(cur, 0) + 1
-            
+            res += mp[cur-targetSum]            
+            mp[cur] += 1
             dfs(r.left, mp, cur)
             dfs(r.right, mp, cur)
             mp[cur] -= 1
-        dfs(root, {0:1}, 0)
+        mp = defaultdict(int)
+        mp[0] = 1
+        dfs(root, mp, 0)
         return res
