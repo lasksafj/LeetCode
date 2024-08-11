@@ -8,14 +8,8 @@ class Solution:
             mp[abs(a-b)] += 1
             A.append(max(a,b,k-a,k-b))
         A.sort()
-        B = []
-        for k,v in mp.items():
-            B.append([v,k])
-        B.sort(reverse=True)
-        # print(A)
-        # print(B)
         res = inf
-        for no_pairs,dist in B:
+        for dist,no_pairs in mp.items():
             p = bisect_left(A,dist)
             cur = N//2-p + p*2 - no_pairs
             res = min(res, cur)
