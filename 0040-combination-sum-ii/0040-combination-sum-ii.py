@@ -8,12 +8,13 @@ class Solution:
             if s == target:
                 res.append(path[:])
                 return
-            while i < len(candidates):
-                dfs(i+1, path + [candidates[i]], s + candidates[i])
-                j = i+1
-                while j < len(candidates) and candidates[i] == candidates[j]:
-                    j += 1
-                i = j
+            if i == len(candidates):
+                return
+            j = i+1
+            dfs(j, path + [candidates[i]], s + candidates[i])
+            while j < len(candidates) and candidates[i] == candidates[j]:
+                j += 1
+            dfs(j, path, s)
                 
         dfs(0, [], 0)
         return res
