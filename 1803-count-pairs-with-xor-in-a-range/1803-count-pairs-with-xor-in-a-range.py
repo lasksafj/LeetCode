@@ -1,8 +1,9 @@
 class Solution:
     def countPairs(self, nums: List[int], low: int, high: int) -> int:
+        L = 15
         def add(n,T):
             cur = T
-            n |= 1<<32
+            n |= 1<<L
             for ch in bin(n)[3:]:
                 ch = int(ch)
                 if ch not in cur:
@@ -11,8 +12,8 @@ class Solution:
                 cur['cnt'] = cur.get('cnt', 0) + 1
         
         def calc(n, k, T):
-            n |= 1<<32
-            k |= 1<<32
+            n |= 1<<L
+            k |= 1<<L
             k = bin(k)[3:]
             j = 0
             cur = T
