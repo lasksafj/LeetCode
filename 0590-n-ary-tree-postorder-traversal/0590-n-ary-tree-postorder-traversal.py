@@ -13,11 +13,9 @@ class Solution:
         res = []
         st = [root]
         while st:
-            r = st[-1]
-            while r.children:
-                st.append(r.children[0])
-                ne = r.children[0]
-                r.children.pop(0)
-                r = ne
-            res.append(st.pop().val)
-        return res
+            r = st.pop()
+            res.append(r.val)
+            for ne in r.children:
+                st.append(ne)
+            
+        return res[::-1]
