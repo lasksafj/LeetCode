@@ -4,13 +4,11 @@ class Solution:
         vis = set()
 
         def dfs(i,j):
-            if (i,j) in vis:
-                return 1
             vis.add((i,j))
             res = grid1[i][j]
             
             for ni,nj in [[i+1,j],[i-1,j],[i,j+1],[i,j-1]]:
-                if 0<=ni<M and 0<=nj<N and grid2[ni][nj]:
+                if 0<=ni<M and 0<=nj<N and grid2[ni][nj] and (ni,nj) not in vis:
                     res &= dfs(ni,nj)
             return res
         
