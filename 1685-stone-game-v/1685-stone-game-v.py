@@ -8,21 +8,23 @@ class Solution:
         dp_max_R = [[0]*N for _ in range(N)]
 
         for j in range(N):
+            p = j
+            cur_R = 0
             for i in range(j, -1, -1):
+                cur = pre[j+1] - pre[i]
+                while cur >= (cur_R + stoneValue[p])*2:
+                    cur_R += stoneValue[p]
+                    p -= 1
+                cur_L = cur - cur_R
                 if i < j:
-                    mi = (pre[j+1]+pre[i])//2
-                    p = bisect_right(pre, mi)-1
-                    l = pre[p]-pre[i]
-                    r = pre[j+1]-pre[p]
-                    if l < r:
-                        dp[i][j] = dp_max_L[i][p-1]
-                    elif l > r:
-                        dp[i][j] = dp_max_R[p][j]
+                    if cur_L == cur_R:
+                        dp[i][j] = max(dp_max_L[i][p], dp_max_R[p+1][j])
                     else:
-                        dp[i][j] = max(dp_max_L[i][p-1], dp_max_R[p][j])
-                    if p+1 <= j:
-                        dp[i][j] = max(dp[i][j], dp_max_R[p+1][j])
-
+                        dp[i][j] = max(
+                            dp_max_L[i][p-1] if p-1 >= i else 0, 
+                            dp_max_R[p+1][j] if p+1 <= j else 0
+                        )
+                    
                 if i == j:
                     dp_max_L[i][j] = stoneValue[i]
                     dp_max_R[i][j] = stoneValue[i]
