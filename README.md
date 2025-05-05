@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0806-domino-and-tromino-tiling](https://github.com/lasksafj/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
