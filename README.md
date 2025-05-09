@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
+| [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Sliding Window
 |  |
 | ------- |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0504-base-7](https://github.com/lasksafj/LeetCode/tree/master/0504-base-7) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
+| [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/lasksafj/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Game Theory
 |  |
@@ -110,5 +112,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/lasksafj/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+## Combinatorics
+|  |
+| ------- |
+| [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 <!---LeetCode Topics End-->
