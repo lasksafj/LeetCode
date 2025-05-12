@@ -1,12 +1,18 @@
 class Solution:
     def findEvenNumbers(self, digits: List[int]) -> List[int]:
-        res = set()
-        for A in set(permutations(digits, 3)):
-            if A[0] == 0:
+        cnt = Counter(digits)
+        res = []
+        for a in range(1, 10):
+            if a not in cnt:
                 continue
-            n = 0
-            for a in A:
-                n = n*10 + a
-            if n%2 == 0:
-                res.add(n)
+            cnt[a] -= 1
+            for b in range(10):
+                if cnt[b] == 0:
+                    continue
+                cnt[b] -= 1
+                for c in range(0,10,2):
+                    if cnt[c] > 0:
+                        res.append(a*100+b*10+c)
+                cnt[b] += 1
+            cnt[a] += 1
         return sorted(res)
