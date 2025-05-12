@@ -1,7 +1,7 @@
 class Solution:
     def findEvenNumbers(self, digits: List[int]) -> List[int]:
         res = set()
-        for A in permutations(digits, 3):
+        for A in set(permutations(digits, 3)):
             if A[0] == 0:
                 continue
             n = 0
