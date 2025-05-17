@@ -3,19 +3,15 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        N = len(nums)
-        i,j,prev_i = 0,N-1,0
-        while i <= j:
-            if nums[i] == 0:
-                nums[i],nums[prev_i] = nums[prev_i],nums[i]
-                if i == prev_i:
-                    i += 1
-                prev_i += 1
-            elif nums[i] == 2:
-                while j >= i and nums[j] == 2:
-                    j -= 1
-                if j > i:
-                    nums[i],nums[j] = nums[j],nums[i]
-            
-            while i < N and nums[i] == 1:
+        l,r = 0, len(nums)-1
+        i = 0
+        while i <= r:
+            if nums[i] < 1:
+                nums[i], nums[l] = nums[l], nums[i]
+                l += 1
+                i += 1
+            elif nums[i] > 1:
+                nums[i], nums[r] = nums[r], nums[i]
+                r -= 1
+            else:
                 i += 1
