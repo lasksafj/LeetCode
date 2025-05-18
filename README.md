@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
+| [2061-painting-a-grid-with-three-different-colors](https://github.com/lasksafj/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2850-construct-the-longest-new-string](https://github.com/lasksafj/LeetCode/tree/master/2850-construct-the-longest-new-string) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/lasksafj/LeetCode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
