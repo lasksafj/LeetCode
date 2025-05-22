@@ -11,30 +11,24 @@ class Solution:
             last[s[i]] = i
         A = []
         for ch in first:
-            a,b = first[ch], last[ch]
             ok = True
-            i,j = a,b
-            while i < j:
-                j = max(j, last[s[i]])
+            l,r = first[ch], last[ch]
+            i = l+1
+            while i <= r:
+                if first[s[i]] < l:
+                    ok = False
+                    break
+                r = max(r, last[s[i]])
                 i += 1
-            b = j
-            i = a
-            while j > i:
-                i = min(i, first[s[j]])
-                j -= 1
-            a = i
-            if a > 0 or b < N-1:
-                A.append([a,b])
-        if not A:
-            return False
-        A.sort(key=lambda x:x[1])
-        dp = [1]*len(A)
-        for i in range(len(A)):
-            a = A[i][0]
-            j = bisect_right(A, a-1, key=lambda x:x[1]) - 1
-            if j < 0:
-                if i:
-                    dp[i] = dp[i-1]
+            if ok and (l > 0 or r < N-1):
+                A.append([l,r])
+        A.sort()
+        res = 0
+        last_r = -1
+        for l,r in A:
+            if l > last_r:
+                res += 1
+                last_r = r
             else:
-                dp[i] = max(dp[i-1], dp[j] + 1)
-        return dp[-1] >= k
+                last_r = min(last_r, r)
+        return res >= k
