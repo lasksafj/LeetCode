@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3639-zero-array-transformation-i](https://github.com/lasksafj/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
+| [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Stack
 |  |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/lasksafj/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
+| [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 ## Sliding Window
 |  |
