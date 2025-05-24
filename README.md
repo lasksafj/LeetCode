@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
 | [0517-super-washing-machines](https://github.com/lasksafj/LeetCode/tree/master/0517-super-washing-machines) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/lasksafj/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/lasksafj/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2215-finding-3-digit-even-numbers](https://github.com/lasksafj/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -71,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
 | [0806-domino-and-tromino-tiling](https://github.com/lasksafj/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
+| [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
@@ -122,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/lasksafj/LeetCode/tree/master/0075-sort-colors) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/lasksafj/LeetCode/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [2215-finding-3-digit-even-numbers](https://github.com/lasksafj/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -186,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/lasksafj/LeetCode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -244,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [3000-minimum-absolute-difference-between-elements-with-constraint](https://github.com/lasksafj/LeetCode/tree/master/3000-minimum-absolute-difference-between-elements-with-constraint) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Depth-First Search
@@ -282,4 +288,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
+## Trie
+|  |
+| ------- |
+| [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 <!---LeetCode Topics End-->
