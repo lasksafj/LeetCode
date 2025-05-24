@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Stack
 |  |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 ## Sliding Window
 |  |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/lasksafj/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Shortest Path
 |  |
 | ------- |
@@ -265,4 +268,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+## Memoization
+|  |
+| ------- |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 <!---LeetCode Topics End-->
