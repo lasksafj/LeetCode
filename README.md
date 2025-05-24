@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Stack
 |  |
 | ------- |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Line Sweep
 |  |
 | ------- |
@@ -270,8 +273,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Memoization
 |  |
 | ------- |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 <!---LeetCode Topics End-->
