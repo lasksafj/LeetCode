@@ -14,7 +14,7 @@ class Solution:
             dp[0][i] = 0
 
         for t in range(1, k+1):
-            for i in range(1, N+1):
+            for i in range(t*m, N+1):
                 dpm[t][i] = max(dpm[t][i-1] + nums[i-1], (dp[t-1][i-m] if i-m>=0 else -inf) + S(i-1-m+1, i-1))
                 dp[t][i] = max(dp[t][i-1], dpm[t][i])
 
