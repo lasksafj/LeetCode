@@ -1,7 +1,6 @@
 class Solution:
     def maxSum(self, nums: List[int], k: int, m: int) -> int:
-        # dp[i,k]: max 
-        # dpm[t][i] = max(dpm[t][i-1] + nums[i], dp[t-1][i-m] + S(i-m+1, i))
+        # dpm[t][i] = max(dpm[t][i-1] + nums[i], dp[t-1][i-m] + S(i-m+1, i)) // last subarr include i
         # dp[t][i] = max(dp[t][i-1], dpm[t][i])
         N = len(nums)
         pre = list(accumulate(nums, initial=0))
