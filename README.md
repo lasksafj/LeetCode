@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Stack
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3639-zero-array-transformation-i](https://github.com/lasksafj/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Hash Table
 |  |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/lasksafj/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/lasksafj/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/lasksafj/LeetCode/tree/master/3705-find-the-largest-almost-missing-integer) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/lasksafj/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 ## Dynamic Programming
@@ -101,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/lasksafj/LeetCode/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
 ## Sliding Window
@@ -123,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/lasksafj/LeetCode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 ## Union Find
 |  |
@@ -263,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2215-finding-3-digit-even-numbers](https://github.com/lasksafj/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Brainteaser
 |  |
