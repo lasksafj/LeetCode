@@ -1,98 +1,83 @@
-from collections import defaultdict
-
 class Solution:
     def maxTargetNodes(self, edges1: List[List[int]], edges2: List[List[int]], k: int) -> List[int]:
-        def subtreeSizes(node, parent):
-            nonlocal sizes
-            for child in adj[node]:
-                if child == parent or child in visited:
-                    continue
-                sizes[node] += subtreeSizes(child, node)
-            return sizes[node]
-
-        def findCentroid(node, parent, root):
-            for child in adj[node]:
-                if child == parent or child in visited:
-                    continue
-                if sizes[child] > sizes[root] // 2:
-                    return findCentroid(child, node, root)
-            return node
-
-        def findDistances(node, parent, depth, count):
-            if depth > k:
-                return
-            if len(count) == depth - 1:
-                count.append(1)
-            else:
-                count[depth - 1] += 1
-            for child in adj[node]:
-                if child == parent or child in visited:
-                    continue
-                findDistances(child, node, depth + 1, count)
-
-        def countTarget(node, parent, depth, total, curr):
-            if depth > k:
-                return
-            nonlocal result
-            result[node] += total[min(k - depth, len(total) - 1)] - curr[min(k - depth, len(curr) - 1)]
-            for child in adj[node]:
-                if child == parent or child in visited:
-                    continue
-                countTarget(child, node, depth + 1, total, curr)
-
-        def centroidDecomposition(node):
-            nonlocal visited, result, sizes
-            sizes = [1] * n
-            subtreeSizes(node, -1)
-            centroid = findCentroid(node, -1, node)
-            visited.add(centroid)
-            prefixes = {}
-            maxlen = 1
-            for child in adj[centroid]:
-                if child in visited:
-                    continue
-                count = []
-                findDistances(child, centroid, 1, count)
-                prefixes[child] = [0]
-                for i in range(len(count)):
-                    prefixes[child].append(prefixes[child][-1] + count[i])
-                maxlen = max(maxlen, len(prefixes[child]))
-            total = [1] * maxlen
-            for child in prefixes:
-                for i in range(maxlen):
-                    total[i] += prefixes[child][min(i, len(prefixes[child]) - 1)]
-            result[centroid] += total[min(k, len(total) - 1)]
-            for child in adj[centroid]:
-                if child in visited:
-                    continue
-                countTarget(child, centroid, 1, total, prefixes[child])
-            for child in adj[centroid]:
-                if child in visited:
-                    continue
-                centroidDecomposition(child)
-
-        k -= 1
-        if k < 0:
-            maxcount = 0
-        else:
+        def find_k_ball(edges, k):
             adj = defaultdict(list)
-            for edge in edges2:
-                adj[edge[0]].append(edge[1])
-                adj[edge[1]].append(edge[0])
-            n = len(edges2) + 1
-            sizes = []
-            visited = set()
-            result = [0] * n
-            centroidDecomposition(0)
-            maxcount = max(result)
-        k += 1
-        adj = defaultdict(list)
-        for edge in edges1:
-            adj[edge[0]].append(edge[1])
-            adj[edge[1]].append(edge[0])
-        n = len(edges1) + 1
-        sizes = []
-        visited = set()
-        result = [maxcount] * n
-        centroidDecomposition(0)
-        return result
+            for a,b in edges:
+                adj[a].append(b)
+                adj[b].append(a)
+            N = len(adj)
+            sizes = [1]*N
+            vis = set()
+            ans = [0]*N
+            def subtree_size(i,p):
+                for ne in adj[i]:
+                    if ne == p or ne in vis:
+                        continue
+                    sizes[i] += subtree_size(ne, i)
+                return sizes[i]
+            def find_centroid(i, p, root):
+                for ne in adj[i]:
+                    if ne == p or ne in vis:
+                        continue
+                    if sizes[ne]*2 > sizes[root]:
+                        return find_centroid(ne, i, root)
+                return i
+            def find_distance(i, p, d, all_d):
+                if d > k:
+                    return
+                if len(all_d) == d:
+                    all_d.append(1)
+                else:
+                    all_d[d] += 1
+                for ne in adj[i]:
+                    if ne == p or ne in vis:
+                        continue
+                    find_distance(ne, i, d+1, all_d)
+            def find_ans(i, p, d, cntAll, cntSub):
+                if d > k:
+                    return
+                # subtract overcounts within each subtree of centroid
+                ans[i] += cntAll[min(k-d, len(cntAll)-1)] - cntSub[min(k-d, len(cntSub)-1)]
+                for ne in adj[i]:
+                    if ne == p or ne in vis:
+                        continue
+                    find_ans(ne, i, d+1, cntAll, cntSub)
+            def decompose(root):
+                subtree_size(root, -1)
+                centroid = find_centroid(root, -1, root)
+                vis.add(centroid)
+                maxlen = 1
+                cntSub = {}
+
+                for ne in adj[centroid]:
+                    if ne in vis:
+                        continue
+                    all_d = [0]
+                    find_distance(ne, centroid, 1, all_d)
+                    cntSub[ne] = [0] * len(all_d)
+                    for d in range(len(all_d)):
+                        cntSub[ne][d] += cntSub[ne][d-1] + all_d[d]
+                    maxlen = max(maxlen, len(all_d))
+                cntAll = [1] * maxlen
+                for ne in cntSub:
+                    for d in range(maxlen):
+                        cntAll[d] += cntSub[ne][min(d, len(cntSub[ne])-1)]
+                ans[centroid] += cntAll[min(k, len(cntAll) - 1)]
+                for ne in adj[centroid]:
+                    if ne in vis:
+                        continue
+                    find_ans(ne, centroid, 1, cntAll, cntSub[ne])
+                for ne in adj[centroid]:
+                    if ne not in vis:
+                        decompose(ne)
+            decompose(0)
+            return ans
+        
+        res1 = find_k_ball(edges1, k)
+        ma2 = 1
+        if k > 0:
+            res2 = find_k_ball(edges2, k-1)
+            ma2 = max(res2)
+        elif k == 0:
+            ma2 = 0
+        return [r+ma2 for r in res1]
