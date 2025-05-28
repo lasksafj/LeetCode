@@ -292,11 +292,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/lasksafj/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/lasksafj/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Segment Tree
 |  |
 | ------- |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/lasksafj/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Memoization
 |  |
