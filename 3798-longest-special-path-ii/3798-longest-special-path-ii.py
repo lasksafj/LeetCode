@@ -19,15 +19,10 @@ class Solution:
                     left = left[1:]
             # print(i, A, left, last)
             if len(left) == 2:
-                if res[0] < d - A[left[0] + 1]:
-                    res = [d - A[left[0] + 1], len(A) - (left[0]+1)]
-                elif res[0] == d - A[left[0] + 1]:
-                    res[1] = min(res[1], len(A) - (left[0]+1))
+                nres = [d - A[left[0] + 1], len(A) - (left[0]+1)]
             else:
-                if res[0] < d:
-                    res = [d, len(A)]
-                elif res[0] == d:
-                    res[1] = min(res[1], len(A))
+                nres = [d, len(A)]
+            res = sorted([res, nres], key=lambda x:[-x[0], x[1]])[0]
 
             last[nums[i]] = len(A)-1
 
