@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
+| [3781-maximize-the-distance-between-points-on-a-square](https://github.com/lasksafj/LeetCode/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Stack
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
+| [3781-maximize-the-distance-between-points-on-a-square](https://github.com/lasksafj/LeetCode/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 ## Union Find
 |  |
 | ------- |
@@ -291,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
 | [3000-minimum-absolute-difference-between-elements-with-constraint](https://github.com/lasksafj/LeetCode/tree/master/3000-minimum-absolute-difference-between-elements-with-constraint) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
+| [3781-maximize-the-distance-between-points-on-a-square](https://github.com/lasksafj/LeetCode/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 ## Depth-First Search
 |  |
 | ------- |
