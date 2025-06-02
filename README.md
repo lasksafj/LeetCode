@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3783-permutations-iv](https://github.com/lasksafj/LeetCode/tree/master/3783-permutations-iv) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/lasksafj/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
+| [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Stack
 |  |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/lasksafj/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
+| [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/lasksafj/LeetCode/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 ## Graph
 |  |
 | ------- |
@@ -165,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/lasksafj/LeetCode/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/lasksafj/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 ## Sorting
 |  |
 | ------- |
@@ -329,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/lasksafj/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/lasksafj/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
+| [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Breadth-First Search
 |  |
@@ -337,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/lasksafj/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/lasksafj/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/lasksafj/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 ## Segment Tree
 |  |
 | ------- |
