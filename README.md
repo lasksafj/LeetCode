@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3750-closest-equal-element-queries](https://github.com/lasksafj/LeetCode/tree/master/3750-closest-equal-element-queries) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/lasksafj/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/lasksafj/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3783-permutations-iv](https://github.com/lasksafj/LeetCode/tree/master/3783-permutations-iv) |
 ## Game Theory
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Number Theory
 |  |
 | ------- |
