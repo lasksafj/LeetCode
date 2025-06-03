@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/lasksafj/LeetCode/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
+| [3805-maximize-active-section-with-trade-i](https://github.com/lasksafj/LeetCode/tree/master/3805-maximize-active-section-with-trade-i) |
 ## Combinatorics
 |  |
 | ------- |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3783-permutations-iv](https://github.com/lasksafj/LeetCode/tree/master/3783-permutations-iv) |
+| [3805-maximize-active-section-with-trade-i](https://github.com/lasksafj/LeetCode/tree/master/3805-maximize-active-section-with-trade-i) |
 ## Brainteaser
 |  |
 | ------- |
