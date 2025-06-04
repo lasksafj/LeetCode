@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3804-maximize-active-section-with-trade-ii](https://github.com/lasksafj/LeetCode/tree/master/3804-maximize-active-section-with-trade-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
+| [3832-minimum-cost-to-reach-every-position](https://github.com/lasksafj/LeetCode/tree/master/3832-minimum-cost-to-reach-every-position) |
 ## Stack
 |  |
 | ------- |
