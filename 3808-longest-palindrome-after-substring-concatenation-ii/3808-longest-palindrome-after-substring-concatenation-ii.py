@@ -35,8 +35,5 @@ class Solution:
                 a += 1
                 b += 1
             if cur:
-                if ps[a] > 1 and pt[b] > 1:
-                    res = max(res, cur*2 + ps[a] + pt[b])
-                else:
-                    res = max(res, cur*2 + max(ps[a], pt[b]))
+                res = max(res, cur*2 + max(ps[a], pt[b]))
         return res
