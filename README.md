@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3750-closest-equal-element-queries](https://github.com/lasksafj/LeetCode/tree/master/3750-closest-equal-element-queries) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3765-minimum-cost-to-divide-array-into-subarrays](https://github.com/lasksafj/LeetCode/tree/master/3765-minimum-cost-to-divide-array-into-subarrays) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 | [3776-find-minimum-cost-to-remove-array-elements](https://github.com/lasksafj/LeetCode/tree/master/3776-find-minimum-cost-to-remove-array-elements) |
 | [3778-transform-array-by-parity](https://github.com/lasksafj/LeetCode/tree/master/3778-transform-array-by-parity) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3765-minimum-cost-to-divide-array-into-subarrays](https://github.com/lasksafj/LeetCode/tree/master/3765-minimum-cost-to-divide-array-into-subarrays) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/lasksafj/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 ## Hash Table
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
+| [3765-minimum-cost-to-divide-array-into-subarrays](https://github.com/lasksafj/LeetCode/tree/master/3765-minimum-cost-to-divide-array-into-subarrays) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3776-find-minimum-cost-to-remove-array-elements](https://github.com/lasksafj/LeetCode/tree/master/3776-find-minimum-cost-to-remove-array-elements) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/lasksafj/LeetCode/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
