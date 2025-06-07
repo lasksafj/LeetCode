@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3773-minimum-pair-removal-to-sort-array-i](https://github.com/lasksafj/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 | [3776-find-minimum-cost-to-remove-array-elements](https://github.com/lasksafj/LeetCode/tree/master/3776-find-minimum-cost-to-remove-array-elements) |
+| [3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k](https://github.com/lasksafj/LeetCode/tree/master/3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k) |
 | [3778-transform-array-by-parity](https://github.com/lasksafj/LeetCode/tree/master/3778-transform-array-by-parity) |
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/lasksafj/LeetCode/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 | [3783-permutations-iv](https://github.com/lasksafj/LeetCode/tree/master/3783-permutations-iv) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3772-minimum-pair-removal-to-sort-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3772-minimum-pair-removal-to-sort-array-ii) |
 | [3773-minimum-pair-removal-to-sort-array-i](https://github.com/lasksafj/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
+| [3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k](https://github.com/lasksafj/LeetCode/tree/master/3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/lasksafj/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3765-minimum-cost-to-divide-array-into-subarrays](https://github.com/lasksafj/LeetCode/tree/master/3765-minimum-cost-to-divide-array-into-subarrays) |
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3776-find-minimum-cost-to-remove-array-elements](https://github.com/lasksafj/LeetCode/tree/master/3776-find-minimum-cost-to-remove-array-elements) |
+| [3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k](https://github.com/lasksafj/LeetCode/tree/master/3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/lasksafj/LeetCode/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
 | [3793-longest-palindrome-after-substring-concatenation-i](https://github.com/lasksafj/LeetCode/tree/master/3793-longest-palindrome-after-substring-concatenation-i) |
 | [3801-count-beautiful-numbers](https://github.com/lasksafj/LeetCode/tree/master/3801-count-beautiful-numbers) |
