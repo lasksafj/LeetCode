@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3804-maximize-active-section-with-trade-ii](https://github.com/lasksafj/LeetCode/tree/master/3804-maximize-active-section-with-trade-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
+| [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 | [3832-minimum-cost-to-reach-every-position](https://github.com/lasksafj/LeetCode/tree/master/3832-minimum-cost-to-reach-every-position) |
 ## Stack
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -332,10 +334,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [1953-finding-mk-average](https://github.com/lasksafj/LeetCode/tree/master/1953-finding-mk-average) |
+| [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 ## Queue
 |  |
 | ------- |
 | [1953-finding-mk-average](https://github.com/lasksafj/LeetCode/tree/master/1953-finding-mk-average) |
+| [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 ## Data Stream
 |  |
 | ------- |
@@ -347,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3000-minimum-absolute-difference-between-elements-with-constraint](https://github.com/lasksafj/LeetCode/tree/master/3000-minimum-absolute-difference-between-elements-with-constraint) |
 | [3772-minimum-pair-removal-to-sort-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3772-minimum-pair-removal-to-sort-array-ii) |
 | [3773-minimum-pair-removal-to-sort-array-i](https://github.com/lasksafj/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
+| [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -387,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/lasksafj/LeetCode/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 | [3804-maximize-active-section-with-trade-ii](https://github.com/lasksafj/LeetCode/tree/master/3804-maximize-active-section-with-trade-ii) |
+| [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 ## Depth-First Search
 |  |
 | ------- |
