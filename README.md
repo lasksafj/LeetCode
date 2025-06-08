@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
+| [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 | [3832-minimum-cost-to-reach-every-position](https://github.com/lasksafj/LeetCode/tree/master/3832-minimum-cost-to-reach-every-position) |
 ## Stack
 |  |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3801-count-beautiful-numbers](https://github.com/lasksafj/LeetCode/tree/master/3801-count-beautiful-numbers) |
 | [3808-longest-palindrome-after-substring-concatenation-ii](https://github.com/lasksafj/LeetCode/tree/master/3808-longest-palindrome-after-substring-concatenation-ii) |
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/lasksafj/LeetCode/tree/master/3810-count-numbers-with-non-decreasing-digits) |
+| [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/lasksafj/LeetCode/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3830-find-closest-person](https://github.com/lasksafj/LeetCode/tree/master/3830-find-closest-person) |
+| [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 ## Game Theory
 |  |
 | ------- |
