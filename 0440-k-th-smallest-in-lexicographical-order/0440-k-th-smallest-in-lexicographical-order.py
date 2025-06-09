@@ -9,7 +9,8 @@ class Solution:
                 res += min(d, n-cur+1)
             return res
         cur = 1
-        while k > 1:
+        k -= 1
+        while k:
             a = count(cur)
             if a <= k:
                 k -= a
