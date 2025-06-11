@@ -1,31 +1,28 @@
 class Solution:
     def maxDifference(self, s: str, k: int) -> int:
+        N = len(s)
         res = -inf
-        for a,b in itertools.permutations(list(set(s)), 2):
-            # print(a,b)
-            fa = s[:k].count(a)
-            fb = s[:k].count(b)
-            prev_a = 0
-            prev_b = 0
-            mp = defaultdict(lambda: inf)
-            mp[0] = 0
-            if fa&1 and fb&1==0 and fb > 0:
-                res = max(res, fa-fb)
-            # print(res)
-            j = 0
-            for i in range(k, len(s)):
-                fa += s[i] == a
-                fb += s[i] == b
-                while j <= i-k and prev_b + (s[j]==b) < fb:
-                    prev_a += s[j] == a
-                    prev_b += s[j] == b
-                    prev_mask = ((prev_a&1) << 1) | (prev_b&1)
-                    mp[prev_mask] = min(mp[prev_mask], prev_a - prev_b)
-                    j += 1
-                mask = ((fa&1) << 1) | (fb&1)
-                # print('----',i, mask)
-                # 2: 0b10
-                if fb > 0:
-                    res = max(res, fa - fb - mp[mask^2])
-                # print('---------------', res)
+        for a,b in permutations('01234', 2):
+            mp = {}
+            mp[0] = [0,0,0]
+            cnta = cntb = 0
+            pcnta = pcntb = 0
+            for i in range(N):
+                if i-k >= 0:
+                    pcnta += s[i-k] == a
+                    pcntb += s[i-k] == b
+                    pmask = ((pcnta&1)<<1) | (pcntb&1)
+                    pcur = pcnta - pcntb
+                    if pmask in mp:
+                        mp[pmask] = min(mp[pmask], [pcur, pcnta, pcntb], key=lambda x: x[0])
+                    else:
+                        mp[pmask] = [pcur,pcnta,pcntb]
+                cnta += s[i] == a
+                cntb += s[i] == b
+                mask = ((cnta&1)<<1) | (cntb&1)
+                if i+1 >= k and mask^2 in mp:
+                    cur = cnta - cntb
+                    d, ca,cb = mp[mask^2]
+                    if cnta-ca and cntb-cb:
+                        res = max(res, cur - d)
         return res
