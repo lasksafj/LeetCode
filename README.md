@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/lasksafj/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3750-closest-equal-element-queries](https://github.com/lasksafj/LeetCode/tree/master/3750-closest-equal-element-queries) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3765-minimum-cost-to-divide-array-into-subarrays](https://github.com/lasksafj/LeetCode/tree/master/3765-minimum-cost-to-divide-array-into-subarrays) |
