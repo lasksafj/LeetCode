@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3804-maximize-active-section-with-trade-ii](https://github.com/lasksafj/LeetCode/tree/master/3804-maximize-active-section-with-trade-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3821-count-cells-in-overlapping-horizontal-and-vertical-substrings](https://github.com/lasksafj/LeetCode/tree/master/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings) |
+| [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3801-count-beautiful-numbers](https://github.com/lasksafj/LeetCode/tree/master/3801-count-beautiful-numbers) |
 | [3808-longest-palindrome-after-substring-concatenation-ii](https://github.com/lasksafj/LeetCode/tree/master/3808-longest-palindrome-after-substring-concatenation-ii) |
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/lasksafj/LeetCode/tree/master/3810-count-numbers-with-non-decreasing-digits) |
+| [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 ## Sliding Window
 |  |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/lasksafj/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
+| [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 ## Sorting
 |  |
 | ------- |
@@ -376,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 ## Number Theory
 |  |
 | ------- |
@@ -384,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
+| [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 ## Enumeration
 |  |
 | ------- |
@@ -486,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/lasksafj/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 ## Linked List
 |  |
 | ------- |
