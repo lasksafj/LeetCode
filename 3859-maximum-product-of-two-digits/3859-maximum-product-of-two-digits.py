@@ -1,4 +1,4 @@
 class Solution:
     def maxProduct(self, n: int) -> int:
-        A = sorted(str(n))
-        return int(A[-1]) * int(A[-2])
+        A = sorted(map(int, str(n)))
+        return A[-1] * A[-2]
