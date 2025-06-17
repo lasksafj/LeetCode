@@ -4,20 +4,14 @@ class Solution:
         newpos = [0]*n
         for k,(num,i) in enumerate(A):
             newpos[i] = k
-        nums.sort()
-        i = 0
+        nums = [a for a,_ in A]
         f = [-1]*n
-        while i < n:
-            j = i+1
-            while j < n and nums[j] <= nums[j-1] + maxDiff:
-                j += 1
-            nk = i
-            for k in range(i,j):
-                while nk < n and nums[k] + maxDiff >= nums[nk]:
-                    nk += 1
-                if k < nk-1:
-                    f[k] = nk-1
-            i = j
+        nk = 0
+        for k in range(n):
+            while nk < n and nums[k] + maxDiff >= nums[nk]:
+                nk += 1
+            if k < nk-1:
+                f[k] = nk-1
         p = [[-1]*20 for _ in range(n+1)]
         for i in range(n):
             p[i][0] = f[i]
