@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3778-transform-array-by-parity](https://github.com/lasksafj/LeetCode/tree/master/3778-transform-array-by-parity) |
 | [3819-count-covered-buildings](https://github.com/lasksafj/LeetCode/tree/master/3819-count-covered-buildings) |
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
+| [3859-maximum-product-of-two-digits](https://github.com/lasksafj/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3830-find-closest-person](https://github.com/lasksafj/LeetCode/tree/master/3830-find-closest-person) |
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 | [3840-find-x-value-of-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3840-find-x-value-of-array-ii) |
+| [3859-maximum-product-of-two-digits](https://github.com/lasksafj/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
 ## Game Theory
 |  |
 | ------- |
