@@ -1,22 +1,20 @@
 class Solution:
     def maxDistance(self, s: str, k: int) -> int:
+        l,r,u,d = 0,0,0,0
+        x,y = 0,0
         res = 0
-        up = 0
-        right = 0
-        no_l = no_r = 0
-        no_d = no_u = 0
         for c in s:
-            if c == 'S':
-                no_d += 1
-                up -= 1
+            if c == 'W':
+                x -= 1
+                l += 1
+            elif c == 'E':
+                x += 1
+                r += 1
             elif c == 'N':
-                no_u += 1
-                up += 1
-            elif c == 'W':
-                no_l += 1
-                right -= 1
+                y += 1
+                u += 1
             else:
-                no_r += 1
-                right += 1
-            res = max(res, abs(up) + abs(right) + min(k, min(no_u, no_d) + min(no_l, no_r)) * 2 )
+                y -= 1
+                d += 1
+            res = max(res, abs(x) + abs(y) + min(k, min(l,r) + min(u,d))*2)
         return res
