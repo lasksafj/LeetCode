@@ -358,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/lasksafj/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/lasksafj/LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2328-minimize-result-by-adding-parentheses-to-expression](https://github.com/lasksafj/LeetCode/tree/master/2328-minimize-result-by-adding-parentheses-to-expression) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/lasksafj/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/lasksafj/LeetCode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -435,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2215-finding-3-digit-even-numbers](https://github.com/lasksafj/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2328-minimize-result-by-adding-parentheses-to-expression](https://github.com/lasksafj/LeetCode/tree/master/2328-minimize-result-by-adding-parentheses-to-expression) |
 | [3201-distribute-candies-among-children-ii](https://github.com/lasksafj/LeetCode/tree/master/3201-distribute-candies-among-children-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/lasksafj/LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
