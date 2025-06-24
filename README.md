@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3840-find-x-value-of-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3840-find-x-value-of-array-ii) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 ## Stack
 |  |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/lasksafj/LeetCode/tree/master/3833-merge-operations-for-minimum-travel-time) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Sliding Window
 |  |
 | ------- |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3830-find-closest-person](https://github.com/lasksafj/LeetCode/tree/master/3830-find-closest-person) |
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 | [3840-find-x-value-of-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3840-find-x-value-of-array-ii) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3859-maximum-product-of-two-digits](https://github.com/lasksafj/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
 ## Game Theory
 |  |
@@ -395,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/lasksafj/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3783-permutations-iv](https://github.com/lasksafj/LeetCode/tree/master/3783-permutations-iv) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Design
 |  |
 | ------- |
@@ -426,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Number Theory
 |  |
 | ------- |
@@ -436,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 | [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Enumeration
 |  |
 | ------- |
