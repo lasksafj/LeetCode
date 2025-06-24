@@ -1,5 +1,5 @@
 MOD = 10**9 + 7
-n = 10**5
+n = 31
 fact = [1] * (n + 1)
 inv_fact = [1] * (n + 1)
 for i in range(2, n + 1):
