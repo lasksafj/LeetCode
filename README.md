@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3819-count-covered-buildings](https://github.com/lasksafj/LeetCode/tree/master/3819-count-covered-buildings) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/lasksafj/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/lasksafj/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3778-transform-array-by-parity](https://github.com/lasksafj/LeetCode/tree/master/3778-transform-array-by-parity) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/lasksafj/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Simulation
 |  |
 | ------- |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/lasksafj/LeetCode/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3821-count-cells-in-overlapping-horizontal-and-vertical-substrings](https://github.com/lasksafj/LeetCode/tree/master/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/lasksafj/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Combinatorics
 |  |
 | ------- |
