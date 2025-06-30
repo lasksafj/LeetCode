@@ -1,12 +1,13 @@
 class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:
-        res = 1
+        res = 0
         MOD = 10**9+7
         nums.sort()
-        j = 0
-        for i,n in enumerate(nums):
-            j = bisect_left(nums, target-n+1, 0, i+1)
-            if j <= i:
-                res = (res + pow(2, i-j, MOD)) % MOD
-        
-        return (pow(2, len(nums), MOD) - res) % MOD
+        i,j = 0,len(nums)-1
+        while i <= j:
+            if nums[i] + nums[j] <= target:
+                res = (res + pow(2, j-i)) % MOD
+                i += 1
+            else:
+                j -= 1
+        return res
