@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/lasksafj/LeetCode/tree/master/0135-candy) |
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
 | [0517-super-washing-machines](https://github.com/lasksafj/LeetCode/tree/master/0517-super-washing-machines) |
+| [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
@@ -256,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/lasksafj/LeetCode/tree/master/0075-sort-colors) |
+| [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
@@ -320,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/lasksafj/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/lasksafj/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
