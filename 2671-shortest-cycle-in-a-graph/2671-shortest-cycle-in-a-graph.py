@@ -5,19 +5,19 @@ class Solution:
             adj[a].append(b)
             adj[b].append(a)
         res = inf
+        dist = [inf]*n
+        def dfs(i, p, d):
+            nonlocal res
+            dist[i] = d
+            for ne in adj[i]:
+                if ne == p: continue
+                if dist[ne] > d+1:
+                    dfs(ne, i, d+1)
+                elif dist[ne] < dist[i]:
+                    res = min(res, dist[i] - dist[ne] + 1)
+
         for i in range(n):
-            dist = [inf]*n
-            f = [-1]*n
-            q = deque([i])
-            dist[i] = 0
-            while q:
-                c = q.popleft()
-                for ne in adj[c]:
-                    if ne == f[c]: continue
-                    if dist[ne] == inf:
-                        dist[ne] = dist[c] + 1
-                        f[ne] = c
-                        q.append(ne)
-                    else:
-                        res = min(res, dist[ne] + dist[c] + 1)
+            if dist[i] < inf: continue
+            dfs(i, -1, 0)
+            
         return res if res < inf else -1
