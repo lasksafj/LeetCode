@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2118-maximum-earnings-from-taxi](https://github.com/lasksafj/LeetCode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/lasksafj/LeetCode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/lasksafj/LeetCode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/lasksafj/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/lasksafj/LeetCode/tree/master/2212-removing-minimum-and-maximum-from-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/lasksafj/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -518,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/lasksafj/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/lasksafj/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -542,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/lasksafj/LeetCode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2215-finding-3-digit-even-numbers](https://github.com/lasksafj/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2328-minimize-result-by-adding-parentheses-to-expression](https://github.com/lasksafj/LeetCode/tree/master/2328-minimize-result-by-adding-parentheses-to-expression) |
@@ -702,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Recursion
 |  |
 | ------- |
