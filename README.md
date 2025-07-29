@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/lasksafj/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2479-meeting-rooms-iii](https://github.com/lasksafj/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/lasksafj/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/lasksafj/LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/lasksafj/LeetCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2808-painting-the-walls](https://github.com/lasksafj/LeetCode/tree/master/2808-painting-the-walls) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1813-maximum-erasure-value](https://github.com/lasksafj/LeetCode/tree/master/1813-maximum-erasure-value) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/lasksafj/LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3717-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/lasksafj/LeetCode/tree/master/3717-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/lasksafj/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/lasksafj/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/lasksafj/LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/lasksafj/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/lasksafj/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -572,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/lasksafj/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2118-maximum-earnings-from-taxi](https://github.com/lasksafj/LeetCode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/lasksafj/LeetCode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/lasksafj/LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/lasksafj/LeetCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3000-minimum-absolute-difference-between-elements-with-constraint](https://github.com/lasksafj/LeetCode/tree/master/3000-minimum-absolute-difference-between-elements-with-constraint) |
 | [3750-closest-equal-element-queries](https://github.com/lasksafj/LeetCode/tree/master/3750-closest-equal-element-queries) |
