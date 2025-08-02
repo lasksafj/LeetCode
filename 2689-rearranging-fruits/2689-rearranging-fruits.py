@@ -13,11 +13,12 @@ class Solution:
             A += [k]*(abs(v)//2)
         A.sort()
         mi = min(basket1 + basket2)
-        s = sum(A[:len(A)//2])
-        res = s
-        t = 0
-        for i in range(len(A)//2-1, -1,-1):
-            t += mi*2
-            s -= A[i]
-            res = min(res, s+t)
-        return res
+        # s = sum(A[:len(A)//2])
+        # res = s
+        # t = 0
+        # for i in range(len(A)//2-1, -1,-1):
+        #     t += mi*2
+        #     s -= A[i]
+        #     res = min(res, s+t)
+        # return res
+        return sum(min(mi*2, A[i]) for i in range(len(A)//2))
