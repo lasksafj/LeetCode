@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/lasksafj/LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3850-equal-sum-grid-partition-ii](https://github.com/lasksafj/LeetCode/tree/master/3850-equal-sum-grid-partition-ii) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/lasksafj/LeetCode/tree/master/3856-maximum-weighted-k-edge-path) |
+| [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/lasksafj/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
 |  |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/lasksafj/LeetCode/tree/master/3856-maximum-weighted-k-edge-path) |
+| [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
 ## Sliding Window
 |  |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/lasksafj/LeetCode/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/lasksafj/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
+| [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 ## Union Find
 |  |
 | ------- |
@@ -515,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/lasksafj/LeetCode/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3821-count-cells-in-overlapping-horizontal-and-vertical-substrings](https://github.com/lasksafj/LeetCode/tree/master/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings) |
+| [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/lasksafj/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Combinatorics
 |  |
