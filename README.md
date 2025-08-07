@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/lasksafj/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3639-zero-array-transformation-i](https://github.com/lasksafj/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/lasksafj/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/lasksafj/LeetCode/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3707-find-the-most-common-response](https://github.com/lasksafj/LeetCode/tree/master/3707-find-the-most-common-response) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/lasksafj/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/lasksafj/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/lasksafj/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
 | [3717-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/lasksafj/LeetCode/tree/master/3717-minimum-operations-to-make-elements-within-k-subarrays-equal) |
@@ -465,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/lasksafj/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/lasksafj/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/lasksafj/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3821-count-cells-in-overlapping-horizontal-and-vertical-substrings](https://github.com/lasksafj/LeetCode/tree/master/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings) |
 | [3822-fill-a-special-grid](https://github.com/lasksafj/LeetCode/tree/master/3822-fill-a-special-grid) |
