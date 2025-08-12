@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2808-painting-the-walls](https://github.com/lasksafj/LeetCode/tree/master/2808-painting-the-walls) |
 | [2850-construct-the-longest-new-string](https://github.com/lasksafj/LeetCode/tree/master/2850-construct-the-longest-new-string) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
+| [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/lasksafj/LeetCode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/lasksafj/LeetCode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/lasksafj/LeetCode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
