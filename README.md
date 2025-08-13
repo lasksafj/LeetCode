@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 | [3853-minimum-weighted-subgraph-with-the-required-paths-ii](https://github.com/lasksafj/LeetCode/tree/master/3853-minimum-weighted-subgraph-with-the-required-paths-ii) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
+| [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/lasksafj/LeetCode/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Stack
 |  |
 | ------- |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3856-maximum-weighted-k-edge-path](https://github.com/lasksafj/LeetCode/tree/master/3856-maximum-weighted-k-edge-path) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
+| [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/lasksafj/LeetCode/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -487,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3822-fill-a-special-grid](https://github.com/lasksafj/LeetCode/tree/master/3822-fill-a-special-grid) |
 | [3837-grid-teleportation-traversal](https://github.com/lasksafj/LeetCode/tree/master/3837-grid-teleportation-traversal) |
 | [3850-equal-sum-grid-partition-ii](https://github.com/lasksafj/LeetCode/tree/master/3850-equal-sum-grid-partition-ii) |
+| [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/lasksafj/LeetCode/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Shortest Path
 |  |
 | ------- |
