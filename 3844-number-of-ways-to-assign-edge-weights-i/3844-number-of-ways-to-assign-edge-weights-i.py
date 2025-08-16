@@ -28,6 +28,7 @@ class Solution:
         d = dfs(1, 0)-1
         res = 0
         MOD = 10**9+7
-        for i in range(1, d+1, 2):
-            res = (res + combination(d,i)) % MOD
-        return res
+        # for i in range(1, d+1, 2):
+        #     res = (res + combination(d,i)) % MOD
+        # 2nd way
+        return pow(2, d-1, MOD)
