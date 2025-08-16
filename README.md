@@ -297,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0738-monotone-increasing-digits](https://github.com/lasksafj/LeetCode/tree/master/0738-monotone-increasing-digits) |
 | [0901-advantage-shuffle](https://github.com/lasksafj/LeetCode/tree/master/0901-advantage-shuffle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/lasksafj/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1448-maximum-69-number](https://github.com/lasksafj/LeetCode/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/lasksafj/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/lasksafj/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lasksafj/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -403,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0826-soup-servings](https://github.com/lasksafj/LeetCode/tree/master/0826-soup-servings) |
 | [0900-reordered-power-of-2](https://github.com/lasksafj/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/lasksafj/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [1448-maximum-69-number](https://github.com/lasksafj/LeetCode/tree/master/1448-maximum-69-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/lasksafj/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/lasksafj/LeetCode/tree/master/2202-sum-of-k-mirror-numbers) |
