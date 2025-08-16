@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3840-find-x-value-of-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3840-find-x-value-of-array-ii) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/lasksafj/LeetCode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/lasksafj/LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3850-equal-sum-grid-partition-ii](https://github.com/lasksafj/LeetCode/tree/master/3850-equal-sum-grid-partition-ii) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/lasksafj/LeetCode/tree/master/3833-merge-operations-for-minimum-travel-time) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/lasksafj/LeetCode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/lasksafj/LeetCode/tree/master/3856-maximum-weighted-k-edge-path) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
@@ -425,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3830-find-closest-person](https://github.com/lasksafj/LeetCode/tree/master/3830-find-closest-person) |
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 | [3840-find-x-value-of-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3840-find-x-value-of-array-ii) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/lasksafj/LeetCode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/lasksafj/LeetCode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3859-maximum-product-of-two-digits](https://github.com/lasksafj/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
@@ -674,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/lasksafj/LeetCode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/lasksafj/LeetCode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 | [3853-minimum-weighted-subgraph-with-the-required-paths-ii](https://github.com/lasksafj/LeetCode/tree/master/3853-minimum-weighted-subgraph-with-the-required-paths-ii) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
@@ -727,6 +731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/lasksafj/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/lasksafj/LeetCode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/lasksafj/LeetCode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 | [3853-minimum-weighted-subgraph-with-the-required-paths-ii](https://github.com/lasksafj/LeetCode/tree/master/3853-minimum-weighted-subgraph-with-the-required-paths-ii) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
