@@ -436,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/lasksafj/LeetCode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/lasksafj/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3859-maximum-product-of-two-digits](https://github.com/lasksafj/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
+| [3879-find-minimum-log-transportation-cost](https://github.com/lasksafj/LeetCode/tree/master/3879-find-minimum-log-transportation-cost) |
 ## Game Theory
 |  |
 | ------- |
