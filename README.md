@@ -276,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3856-maximum-weighted-k-edge-path](https://github.com/lasksafj/LeetCode/tree/master/3856-maximum-weighted-k-edge-path) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
+| [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
 | [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/lasksafj/LeetCode/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Sliding Window
 |  |
@@ -554,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3821-count-cells-in-overlapping-horizontal-and-vertical-substrings](https://github.com/lasksafj/LeetCode/tree/master/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
+| [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/lasksafj/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Combinatorics
 |  |
