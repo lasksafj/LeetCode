@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0517-super-washing-machines](https://github.com/lasksafj/LeetCode/tree/master/0517-super-washing-machines) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0679-24-game](https://github.com/lasksafj/LeetCode/tree/master/0679-24-game) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
@@ -404,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/lasksafj/LeetCode/tree/master/0342-power-of-four) |
 | [0504-base-7](https://github.com/lasksafj/LeetCode/tree/master/0504-base-7) |
 | [0640-solve-the-equation](https://github.com/lasksafj/LeetCode/tree/master/0640-solve-the-equation) |
+| [0679-24-game](https://github.com/lasksafj/LeetCode/tree/master/0679-24-game) |
 | [0738-monotone-increasing-digits](https://github.com/lasksafj/LeetCode/tree/master/0738-monotone-increasing-digits) |
 | [0826-soup-servings](https://github.com/lasksafj/LeetCode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/lasksafj/LeetCode/tree/master/0867-new-21-game) |
@@ -807,6 +809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0679-24-game](https://github.com/lasksafj/LeetCode/tree/master/0679-24-game) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Recursion
