@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/lasksafj/LeetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/lasksafj/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2417-the-latest-time-to-catch-a-bus](https://github.com/lasksafj/LeetCode/tree/master/2417-the-latest-time-to-catch-a-bus) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/lasksafj/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2479-meeting-rooms-iii](https://github.com/lasksafj/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/lasksafj/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/lasksafj/LeetCode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/lasksafj/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/lasksafj/LeetCode/tree/master/2202-sum-of-k-mirror-numbers) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/lasksafj/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/lasksafj/LeetCode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2850-construct-the-longest-new-string](https://github.com/lasksafj/LeetCode/tree/master/2850-construct-the-longest-new-string) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/lasksafj/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
