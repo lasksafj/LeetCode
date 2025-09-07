@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/lasksafj/LeetCode/tree/master/0118-pascals-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/lasksafj/LeetCode/tree/master/0135-candy) |
+| [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/lasksafj/LeetCode/tree/master/0075-sort-colors) |
+| [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/lasksafj/LeetCode/tree/master/0231-power-of-two) |
+| [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0326-power-of-three](https://github.com/lasksafj/LeetCode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/lasksafj/LeetCode/tree/master/0342-power-of-four) |
 | [0504-base-7](https://github.com/lasksafj/LeetCode/tree/master/0504-base-7) |
@@ -537,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/lasksafj/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/lasksafj/LeetCode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0498-diagonal-traverse](https://github.com/lasksafj/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0945-snakes-and-ladders](https://github.com/lasksafj/LeetCode/tree/master/0945-snakes-and-ladders) |
