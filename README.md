@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/lasksafj/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
+| [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1799-minimum-incompatibility](https://github.com/lasksafj/LeetCode/tree/master/1799-minimum-incompatibility) |
 | [1813-maximum-erasure-value](https://github.com/lasksafj/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/lasksafj/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
+| [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lasksafj/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/lasksafj/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -450,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-maximum-69-number](https://github.com/lasksafj/LeetCode/tree/master/1448-maximum-69-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/lasksafj/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
+| [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/lasksafj/LeetCode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/lasksafj/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/lasksafj/LeetCode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
@@ -628,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
+| [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1953-finding-mk-average](https://github.com/lasksafj/LeetCode/tree/master/1953-finding-mk-average) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/lasksafj/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
@@ -803,6 +807,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/lasksafj/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/lasksafj/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/lasksafj/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -838,6 +843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 ## Topological Sort
 |  |
 | ------- |
