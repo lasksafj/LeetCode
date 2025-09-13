@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 | [3853-minimum-weighted-subgraph-with-the-required-paths-ii](https://github.com/lasksafj/LeetCode/tree/master/3853-minimum-weighted-subgraph-with-the-required-paths-ii) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
+| [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 | [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/lasksafj/LeetCode/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Stack
 |  |
@@ -164,11 +165,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/lasksafj/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/lasksafj/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
+| [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
+| [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -367,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/lasksafj/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
+| [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Union Find
 |  |
 | ------- |
@@ -429,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/lasksafj/LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 | [3859-maximum-product-of-two-digits](https://github.com/lasksafj/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
+| [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -815,6 +820,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/lasksafj/LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3793-longest-palindrome-after-substring-concatenation-i](https://github.com/lasksafj/LeetCode/tree/master/3793-longest-palindrome-after-substring-concatenation-i) |
 | [3808-longest-palindrome-after-substring-concatenation-ii](https://github.com/lasksafj/LeetCode/tree/master/3808-longest-palindrome-after-substring-concatenation-ii) |
+| [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Tree
 |  |
 | ------- |
