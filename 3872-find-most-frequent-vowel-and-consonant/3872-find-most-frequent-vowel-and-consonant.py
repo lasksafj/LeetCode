@@ -1,10 +1,3 @@
 class Solution:
     def maxFreqSum(self, s: str) -> int:
-        cnt = Counter(s)
-        res1=res2=0
-        for a,b in cnt.items():
-            if a in 'aeiou':
-                res1 = max(res1, b)
-            else:
-                res2 = max(res2, b)
-        return res1+res2
+        return max([b for a,b in Counter(s).items() if a in 'aeiou'], default=0) + max([b for a,b in Counter(s).items() if a not in 'aeiou'], default=0)
