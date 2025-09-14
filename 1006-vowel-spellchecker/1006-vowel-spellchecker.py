@@ -3,7 +3,10 @@ class Solution:
         mp = {}
         for i,w in enumerate(wordlist):
             if w.lower() not in mp:
-                mp[w.lower()] = [w,i]
+                mp[w.lower()] = w
+            nw = ''.join('*' if c in 'aeiou' else c for c in w.lower())
+            if nw not in mp:
+                mp[nw] = w
         wordlist = set(wordlist)
         res = []
         for w in queries:
@@ -12,23 +15,11 @@ class Solution:
                 continue
             w = w.lower()
             if w in mp:
-                res.append(mp[w][0])
+                res.append(mp[w])
                 continue
-            
-            vow_cnt = len([c for c in w if c in 'aeiou'])
-            cur = ''
-            cur_p = inf
-            for vows in product('aeiou', repeat=vow_cnt):
-                A = list(w)
-                j = 0
-                for i,c in enumerate(A):
-                    if c in 'aeiou':
-                        A[i] = vows[j]
-                        j += 1
-                tmp = ''.join(A)
-                if tmp in mp and cur_p > mp[tmp][1]:
-                    cur_p = mp[tmp][1]
-                    cur = mp[tmp][0]
-            
-            res.append(cur)
+            nw = ''.join('*' if c in 'aeiou' else c for c in w.lower())
+            if nw in mp:
+                res.append(mp[nw])
+                continue
+            res.append('')
         return res
