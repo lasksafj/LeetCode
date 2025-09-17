@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/lasksafj/LeetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/lasksafj/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2417-the-latest-time-to-catch-a-bus](https://github.com/lasksafj/LeetCode/tree/master/2417-the-latest-time-to-catch-a-bus) |
+| [2429-design-a-food-rating-system](https://github.com/lasksafj/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/lasksafj/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2479-meeting-rooms-iii](https://github.com/lasksafj/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/lasksafj/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/lasksafj/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/lasksafj/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/lasksafj/LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2429-design-a-food-rating-system](https://github.com/lasksafj/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2479-meeting-rooms-iii](https://github.com/lasksafj/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/lasksafj/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2689-rearranging-fruits](https://github.com/lasksafj/LeetCode/tree/master/2689-rearranging-fruits) |
@@ -549,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1953-finding-mk-average](https://github.com/lasksafj/LeetCode/tree/master/1953-finding-mk-average) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/lasksafj/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/lasksafj/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
+| [2429-design-a-food-rating-system](https://github.com/lasksafj/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2479-meeting-rooms-iii](https://github.com/lasksafj/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/lasksafj/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -606,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2328-minimize-result-by-adding-parentheses-to-expression](https://github.com/lasksafj/LeetCode/tree/master/2328-minimize-result-by-adding-parentheses-to-expression) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/lasksafj/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/lasksafj/LeetCode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+| [2429-design-a-food-rating-system](https://github.com/lasksafj/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/lasksafj/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
 | [2887-sort-vowels-in-a-string](https://github.com/lasksafj/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
@@ -657,6 +661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1953-finding-mk-average](https://github.com/lasksafj/LeetCode/tree/master/1953-finding-mk-average) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/lasksafj/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2429-design-a-food-rating-system](https://github.com/lasksafj/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 ## Queue
 |  |
@@ -674,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1953-finding-mk-average](https://github.com/lasksafj/LeetCode/tree/master/1953-finding-mk-average) |
+| [2429-design-a-food-rating-system](https://github.com/lasksafj/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [3000-minimum-absolute-difference-between-elements-with-constraint](https://github.com/lasksafj/LeetCode/tree/master/3000-minimum-absolute-difference-between-elements-with-constraint) |
 | [3772-minimum-pair-removal-to-sort-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3772-minimum-pair-removal-to-sort-array-ii) |
 | [3773-minimum-pair-removal-to-sort-array-i](https://github.com/lasksafj/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
