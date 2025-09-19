@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/lasksafj/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/lasksafj/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/lasksafj/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3797-design-spreadsheet](https://github.com/lasksafj/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3804-maximize-active-section-with-trade-ii](https://github.com/lasksafj/LeetCode/tree/master/3804-maximize-active-section-with-trade-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3773-minimum-pair-removal-to-sort-array-i](https://github.com/lasksafj/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 | [3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k](https://github.com/lasksafj/LeetCode/tree/master/3777-maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/lasksafj/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3797-design-spreadsheet](https://github.com/lasksafj/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3798-longest-special-path-ii](https://github.com/lasksafj/LeetCode/tree/master/3798-longest-special-path-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
@@ -581,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/lasksafj/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/lasksafj/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/lasksafj/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
+| [3797-design-spreadsheet](https://github.com/lasksafj/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3821-count-cells-in-overlapping-horizontal-and-vertical-substrings](https://github.com/lasksafj/LeetCode/tree/master/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings) |
 | [3822-fill-a-special-grid](https://github.com/lasksafj/LeetCode/tree/master/3822-fill-a-special-grid) |
 | [3837-grid-teleportation-traversal](https://github.com/lasksafj/LeetCode/tree/master/3837-grid-teleportation-traversal) |
@@ -635,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3786-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/lasksafj/LeetCode/tree/master/3786-longest-palindromic-subsequence-after-at-most-k-operations) |
 | [3793-longest-palindrome-after-substring-concatenation-i](https://github.com/lasksafj/LeetCode/tree/master/3793-longest-palindrome-after-substring-concatenation-i) |
+| [3797-design-spreadsheet](https://github.com/lasksafj/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3804-maximize-active-section-with-trade-ii](https://github.com/lasksafj/LeetCode/tree/master/3804-maximize-active-section-with-trade-ii) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/lasksafj/LeetCode/tree/master/3805-maximize-active-section-with-trade-i) |
 | [3808-longest-palindrome-after-substring-concatenation-ii](https://github.com/lasksafj/LeetCode/tree/master/3808-longest-palindrome-after-substring-concatenation-ii) |
@@ -665,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/lasksafj/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2429-design-a-food-rating-system](https://github.com/lasksafj/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/lasksafj/LeetCode/tree/master/3678-design-task-manager) |
+| [3797-design-spreadsheet](https://github.com/lasksafj/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
 ## Queue
 |  |
