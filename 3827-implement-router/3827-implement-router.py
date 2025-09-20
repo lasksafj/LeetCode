@@ -1,37 +1,33 @@
 class Router:
 
     def __init__(self, memoryLimit: int):
-        self.dq = deque()
         self.S = set()
-        self.mpA = defaultdict(list)
-        self.mpI = defaultdict(int)
-        self.k = memoryLimit
-        self.cur = 0
+        self.A = deque()
+        self.dest = defaultdict(deque)
+        self.limit = memoryLimit
 
-    def addPacket(self, s: int, d: int, t: int) -> bool:
-        dq,S,mpA = self.dq, self.S, self.mpA
-        if (s,d,t) in S:
+    def addPacket(self, source: int, destination: int, timestamp: int) -> bool:
+        if (timestamp, source, destination) in self.S:
             return False
-        if self.k == 0:
-            self.forwardPacket()
-        self.k -= 1
-        S.add((s,d,t))
-        mpA[d].append((t, s))
-        dq.append((s,d,t))
+        if len(self.S) == self.limit:
+            t,s,d = self.A.popleft()
+            self.S.remove((t,s,d))
+            self.dest[d].popleft()
+        self.A.append((timestamp, source, destination))
+        self.S.add((timestamp, source, destination))
+        self.dest[destination].append([timestamp, source])
         return True
 
     def forwardPacket(self) -> List[int]:
-        dq,S,mpA = self.dq, self.S, self.mpA
-        if not dq: return []
-        self.k += 1
-        s,d,t = dq.popleft()
-        S.remove((s,d,t))
-        self.mpI[d] += 1
-        return [s,d,t]
+        if self.S:
+            t,s,d = self.A.popleft()
+            self.S.remove((t,s,d))
+            self.dest[d].popleft()
+            return [s,d,t]
+        return []
 
-    def getCount(self, d: int, s: int, e: int) -> int:
-        mpA, mpI = self.mpA, self.mpI
-        return max(mpI[d], bisect_right(mpA[d], e, key=lambda x:x[0])) - max(mpI[d], bisect_left(mpA[d], s, key=lambda x:x[0]))
+    def getCount(self, destination: int, startTime: int, endTime: int) -> int:
+        return bisect_right(self.dest[destination], [endTime,inf]) - bisect_left(self.dest[destination], [startTime,0])
 
 
 # Your Router object will be instantiated and called as such:
