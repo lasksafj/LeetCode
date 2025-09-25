@@ -1,10 +1,9 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        @cache
-        def dfs(r, i):
-            if r == len(triangle):
-                return 0
-            if i == len(triangle[r]):
-                return inf
-            return min(dfs(r+1, i), dfs(r+1, i+1)) + triangle[r][i]
-        return dfs(0, 0)
+        dp = triangle[-1][:]
+        for row in triangle[::-1][1:]:
+            ndp = [0] * len(row)
+            for i in range(len(row)):
+                ndp[i] = min(dp[i], dp[i+1]) + row[i]
+            dp = ndp
+        return dp[0]
