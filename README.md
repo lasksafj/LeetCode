@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/lasksafj/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0945-snakes-and-ladders](https://github.com/lasksafj/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1006-vowel-spellchecker](https://github.com/lasksafj/LeetCode/tree/master/1006-vowel-spellchecker) |
+| [1018-largest-perimeter-triangle](https://github.com/lasksafj/LeetCode/tree/master/1018-largest-perimeter-triangle) |
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/lasksafj/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0738-monotone-increasing-digits](https://github.com/lasksafj/LeetCode/tree/master/0738-monotone-increasing-digits) |
 | [0901-advantage-shuffle](https://github.com/lasksafj/LeetCode/tree/master/0901-advantage-shuffle) |
+| [1018-largest-perimeter-triangle](https://github.com/lasksafj/LeetCode/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/lasksafj/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1448-maximum-69-number](https://github.com/lasksafj/LeetCode/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/lasksafj/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -427,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
 | [0900-reordered-power-of-2](https://github.com/lasksafj/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0901-advantage-shuffle](https://github.com/lasksafj/LeetCode/tree/master/0901-advantage-shuffle) |
+| [1018-largest-perimeter-triangle](https://github.com/lasksafj/LeetCode/tree/master/1018-largest-perimeter-triangle) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/lasksafj/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/lasksafj/LeetCode/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/lasksafj/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -479,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/lasksafj/LeetCode/tree/master/0830-largest-triangle-area) |
 | [0867-new-21-game](https://github.com/lasksafj/LeetCode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/lasksafj/LeetCode/tree/master/0900-reordered-power-of-2) |
+| [1018-largest-perimeter-triangle](https://github.com/lasksafj/LeetCode/tree/master/1018-largest-perimeter-triangle) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/lasksafj/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/lasksafj/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/lasksafj/LeetCode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
