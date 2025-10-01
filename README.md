@@ -491,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/lasksafj/LeetCode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/lasksafj/LeetCode/tree/master/1448-maximum-69-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/lasksafj/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1642-water-bottles](https://github.com/lasksafj/LeetCode/tree/master/1642-water-bottles) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/lasksafj/LeetCode/tree/master/2202-sum-of-k-mirror-numbers) |
@@ -558,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0498-diagonal-traverse](https://github.com/lasksafj/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0640-solve-the-equation](https://github.com/lasksafj/LeetCode/tree/master/0640-solve-the-equation) |
+| [1642-water-bottles](https://github.com/lasksafj/LeetCode/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/lasksafj/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/lasksafj/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/lasksafj/LeetCode/tree/master/2408-number-of-people-aware-of-a-secret) |
