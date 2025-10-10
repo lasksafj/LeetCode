@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0679-24-game](https://github.com/lasksafj/LeetCode/tree/master/0679-24-game) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
+| [0788-minimize-max-distance-to-gas-station](https://github.com/lasksafj/LeetCode/tree/master/0788-minimize-max-distance-to-gas-station) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0829-subdomain-visit-count](https://github.com/lasksafj/LeetCode/tree/master/0829-subdomain-visit-count) |
@@ -824,6 +825,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0788-minimize-max-distance-to-gas-station](https://github.com/lasksafj/LeetCode/tree/master/0788-minimize-max-distance-to-gas-station) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
