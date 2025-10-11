@@ -3,7 +3,6 @@ class Solution:
         mp = Counter(power)
         A = sorted(mp.items())
         N = len(A)
-        print(A)
         @cache
         def dfs(i):
             if i >= N:
