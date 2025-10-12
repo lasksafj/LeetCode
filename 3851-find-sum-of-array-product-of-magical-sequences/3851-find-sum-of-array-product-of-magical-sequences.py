@@ -7,7 +7,6 @@ for i in range(2, n + 1):
 inv_fact[n] = pow(fact[n], MOD - 2, MOD)  # Fermat's inverse
 for i in range(n - 1, 0, -1):
     inv_fact[i] = inv_fact[i + 1] * (i + 1) % MOD
-
 def combination(n, k):
     if k > n or k < 0:
         return 0
@@ -16,18 +15,14 @@ def combination(n, k):
 class Solution:
     def magicalSum(self, m: int, k: int, nums: List[int]) -> int:
         @cache
-        def dfs(i, mask, m, k):
+        def dfs(i,m,mask,k):
             if m == 0:
-                if k - bin(mask).count('1') != 0:
-                    return 0
-                return 1
+                return 1 if k == bin(mask).count('1') else 0
             if i == len(nums):
                 return 0
-            
             res = 0
-            for c in range(m+1):
-                nmask = c + mask
-                res = (res + dfs(i+1, nmask>>1, m-c, k-(nmask&1)) * pow(nums[i], c, MOD) * combination(m,c)) % MOD
+            for d in range(m+1):
+                nmask = mask + d
+                res = (res + dfs(i+1, m-d, nmask>>1, k-(nmask&1)) * pow(nums[i], d, MOD) * combination(m,d)) % MOD
             return res
-        
-        return dfs(0, 0, m, k)
+        return dfs(0,m,0,k)
