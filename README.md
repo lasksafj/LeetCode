@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/lasksafj/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/lasksafj/LeetCode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/lasksafj/LeetCode/tree/master/0120-triangle) |
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0806-domino-and-tromino-tiling](https://github.com/lasksafj/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0826-soup-servings](https://github.com/lasksafj/LeetCode/tree/master/0826-soup-servings) |
@@ -429,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/lasksafj/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/lasksafj/LeetCode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1558-course-schedule-iv](https://github.com/lasksafj/LeetCode/tree/master/1558-course-schedule-iv) |
@@ -632,6 +635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/lasksafj/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/lasksafj/LeetCode/tree/master/0498-diagonal-traverse) |
@@ -864,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0386-lexicographical-numbers](https://github.com/lasksafj/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0417-pacific-atlantic-water-flow](https://github.com/lasksafj/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -886,6 +891,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/lasksafj/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -951,6 +957,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/lasksafj/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/lasksafj/LeetCode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/lasksafj/LeetCode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -977,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1558-course-schedule-iv](https://github.com/lasksafj/LeetCode/tree/master/1558-course-schedule-iv) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/lasksafj/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/lasksafj/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
