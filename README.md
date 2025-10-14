@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/lasksafj/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/lasksafj/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/lasksafj/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3612-adjacent-increasing-subarrays-detection-i](https://github.com/lasksafj/LeetCode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/lasksafj/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3639-zero-array-transformation-i](https://github.com/lasksafj/LeetCode/tree/master/3639-zero-array-transformation-i) |
