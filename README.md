@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2079-delete-duplicate-folders-in-system](https://github.com/lasksafj/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2086-count-number-of-special-subsequences](https://github.com/lasksafj/LeetCode/tree/master/2086-count-number-of-special-subsequences) |
 | [2118-maximum-earnings-from-taxi](https://github.com/lasksafj/LeetCode/tree/master/2118-maximum-earnings-from-taxi) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/lasksafj/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/lasksafj/LeetCode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/lasksafj/LeetCode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -606,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0640-solve-the-equation](https://github.com/lasksafj/LeetCode/tree/master/0640-solve-the-equation) |
 | [1642-water-bottles](https://github.com/lasksafj/LeetCode/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/lasksafj/LeetCode/tree/master/2048-build-array-from-permutation) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/lasksafj/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/lasksafj/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/lasksafj/LeetCode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2479-meeting-rooms-iii](https://github.com/lasksafj/LeetCode/tree/master/2479-meeting-rooms-iii) |
@@ -692,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/lasksafj/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lasksafj/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/lasksafj/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/lasksafj/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/lasksafj/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/lasksafj/LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
