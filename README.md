@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/lasksafj/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/lasksafj/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1799-minimum-incompatibility](https://github.com/lasksafj/LeetCode/tree/master/1799-minimum-incompatibility) |
 | [1813-maximum-erasure-value](https://github.com/lasksafj/LeetCode/tree/master/1813-maximum-erasure-value) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/lasksafj/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1612-avoid-flood-in-the-city](https://github.com/lasksafj/LeetCode/tree/master/1612-avoid-flood-in-the-city) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/lasksafj/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1813-maximum-erasure-value](https://github.com/lasksafj/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/lasksafj/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/lasksafj/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -764,6 +766,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/lasksafj/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1953-finding-mk-average](https://github.com/lasksafj/LeetCode/tree/master/1953-finding-mk-average) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/lasksafj/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -967,6 +970,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
 | [0901-advantage-shuffle](https://github.com/lasksafj/LeetCode/tree/master/0901-advantage-shuffle) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/lasksafj/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/lasksafj/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/lasksafj/LeetCode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2417-the-latest-time-to-catch-a-bus](https://github.com/lasksafj/LeetCode/tree/master/2417-the-latest-time-to-catch-a-bus) |
