@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 | [3853-minimum-weighted-subgraph-with-the-required-paths-ii](https://github.com/lasksafj/LeetCode/tree/master/3853-minimum-weighted-subgraph-with-the-required-paths-ii) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 | [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/lasksafj/LeetCode/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Stack
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3850-equal-sum-grid-partition-ii](https://github.com/lasksafj/LeetCode/tree/master/3850-equal-sum-grid-partition-ii) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/lasksafj/LeetCode/tree/master/3856-maximum-weighted-k-edge-path) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/lasksafj/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
 |  |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/lasksafj/LeetCode/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Graph
 |  |
 | ------- |
@@ -492,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/lasksafj/LeetCode/tree/master/3856-maximum-weighted-k-edge-path) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Sorting
 |  |
 | ------- |
@@ -688,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3717-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/lasksafj/LeetCode/tree/master/3717-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3772-minimum-pair-removal-to-sort-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3772-minimum-pair-removal-to-sort-array-ii) |
 | [3773-minimum-pair-removal-to-sort-array-i](https://github.com/lasksafj/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Matrix
 |  |
 | ------- |
@@ -838,6 +843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/lasksafj/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/lasksafj/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -966,6 +972,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/lasksafj/LeetCode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 | [3853-minimum-weighted-subgraph-with-the-required-paths-ii](https://github.com/lasksafj/LeetCode/tree/master/3853-minimum-weighted-subgraph-with-the-required-paths-ii) |
 | [3858-subtree-inversion-sum](https://github.com/lasksafj/LeetCode/tree/master/3858-subtree-inversion-sum) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -984,6 +991,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/lasksafj/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3809-properties-graph](https://github.com/lasksafj/LeetCode/tree/master/3809-properties-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/lasksafj/LeetCode/tree/master/3837-grid-teleportation-traversal) |
+| [3863-power-grid-maintenance](https://github.com/lasksafj/LeetCode/tree/master/3863-power-grid-maintenance) |
 ## Segment Tree
 |  |
 | ------- |
