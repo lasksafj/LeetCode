@@ -19,18 +19,19 @@ class Solution:
         for a,b in connections:
             union(a,b)
         mp = defaultdict(lambda:SortedList())
+        p = [0]*(c+1)
         for i in range(1,c+1):
-            mp[root(i)].add(i)
+            p[i] = root(i)
+            mp[p[i]].add(i)
         res = []
         off = set()
         for t,x in queries:
             if t == 1:
                 if x in off:
-                    rx = root(x)
-                    res.append(mp[rx][0] if mp[rx] else -1)
+                    res.append(mp[p[x]][0] if mp[p[x]] else -1)
                 else:
                     res.append(x)
             else:
-                mp[root(x)].discard(x)
+                mp[p[x]].discard(x)
                 off.add(x)
         return res
