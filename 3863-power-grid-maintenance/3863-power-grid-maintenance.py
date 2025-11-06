@@ -18,20 +18,25 @@ class Solution:
 
         for a,b in connections:
             union(a,b)
-        mp = defaultdict(lambda:SortedList())
-        p = [0]*(c+1)
-        for i in range(1,c+1):
-            p[i] = root(i)
-            mp[p[i]].add(i)
+        off = [inf]*(c+1)
+        mp = defaultdict(lambda:inf)
+        for i,(t,x) in enumerate(queries):
+            if t == 2 and off[x] == inf:
+                off[x] = i
+        for x in range(1,c+1):
+            if off[x] == inf:
+                rx = root(x)
+                mp[rx] = min(mp[rx], x)
         res = []
-        off = set()
-        for t,x in queries:
+        for i in range(len(queries)-1,-1,-1):
+            t,x = queries[i]
             if t == 1:
-                if x in off:
-                    res.append(mp[p[x]][0] if mp[p[x]] else -1)
+                if off[x] < i:
+                    rx = root(x)
+                    res.append(mp[rx] if mp[rx] < inf else -1)
                 else:
                     res.append(x)
-            else:
-                mp[p[x]].discard(x)
-                off.add(x)
-        return res
+            elif off[x] == i:
+                rx = root(x)
+                mp[rx] = min(mp[rx], x)
+        return res[::-1]
