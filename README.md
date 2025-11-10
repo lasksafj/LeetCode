@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3831-find-x-value-of-array-i](https://github.com/lasksafj/LeetCode/tree/master/3831-find-x-value-of-array-i) |
 | [3832-minimum-cost-to-reach-every-position](https://github.com/lasksafj/LeetCode/tree/master/3832-minimum-cost-to-reach-every-position) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/lasksafj/LeetCode/tree/master/3833-merge-operations-for-minimum-travel-time) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3837-grid-teleportation-traversal](https://github.com/lasksafj/LeetCode/tree/master/3837-grid-teleportation-traversal) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3840-find-x-value-of-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3840-find-x-value-of-array-ii) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/lasksafj/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/lasksafj/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/lasksafj/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Monotonic Stack
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/lasksafj/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Prefix Sum
 |  |
@@ -311,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3819-count-covered-buildings](https://github.com/lasksafj/LeetCode/tree/master/3819-count-covered-buildings) |
 | [3827-implement-router](https://github.com/lasksafj/LeetCode/tree/master/3827-implement-router) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3837-grid-teleportation-traversal](https://github.com/lasksafj/LeetCode/tree/master/3837-grid-teleportation-traversal) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/lasksafj/LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
@@ -462,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3771-select-k-disjoint-special-substrings](https://github.com/lasksafj/LeetCode/tree/master/3771-select-k-disjoint-special-substrings) |
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/lasksafj/LeetCode/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/lasksafj/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3852-path-existence-queries-in-a-graph-ii](https://github.com/lasksafj/LeetCode/tree/master/3852-path-existence-queries-in-a-graph-ii) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
