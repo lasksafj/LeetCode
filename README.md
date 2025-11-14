@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0216-combination-sum-iii](https://github.com/lasksafj/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
+| [0308-range-sum-query-2d-mutable](https://github.com/lasksafj/LeetCode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -722,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/lasksafj/LeetCode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
+| [0308-range-sum-query-2d-mutable](https://github.com/lasksafj/LeetCode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
@@ -832,6 +834,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
+| [0308-range-sum-query-2d-mutable](https://github.com/lasksafj/LeetCode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
@@ -1024,6 +1027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0308-range-sum-query-2d-mutable](https://github.com/lasksafj/LeetCode/tree/master/0308-range-sum-query-2d-mutable) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
 | [3775-separate-squares-ii](https://github.com/lasksafj/LeetCode/tree/master/3775-separate-squares-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/lasksafj/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
@@ -1085,6 +1089,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0308-range-sum-query-2d-mutable](https://github.com/lasksafj/LeetCode/tree/master/0308-range-sum-query-2d-mutable) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/lasksafj/LeetCode/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Trie
