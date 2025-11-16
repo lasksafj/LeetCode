@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/lasksafj/LeetCode/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/lasksafj/LeetCode/tree/master/0135-candy) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/lasksafj/LeetCode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0216-combination-sum-iii](https://github.com/lasksafj/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0259-3sum-smaller](https://github.com/lasksafj/LeetCode/tree/master/0259-3sum-smaller) |
@@ -676,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/lasksafj/LeetCode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0498-diagonal-traverse](https://github.com/lasksafj/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0640-solve-the-equation](https://github.com/lasksafj/LeetCode/tree/master/0640-solve-the-equation) |
 | [1642-water-bottles](https://github.com/lasksafj/LeetCode/tree/master/1642-water-bottles) |
@@ -1188,4 +1190,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/lasksafj/LeetCode/tree/master/0830-largest-triangle-area) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/lasksafj/LeetCode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/lasksafj/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+## Interactive
+|  |
+| ------- |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/lasksafj/LeetCode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 <!---LeetCode Topics End-->
