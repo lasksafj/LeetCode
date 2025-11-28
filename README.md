@@ -629,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/lasksafj/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
+| [2169-count-operations-to-obtain-zero](https://github.com/lasksafj/LeetCode/tree/master/2169-count-operations-to-obtain-zero) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/lasksafj/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/lasksafj/LeetCode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/lasksafj/LeetCode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -710,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/lasksafj/LeetCode/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/lasksafj/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/lasksafj/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2169-count-operations-to-obtain-zero](https://github.com/lasksafj/LeetCode/tree/master/2169-count-operations-to-obtain-zero) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/lasksafj/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/lasksafj/LeetCode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/lasksafj/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
