@@ -671,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/lasksafj/LeetCode/tree/master/3321-type-of-triangle) |
 | [3336-water-bottles-ii](https://github.com/lasksafj/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/lasksafj/LeetCode/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/lasksafj/LeetCode/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3462-vowels-game-in-a-string](https://github.com/lasksafj/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/lasksafj/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/lasksafj/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -745,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2408-number-of-people-aware-of-a-secret](https://github.com/lasksafj/LeetCode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2479-meeting-rooms-iii](https://github.com/lasksafj/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [3336-water-bottles-ii](https://github.com/lasksafj/LeetCode/tree/master/3336-water-bottles-ii) |
+| [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/lasksafj/LeetCode/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/lasksafj/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3772-minimum-pair-removal-to-sort-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3772-minimum-pair-removal-to-sort-array-ii) |
@@ -864,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/lasksafj/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3396-valid-word](https://github.com/lasksafj/LeetCode/tree/master/3396-valid-word) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/lasksafj/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/lasksafj/LeetCode/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3462-vowels-game-in-a-string](https://github.com/lasksafj/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/lasksafj/LeetCode/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/lasksafj/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -896,6 +899,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/lasksafj/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3201-distribute-candies-among-children-ii](https://github.com/lasksafj/LeetCode/tree/master/3201-distribute-candies-among-children-ii) |
+| [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/lasksafj/LeetCode/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/lasksafj/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/lasksafj/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3783-permutations-iv](https://github.com/lasksafj/LeetCode/tree/master/3783-permutations-iv) |
@@ -980,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/lasksafj/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/lasksafj/LeetCode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/lasksafj/LeetCode/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 ## Bitmask
 |  |
