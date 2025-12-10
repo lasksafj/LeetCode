@@ -18,6 +18,7 @@ class Solution:
                 D, no_D = dfs(ne)
                 dp1 = merge(dp1, D)
                 dp0 = merge(dp0, no_D)
+            # current not buy, so children not have discount, default res = dp0
             res0 = dp0[:]
             res1 = dp0[:]
             cost = present[i]
