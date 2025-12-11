@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/lasksafj/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/lasksafj/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/lasksafj/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1874-minimize-product-sum-of-two-arrays](https://github.com/lasksafj/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1917-maximum-average-pass-ratio](https://github.com/lasksafj/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/lasksafj/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -500,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/lasksafj/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lasksafj/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/lasksafj/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
+| [1874-minimize-product-sum-of-two-arrays](https://github.com/lasksafj/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1917-maximum-average-pass-ratio](https://github.com/lasksafj/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/lasksafj/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -588,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/lasksafj/LeetCode/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/lasksafj/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/lasksafj/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1874-minimize-product-sum-of-two-arrays](https://github.com/lasksafj/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [2118-maximum-earnings-from-taxi](https://github.com/lasksafj/LeetCode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/lasksafj/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/lasksafj/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
