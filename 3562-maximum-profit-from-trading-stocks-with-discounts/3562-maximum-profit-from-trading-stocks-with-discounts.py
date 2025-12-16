@@ -15,17 +15,16 @@ class Solution:
             dp0 = [0]*(budget+1)
             dp1 = [0]*(budget+1)
             for ne in adj[i]:
-                D, no_D = dfs(ne)
-                dp1 = merge(dp1, D)
-                dp0 = merge(dp0, no_D)
-            # current not buy, so children not have discount, default res = dp0
+                ans0, ans1 = dfs(ne)
+                dp0 = merge(dp0, ans0)
+                dp1 = merge(dp1, ans1)
             res0 = dp0[:]
             res1 = dp0[:]
             cost = present[i]
-            for b in range(cost, len(dp1)):
-                res0[b] = max(dp1[b-cost] + future[i]-cost, res0[b])
+            for b in range(cost, budget+1):
+                res0[b] = max(res0[b], dp1[b-cost] + future[i]-cost)
             cost //= 2
-            for b in range(cost, len(dp1)):
-                res1[b] = max(dp1[b-cost] + future[i]-cost, res1[b])
-            return res1, res0
-        return dfs(0)[1][-1]
+            for b in range(cost, budget+1):
+                res1[b] = max(res1[b], dp1[b-cost] + future[i]-cost)
+            return res0, res1
+        return dfs(0)[0][-1]
