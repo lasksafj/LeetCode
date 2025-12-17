@@ -1111,6 +1111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0298-binary-tree-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0364-nested-list-weight-sum-ii](https://github.com/lasksafj/LeetCode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0386-lexicographical-numbers](https://github.com/lasksafj/LeetCode/tree/master/0386-lexicographical-numbers) |
@@ -1202,6 +1203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0298-binary-tree-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1214-two-sum-bsts](https://github.com/lasksafj/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
@@ -1244,6 +1246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0298-binary-tree-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1214-two-sum-bsts](https://github.com/lasksafj/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
