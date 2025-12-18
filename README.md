@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/lasksafj/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/lasksafj/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/lasksafj/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/lasksafj/LeetCode/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3707-find-the-most-common-response](https://github.com/lasksafj/LeetCode/tree/master/3707-find-the-most-common-response) |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3639-zero-array-transformation-i](https://github.com/lasksafj/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/lasksafj/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/lasksafj/LeetCode/tree/master/3647-zero-array-transformation-iii) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/lasksafj/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3722-sum-of-k-subarrays-with-length-at-least-m](https://github.com/lasksafj/LeetCode/tree/master/3722-sum-of-k-subarrays-with-length-at-least-m) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/lasksafj/LeetCode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -486,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/lasksafj/LeetCode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/lasksafj/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/lasksafj/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/lasksafj/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3717-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/lasksafj/LeetCode/tree/master/3717-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/lasksafj/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/lasksafj/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
