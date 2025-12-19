@@ -1,36 +1,37 @@
-def dfs(i, adj, res, vis):
-    if i in vis:
-        return
-    res.add(i)
-    vis.add(i)
-    for ne in adj[i]:
-        dfs(ne, adj, res, vis)
+def f(edges, q):
+    adj = defaultdict(list)
+    for a,b in edges:
+        adj[a].append(b)
+        adj[b].append(a)
+    q = deque(set(q))
+    res = set(q)
+    while q:
+        a = q.popleft()
+        for ne in adj[a]:
+            if ne not in res:
+                res.add(ne)
+                q.append(ne)
+    return res
+
 
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
-        A = sorted(meetings, key=lambda x:x[2])
+        meetings.sort(key=lambda x: x[2])
         i = 0
-        res = set()
-        res.add(0)
-        res.add(firstPerson)
-        while i < len(A):
+        N = len(meetings)
+        res = {0, firstPerson}
+        while i < N:
             j = i
-            tmp = defaultdict(list)
-            ok = False
-            starts = set()
-            while j < len(A) and A[j][2] == A[i][2]:
-                a,b,_ = A[j]
-                tmp[a].append(b)
-                tmp[b].append(a)
+            start = []
+            edges = []
+            while j < N and meetings[j][2] == meetings[i][2]:
+                a,b,_ = meetings[j]
                 if a in res:
-                    starts.add(a)
+                    start.append(a)
                 if b in res:
-                    starts.add(b)
+                    start.append(b)
+                edges.append([a,b])
                 j += 1
-            if starts:
-                vis = set()
-                for start in starts:
-                    dfs(start, tmp, res, vis)
+            res |= f(edges, start)
             i = j
-
-        return res
+        return list(res)
