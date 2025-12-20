@@ -1,12 +1,7 @@
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
         res = 0
-        n = len(strs[0])
-        for i in range(n):
-            a = 'a'
-            for s in strs:
-                if s[i] < a:
-                    res += 1
-                    break
-                a = s[i]
+        for s in zip(*strs):
+            if list(s) != sorted(s):
+                res += 1
         return res
