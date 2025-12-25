@@ -1,9 +1,8 @@
 class Solution:
     def maximumHappinessSum(self, happiness: List[int], k: int) -> int:
-        A = sorted(happiness)[::-1]
-        res = 0
         d = 0
-        for i in range(k):
-            res += max(0, A[i] - d)
+        res = 0
+        for h in sorted(happiness)[::-1][:k]:
+            res += max(0, h-d)
             d += 1
         return res
