@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/lasksafj/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1293-three-consecutive-odds](https://github.com/lasksafj/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/lasksafj/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/lasksafj/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/lasksafj/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/lasksafj/LeetCode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
@@ -855,6 +856,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0945-snakes-and-ladders](https://github.com/lasksafj/LeetCode/tree/master/0945-snakes-and-ladders) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/lasksafj/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/lasksafj/LeetCode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -1113,6 +1115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
 | [1214-two-sum-bsts](https://github.com/lasksafj/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/lasksafj/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1612-avoid-flood-in-the-city](https://github.com/lasksafj/LeetCode/tree/master/1612-avoid-flood-in-the-city) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/lasksafj/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/lasksafj/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
