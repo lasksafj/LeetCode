@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/lasksafj/LeetCode/tree/master/0460-lfu-cache) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
+| [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0829-subdomain-visit-count](https://github.com/lasksafj/LeetCode/tree/master/0829-subdomain-visit-count) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
@@ -894,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
 | [0640-solve-the-equation](https://github.com/lasksafj/LeetCode/tree/master/0640-solve-the-equation) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
+| [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0829-subdomain-visit-count](https://github.com/lasksafj/LeetCode/tree/master/0829-subdomain-visit-count) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
@@ -1027,6 +1029,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0231-power-of-two](https://github.com/lasksafj/LeetCode/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/lasksafj/LeetCode/tree/master/0342-power-of-four) |
+| [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/lasksafj/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/lasksafj/LeetCode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/lasksafj/LeetCode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
@@ -1335,6 +1338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/lasksafj/LeetCode/tree/master/0037-sudoku-solver) |
 | [0216-combination-sum-iii](https://github.com/lasksafj/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0679-24-game](https://github.com/lasksafj/LeetCode/tree/master/0679-24-game) |
+| [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/lasksafj/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/lasksafj/LeetCode/tree/master/2174-next-greater-numerically-balanced-number) |
