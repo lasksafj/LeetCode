@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/lasksafj/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/lasksafj/LeetCode/tree/master/1111-minimum-score-triangulation-of-polygon) |
+| [1176-diet-plan-performance](https://github.com/lasksafj/LeetCode/tree/master/1176-diet-plan-performance) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/lasksafj/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/lasksafj/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/lasksafj/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1020-longest-turbulent-subarray](https://github.com/lasksafj/LeetCode/tree/master/1020-longest-turbulent-subarray) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
+| [1176-diet-plan-performance](https://github.com/lasksafj/LeetCode/tree/master/1176-diet-plan-performance) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/lasksafj/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/lasksafj/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/lasksafj/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
