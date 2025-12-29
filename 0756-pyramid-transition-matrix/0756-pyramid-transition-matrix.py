@@ -4,7 +4,6 @@ class Solution:
         for a,b,c in allowed:
             mp[a,b].append(c)
         N = len(bottom)
-        @cache
         def dfs(last, cur):
             if len(last) == 1:
                 return True
