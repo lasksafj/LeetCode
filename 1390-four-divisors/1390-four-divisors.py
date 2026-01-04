@@ -6,12 +6,11 @@ for i in range(2, N):
         for j in range(i*i, N, i):
             prime[j] = 0
 prime_arr = [i for i in range(N) if prime[i]]
-prime_set = set(prime_arr)
 class Solution:
     def sumFourDivisors(self, nums: List[int]) -> int:
         res = 0
         for n in nums:
-            if n in prime_set: continue
+            if prime[n]: continue
             for p in prime_arr:
                 if p*p >= n: break
                 if n%p != 0: continue
