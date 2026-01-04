@@ -1,18 +1,21 @@
+N = 10**5+1
+prime = [1]*N
+prime[0] = prime[1] = 0
+for i in range(2, N):
+    if prime[i]:
+        for j in range(i*i, N, i):
+            prime[j] = 0
+prime_arr = [i for i in range(N) if prime[i]]
+prime_set = set(prime_arr)
 class Solution:
     def sumFourDivisors(self, nums: List[int]) -> int:
         res = 0
-        for i in nums:
-            sqrt_i = int(sqrt(i))
-            no_divisor = 0
-            cur = 0
-            for j in range(1, sqrt_i+1):
-                if i%j == 0:
-                    no_divisor += 2
-                    cur += j + i//j
-            if sqrt_i**2 == i:
-                no_divisor -= 1
-                cur -= sqrt_i
-            if no_divisor == 4:
-                res += cur
+        for n in nums:
+            if n in prime_set: continue
+            for p in prime_arr:
+                if p*p >= n: break
+                if n%p != 0: continue
+                if prime[n//p] or n//p == p*p:
+                    res += 1 + n + p + n//p
+                    break
         return res
-            
