@@ -7,20 +7,20 @@
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
         q = deque([root])
-        cur_s = -inf
         res = 1
-        level = 0
+        l = 0
+        s = -inf
         while q:
-            s = 0
-            level += 1
+            l += 1
+            cur = 0
             for _ in range(len(q)):
-                c = q.popleft()
-                if c.left:
-                    q.append(c.left)
-                if c.right:
-                    q.append(c.right)
-                s += c.val
-            if s > cur_s:
-                res = level
-                cur_s = s
+                u = q.popleft()
+                cur += u.val
+                if u.left:
+                    q.append(u.left)
+                if u.right:
+                    q.append(u.right)
+            if cur > s:
+                res = l
+                s = cur
         return res
