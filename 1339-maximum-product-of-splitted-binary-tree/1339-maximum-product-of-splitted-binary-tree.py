@@ -6,21 +6,19 @@
 #         self.right = right
 class Solution:
     def maxProduct(self, root: Optional[TreeNode]) -> int:
-        def summ(r):
-            if r:
-                return r.val + summ(r.left) + summ(r.right)
-            return 0
-            
-        s = [summ(root)]
-        res = [0]
+        def ssum(r):
+            if not r: return 0
+            return r.val + ssum(r.left) + ssum(r.right)
+        s = ssum(root)
+        res = 0
         def dfs(r):
-            if not r:
-                return 0
-            a = dfs(r.left)
-            res[0] = max(res[0], a * (s[0] - a))
-            b = dfs(r.right)
-            res[0] = max(res[0], b * (s[0] - b))
-            return a + b + r.val
-        
+            nonlocal res
+            if not r: return 0
+            ne_s = 0
+            for ne in [r.left, r.right]:
+                b = dfs(ne)
+                ne_s += b
+                res = max(res, b * (s - b))
+            return r.val + ne_s
         dfs(root)
-        return res[0] % 1000000007
+        return res % (10**9+7)
