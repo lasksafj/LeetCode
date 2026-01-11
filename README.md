@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/lasksafj/LeetCode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/lasksafj/LeetCode/tree/master/0075-sort-colors) |
+| [0085-maximal-rectangle](https://github.com/lasksafj/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/lasksafj/LeetCode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/lasksafj/LeetCode/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/lasksafj/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0364-nested-list-weight-sum-ii](https://github.com/lasksafj/LeetCode/tree/master/0364-nested-list-weight-sum-ii) |
 | [1214-two-sum-bsts](https://github.com/lasksafj/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/lasksafj/LeetCode/tree/master/0085-maximal-rectangle) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/lasksafj/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
@@ -411,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/lasksafj/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/lasksafj/LeetCode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/lasksafj/LeetCode/tree/master/0120-triangle) |
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
@@ -869,6 +873,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/lasksafj/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/lasksafj/LeetCode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0085-maximal-rectangle](https://github.com/lasksafj/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0308-range-sum-query-2d-mutable](https://github.com/lasksafj/LeetCode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
