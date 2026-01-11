@@ -1,16 +1,15 @@
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
-        M,N = len(matrix),len(matrix[0])
-        row = [0]*(N+1)
+        N = len(matrix[0])
+        A = [0]*N
         res = 0
-        for i in range(M):
+        for row in matrix:
+            A = [(a+int(r) if int(r) else 0) for a,r in zip(A,row)] + [-inf]
             st = []
-            for j in range(N):
-                row[j] = (row[j] + int(matrix[i][j])) if matrix[i][j] == '1' else 0
-            for j in range(N+1):
-                while st and row[st[-1]] > row[j]:
-                    a = row[st.pop()]
+            for i in range(N+1):
+                while st and A[st[-1]] > A[i]:
+                    j = st.pop()
                     l = st[-1] if st else -1
-                    res = max(res, (j-l-1)*a )
-                st.append(j)
+                    res = max(res, (i-l-1)*A[j])
+                st.append(i)
         return res
