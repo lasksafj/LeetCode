@@ -1,0 +1,79 @@
+class SegTree:
+    def __init__(self, tl, tr, nums):
+        self.nums = nums
+        self.tl = tl
+        self.tr = tr
+        self.cover = 0
+        self.min_val = 0
+        self.lazy = 0
+        if tl < tr-1:
+            mi = (tl+tr)//2
+            self.left = SegTree(tl, mi, nums)
+            self.right = SegTree(mi, tr, nums)
+    
+    def merge(self):
+        if self.tl < self.tr-1:
+            if self.min_val:
+                self.cover = self.nums[self.tr] - self.nums[self.tl]
+            else:
+                self.cover = self.left.cover + self.right.cover
+        elif self.tl == self.tr-1:
+            self.cover = self.nums[self.tr] - self.nums[self.tl] if self.min_val else 0
+    
+    def push(self):
+        if self.lazy == 0:
+            return
+        self.min_val += self.lazy
+        if self.tl < self.tr-1:
+            self.left.lazy += self.lazy
+            self.right.lazy += self.lazy
+        self.lazy = 0
+
+    def update(self, l, r, inc):
+        self.push()
+        if r <= self.tl or self.tr <= l:
+            return
+        if l <= self.tl and self.tr <= r:
+            self.min_val += inc
+        else:
+            # no need check self.tl < self.tr-1, b/c queries have at least 2 points
+            self.left.update(l,r,inc)
+            self.right.update(l,r,inc)
+        self.merge()
+
+    def query(self, l, r):
+        self.push()
+        if r <= self.tl or self.tr <= l:
+            return 0
+        if l <= self.tl and self.tr <= r:
+            return self.cover
+        return self.left.query(l,r) + self.right.query(l,r)
+
+class Solution:
+    def separateSquares(self, squares: List[List[int]]) -> float:
+        x_coor = set()
+        A = []
+        for x,y,d in squares:
+            A.append([y,x,x+d,1])
+            A.append([y+d,x,x+d,-1])
+            x_coor.add(x)
+            x_coor.add(x+d)
+        A.sort()
+        x_coor = sorted(list(x_coor))
+        mp = {x:i for i,x in enumerate(x_coor)}
+        T = SegTree(0, len(x_coor)-1, x_coor)
+        B = []
+        prev_y = 0
+        area = 0
+        for y,a,b,v in A:
+            area += (y-prev_y) * T.query(0, len(x_coor)-1)
+            prev_y = y
+            T.update(mp[a], mp[b], v)
+            B.append([y,area])
+        r = bisect_left(B, area/2, key=lambda e:e[1])
+        l = r-1
+        (y1,a1), (y2,a2) = B[l], B[r]
+        slope = (a2-a1)/(y2-y1)
+        shift = a1 - slope * y1
+        res = (area/2 - shift) / slope
+        return res
