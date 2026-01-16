@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/lasksafj/LeetCode/tree/master/0135-candy) |
 | [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/lasksafj/LeetCode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
+| [0209-minimum-size-subarray-sum](https://github.com/lasksafj/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0216-combination-sum-iii](https://github.com/lasksafj/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0248-strobogrammatic-number-iii](https://github.com/lasksafj/LeetCode/tree/master/0248-strobogrammatic-number-iii) |
 | [0259-3sum-smaller](https://github.com/lasksafj/LeetCode/tree/master/0259-3sum-smaller) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/lasksafj/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0370-range-addition](https://github.com/lasksafj/LeetCode/tree/master/0370-range-addition) |
 | [1590-make-sum-divisible-by-p](https://github.com/lasksafj/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
@@ -509,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/lasksafj/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0867-new-21-game](https://github.com/lasksafj/LeetCode/tree/master/0867-new-21-game) |
@@ -1149,6 +1152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/lasksafj/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0259-3sum-smaller](https://github.com/lasksafj/LeetCode/tree/master/0259-3sum-smaller) |
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
