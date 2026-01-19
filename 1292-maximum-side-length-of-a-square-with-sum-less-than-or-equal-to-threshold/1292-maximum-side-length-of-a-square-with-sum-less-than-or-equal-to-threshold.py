@@ -7,17 +7,13 @@ class Solution:
             for j in range(1, N+1):
                 s += mat[i-1][j-1]
                 A[i][j] = A[i-1][j] + s
-        def check(mi):
-            for i in range(M+1-mi):
-                for j in range(N+1-mi):
-                    if A[i+mi][j+mi] - A[i+mi][j] - A[i][mi+j] + A[i][j] <= threshold:
-                        return True
-            return False
-        l,r = 1,min(M,N)
-        while l <= r:
-            mi = (l+r)//2
-            if check(mi):
-                l = mi+1
-            else:
-                r = mi-1
-        return r
+        res = 0
+        k = min(M,N)
+        for i in range(M+1):
+            for j in range(N+1):
+                while res <= k and i+res <= M and j+res <= N:
+                    if A[i+res][j+res] - A[i+res][j] - A[i][res+j] + A[i][j] <= threshold:
+                        res += 1
+                    else:
+                        break
+        return res-1
