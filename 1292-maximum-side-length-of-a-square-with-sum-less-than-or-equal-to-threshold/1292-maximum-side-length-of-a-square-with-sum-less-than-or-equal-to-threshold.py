@@ -5,8 +5,6 @@ class Solution:
         for i in range(1, M+1):
             for j in range(1, N+1):
                 A[i][j] = A[i-1][j] + A[i][j-1] - A[i-1][j-1] + mat[i-1][j-1]
-        for row in A:
-            print(row)
         def check(mi):
             for i in range(M+1-mi):
                 for j in range(N+1-mi):
