@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/lasksafj/LeetCode/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/lasksafj/LeetCode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1176-diet-plan-performance](https://github.com/lasksafj/LeetCode/tree/master/1176-diet-plan-performance) |
+| [1200-minimum-absolute-difference](https://github.com/lasksafj/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/lasksafj/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/lasksafj/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -661,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-advantage-shuffle](https://github.com/lasksafj/LeetCode/tree/master/0901-advantage-shuffle) |
 | [1018-largest-perimeter-triangle](https://github.com/lasksafj/LeetCode/tree/master/1018-largest-perimeter-triangle) |
 | [1152-maximum-number-of-ones](https://github.com/lasksafj/LeetCode/tree/master/1152-maximum-number-of-ones) |
+| [1200-minimum-absolute-difference](https://github.com/lasksafj/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1244-design-a-leaderboard](https://github.com/lasksafj/LeetCode/tree/master/1244-design-a-leaderboard) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/lasksafj/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/lasksafj/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
