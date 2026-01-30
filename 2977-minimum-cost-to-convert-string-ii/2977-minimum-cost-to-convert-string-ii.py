@@ -1,32 +1,52 @@
 class Solution:
     def minimumCost(self, source: str, target: str, original: List[str], changed: List[str], cost: List[int]) -> int:
-        adj = defaultdict(list)
-        for a,b,c in zip(original,changed,cost):
-            adj[a].append([b,c])
-        mp = defaultdict(lambda:defaultdict(lambda:inf))
-        for start in set(original):
-            mp[start][start] = 0
-            q = [[0,start]]
-            while q:
-                d,cur = heappop(q)
-                if mp[start][cur] < d:
-                    continue
-                for ne,w in adj[cur]:
-                    if mp[start][ne] > w+d:
-                        mp[start][ne] = w+d
-                        heappush(q, [w+d,ne])
-        
-        
-        
-        dp = [inf]*(len(source)+1)
-        dp[0] = 0
-        for i in range(1,len(source)+1):
-            if source[i-1] == target[i-1]:
-                dp[i] = dp[i-1]
-                
-            for u in list(mp.keys()):
-                l = len(u)
-                if i-l >= 0 and source[i-l:i] in mp and target[i-l:i] in mp[source[i-l:i]]:
-                    dp[i] = min(dp[i], dp[i-l] + mp[source[i-l:i]][target[i-l:i]])
+        unique_strs = set(original) | set(changed)
+        id = {s: i for i, s in enumerate(unique_strs)}
+        size = len(unique_strs)
+        mp = [[inf] * size for _ in range(size)]
+        for i in range(size):
+            mp[i][i] = 0
+        for a,b,c in zip(original, changed, cost):
+            u, v = id[a], id[b]
+            mp[u][v] = min(mp[u][v], c)
+        for k in range(size):
+            for u in range(size):
+                if mp[u][k] == inf: continue
+                for v in range(size):
+                    if mp[k][v] == inf: continue
+                    mp[u][v] = min(mp[u][v], mp[u][k] + mp[k][v])
                     
-        return dp[-1] if dp[-1] < inf else -1
+        Tsource = {}
+        Ttarget = {}
+        for A,B in zip(original, changed):
+            t = Tsource
+            for a in A:
+                if a not in t:
+                    t[a] = {}
+                t = t[a]
+            t['#'] = id[A]
+            t = Ttarget
+            for b in B:
+                if b not in t:
+                    t[b] = {}
+                t = t[b]
+            t['#'] = id[B]
+        dp = [inf] * (len(target) + 1)
+        dp[-1] = 0
+        for i in range(len(target)-1, -1, -1):
+            if source[i] == target[i]:
+                dp[i] = dp[i+1]
+            t1 = Tsource
+            t2 = Ttarget
+            for j in range(i, len(target)):
+                c1 = source[j]
+                c2 = target[j]
+                if c1 not in t1 or c2 not in t2:
+                    break
+                t1 = t1[c1]
+                t2 = t2[c2]
+                if '#' in t1 and '#' in t2:
+                    id1 = t1['#']
+                    id2 = t2['#']
+                    dp[i] = min(dp[i], dp[j+1] + mp[id1][id2])
+        return dp[0] if dp[0] < inf else -1
