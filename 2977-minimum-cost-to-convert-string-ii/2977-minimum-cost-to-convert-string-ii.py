@@ -16,28 +16,21 @@ class Solution:
                     if mp[k][v] == inf: continue
                     mp[u][v] = min(mp[u][v], mp[u][k] + mp[k][v])
                     
-        Tsource = {}
-        Ttarget = {}
-        for A,B in zip(original, changed):
-            t = Tsource
-            for a in A:
-                if a not in t:
-                    t[a] = {}
-                t = t[a]
-            t['#'] = id[A]
-            t = Ttarget
-            for b in B:
-                if b not in t:
-                    t[b] = {}
-                t = t[b]
-            t['#'] = id[B]
+        T = {}
+        for s, i in id.items():
+            t = T
+            for c in s:
+                if c not in t:
+                    t[c] = {}
+                t = t[c]
+            t['#'] = i
         dp = [inf] * (len(target) + 1)
         dp[-1] = 0
         for i in range(len(target)-1, -1, -1):
             if source[i] == target[i]:
                 dp[i] = dp[i+1]
-            t1 = Tsource
-            t2 = Ttarget
+            t1 = T
+            t2 = T
             for j in range(i, len(target)):
                 c1 = source[j]
                 c2 = target[j]
