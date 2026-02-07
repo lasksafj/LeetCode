@@ -1,13 +1,13 @@
 class Solution:
     def minimumDeletions(self, s: str) -> int:
-        N = len(s)
-        dp = 0
-        b_cnt = 0
-        for i,ch in enumerate(s):
-            if ch == 'b':
-                # dp[i + 1] = dp[i]
-                b_cnt += 1
+        a = s.count('a')
+        if a == len(s): return 0
+        b = 0
+        res = inf
+        for c in s:
+            if c == 'a':
+                a -= 1
             else:
-                # dp[i + 1] = min(dp[i] + 1, b_count)
-                dp = min(dp + 1, b_cnt)
-        return dp
+                res = min(res, a+b)
+                b += 1
+        return min(res, a+b)
