@@ -7,8 +7,8 @@ class SegTree:
     def merge(self, i):
         self.mi[i] = min(self.mi[i*2], self.mi[i*2+1])
         self.ma[i] = max(self.ma[i*2], self.ma[i*2+1])
-    def push(self, i, tl, tr):
-        if self.lazy[i] != 0 and tl < tr:
+    def push(self, i):
+        if self.lazy[i] != 0:
             val = self.lazy[i]
             self.mi[i*2] += val
             self.ma[i*2] += val   
@@ -19,7 +19,6 @@ class SegTree:
             self.lazy[i] = 0
     def update(self, l, r, inc):
         def _update(i, tl, tr):
-            self.push(i, tl, tr)
             if l <= tl and tr <= r:
                 self.mi[i] += inc
                 self.ma[i] += inc
@@ -27,20 +26,26 @@ class SegTree:
                 return
             elif r < tl or tr < l:
                 return
+            self.push(i)
             mi = (tl+tr)//2
             _update(i*2, tl, mi)
             _update(i*2+1, mi+1, tr)
             self.merge(i)
         _update(1, 0, self.N-1)
-    def find(self):
+    def find(self, l, r):
         def _find(i, tl, tr):
-            self.push(i, tl, tr)
+            if r < tl or tr < l:
+                return -1
+            if not self.mi[i] <= 0 <= self.ma[i]:
+                return -1
             if tl == tr:
-                return tl if self.mi[i] <= 0 <= self.ma[i] else -1
+                return tl
+            self.push(i)
             mi = (tl+tr)//2
-            if self.mi[i*2+1] <= 0 <= self.ma[i*2+1]:
-                return _find(i*2+1, mi+1, tr)
-            return _find(i*2, tl, mi)
+            res = _find(i*2+1, mi+1, tr)
+            if res == -1:
+                return _find(i*2, tl, mi)
+            return res
         return _find(1, 0, self.N-1)
 
 class Solution:
@@ -57,6 +62,6 @@ class Solution:
             else:
                 T.update(i, len(nums)-1, inc)
                 first[n] = i
-            j = T.find()
+            j = T.find(i, len(nums)-1)
             res = max(res, j-i+1)
         return res
