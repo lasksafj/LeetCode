@@ -26,13 +26,13 @@ class Solution:
             return res
         res = max([res] + [sol2(a,b) for a,b in combinations('abc',2)])
         
-        mp = {(0,0,0): -1}
+        mp = {(0,0): -1}
         a=b=c=0
         for i in range(N):
             a += s[i] == 'a'
             b += s[i] == 'b'
             c += s[i] == 'c'
-            cur = (a-b,b-c,c-a)
+            cur = (a-b,b-c)
             if cur in mp:
                 res = max(res, i - mp[cur])
             else:
