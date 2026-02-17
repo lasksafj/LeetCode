@@ -1156,6 +1156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0190-reverse-bits](https://github.com/lasksafj/LeetCode/tree/master/0190-reverse-bits) |
 | [0231-power-of-two](https://github.com/lasksafj/LeetCode/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/lasksafj/LeetCode/tree/master/0342-power-of-four) |
+| [0401-binary-watch](https://github.com/lasksafj/LeetCode/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/lasksafj/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/lasksafj/LeetCode/tree/master/1018-binary-prefix-divisible-by-5) |
@@ -1509,6 +1510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/lasksafj/LeetCode/tree/master/0037-sudoku-solver) |
 | [0216-combination-sum-iii](https://github.com/lasksafj/LeetCode/tree/master/0216-combination-sum-iii) |
+| [0401-binary-watch](https://github.com/lasksafj/LeetCode/tree/master/0401-binary-watch) |
 | [0679-24-game](https://github.com/lasksafj/LeetCode/tree/master/0679-24-game) |
 | [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
