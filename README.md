@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-find-smallest-letter-greater-than-target](https://github.com/lasksafj/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0759-set-intersection-size-at-least-two](https://github.com/lasksafj/LeetCode/tree/master/0759-set-intersection-size-at-least-two) |
+| [0759-employee-free-time](https://github.com/lasksafj/LeetCode/tree/master/0759-employee-free-time) |
 | [0788-minimize-max-distance-to-gas-station](https://github.com/lasksafj/LeetCode/tree/master/0788-minimize-max-distance-to-gas-station) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -692,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0759-set-intersection-size-at-least-two](https://github.com/lasksafj/LeetCode/tree/master/0759-set-intersection-size-at-least-two) |
+| [0759-employee-free-time](https://github.com/lasksafj/LeetCode/tree/master/0759-employee-free-time) |
 | [0761-special-binary-string](https://github.com/lasksafj/LeetCode/tree/master/0761-special-binary-string) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
@@ -920,6 +922,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0759-employee-free-time](https://github.com/lasksafj/LeetCode/tree/master/0759-employee-free-time) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/lasksafj/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1152-maximum-number-of-ones](https://github.com/lasksafj/LeetCode/tree/master/1152-maximum-number-of-ones) |
@@ -1569,4 +1572,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2976-minimum-cost-to-convert-string-i](https://github.com/lasksafj/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/lasksafj/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/lasksafj/LeetCode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Sweep Line
+|  |
+| ------- |
+| [0759-employee-free-time](https://github.com/lasksafj/LeetCode/tree/master/0759-employee-free-time) |
 <!---LeetCode Topics End-->
