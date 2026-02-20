@@ -692,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0759-set-intersection-size-at-least-two](https://github.com/lasksafj/LeetCode/tree/master/0759-set-intersection-size-at-least-two) |
+| [0761-special-binary-string](https://github.com/lasksafj/LeetCode/tree/master/0761-special-binary-string) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
 | [0900-reordered-power-of-2](https://github.com/lasksafj/LeetCode/tree/master/0900-reordered-power-of-2) |
@@ -1015,6 +1016,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/lasksafj/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
+| [0761-special-binary-string](https://github.com/lasksafj/LeetCode/tree/master/0761-special-binary-string) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0829-subdomain-visit-count](https://github.com/lasksafj/LeetCode/tree/master/0829-subdomain-visit-count) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
@@ -1506,6 +1508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/lasksafj/LeetCode/tree/master/0190-reverse-bits) |
+| [0761-special-binary-string](https://github.com/lasksafj/LeetCode/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/lasksafj/LeetCode/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/lasksafj/LeetCode/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/lasksafj/LeetCode/tree/master/3721-longest-balanced-subarray-ii) |
