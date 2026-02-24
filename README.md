@@ -1310,6 +1310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/lasksafj/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/lasksafj/LeetCode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1214-two-sum-bsts](https://github.com/lasksafj/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
@@ -1414,6 +1415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/lasksafj/LeetCode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/lasksafj/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/lasksafj/LeetCode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1214-two-sum-bsts](https://github.com/lasksafj/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
@@ -1464,6 +1466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/lasksafj/LeetCode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/lasksafj/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/lasksafj/LeetCode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1214-two-sum-bsts](https://github.com/lasksafj/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
