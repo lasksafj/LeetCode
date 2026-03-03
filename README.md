@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/lasksafj/LeetCode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/lasksafj/LeetCode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/lasksafj/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/lasksafj/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0216-combination-sum-iii](https://github.com/lasksafj/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0248-strobogrammatic-number-iii](https://github.com/lasksafj/LeetCode/tree/master/0248-strobogrammatic-number-iii) |
@@ -975,6 +976,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/lasksafj/LeetCode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/lasksafj/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/lasksafj/LeetCode/tree/master/0200-number-of-islands) |
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0308-range-sum-query-2d-mutable](https://github.com/lasksafj/LeetCode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
@@ -1326,6 +1328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/0110-balanced-binary-tree) |
+| [0200-number-of-islands](https://github.com/lasksafj/LeetCode/tree/master/0200-number-of-islands) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0364-nested-list-weight-sum-ii](https://github.com/lasksafj/LeetCode/tree/master/0364-nested-list-weight-sum-ii) |
@@ -1364,6 +1367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/lasksafj/LeetCode/tree/master/0200-number-of-islands) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/lasksafj/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0322-coin-change](https://github.com/lasksafj/LeetCode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -1616,5 +1620,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/lasksafj/LeetCode/tree/master/0200-number-of-islands) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/lasksafj/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 <!---LeetCode Topics End-->
