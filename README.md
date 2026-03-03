@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/lasksafj/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1895-largest-magic-square](https://github.com/lasksafj/LeetCode/tree/master/1895-largest-magic-square) |
 | [1917-maximum-average-pass-ratio](https://github.com/lasksafj/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/lasksafj/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/lasksafj/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/lasksafj/LeetCode/tree/master/1975-maximum-matrix-sum) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/lasksafj/LeetCode/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/lasksafj/LeetCode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lasksafj/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/lasksafj/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [2211-count-collisions-on-a-road](https://github.com/lasksafj/LeetCode/tree/master/2211-count-collisions-on-a-road) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/lasksafj/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/lasksafj/LeetCode/tree/master/0085-maximal-rectangle) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/lasksafj/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/lasksafj/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
