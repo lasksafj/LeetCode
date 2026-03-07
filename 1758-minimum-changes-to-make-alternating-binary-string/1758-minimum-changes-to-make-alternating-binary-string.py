@@ -1,6 +1,9 @@
 class Solution:
     def minOperations(self, s: str) -> int:
-        e0,e1 = 0,0
-        for d in s:
-            e0, e1 = e1+(d!='0'), e0+(d!='1')
-        return min(e0,e1)
+        n = len(s)
+        op = [0,0]
+        for i in range(n):
+            c = ord(s[i])
+            op[0] += (c^i) & 1
+            op[1] += (c^(~i)) & 1
+        return min(op)
