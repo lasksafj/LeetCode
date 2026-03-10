@@ -1,41 +1,32 @@
+MOD = 10**9 + 7
+n = 10**5
+fact = [1] * (n + 1)
+inv_fact = [1] * (n + 1)
+for i in range(2, n + 1):
+    fact[i] = fact[i - 1] * i % MOD
+inv_fact[n] = pow(fact[n], MOD - 2, MOD)  # Fermat's inverse
+for i in range(n - 1, 0, -1):
+    inv_fact[i] = inv_fact[i + 1] * (i + 1) % MOD
+
+def combination(n, k):
+    if k > n or k < 0:
+        return 0
+    return fact[n] * inv_fact[k] % MOD * inv_fact[n - k] % MOD
+
 class Solution:
     def numberOfStableArrays(self, zero: int, one: int, limit: int) -> int:
-        MOD = 10**9+7
-        # Solve 1:
-        # @cache
-        # def dfs(zero, one, next_num):
-        #     if zero == 0:
-        #         return 1 if one <= limit and next_num == 1 else 0
-        #     if one == 0:
-        #         return 1 if zero <= limit and next_num == 0 else 0
-        #     if next_num == 1:
-        #         return (dfs(zero, one-1, 0) + dfs(zero, one-1, 1) \
-        #             - (dfs(zero, one-limit-1, 0) if one>limit else 0)) % MOD
-        #     else:
-        #         return (dfs(zero-1, one, 0) + dfs(zero-1, one, 1) \
-        #             - (dfs(zero-limit-1, one, 1) if zero>limit else 0)) % MOD
-        # return (dfs(zero, one, 0) + dfs(zero, one, 1)) % MOD
-        
-        # Solve 2:
-        # dp[i][j][k]: number of stable arr that have i 0's, j 1's, ending with k(0,1)
-        # can add 0 to the end of any stable arr ending with 1, 
-        #    for arr ending with 0, only add arr with ending not exceed limit of 0's
-        # same for arr ending with 0
-        dp = [[[0, 0] for j in range(one+1)] for i in range(zero+1)]
-        for i in range(min(zero, limit) + 1):
-            dp[i][0][0] = 1
-        for j in range(min(one, limit) + 1):
-            dp[0][j][1] = 1
-        for i in range(1, zero+1):
-            for j in range(1, one+1):
-                dp[i][j][0] = dp[i-1][j][0] + dp[i-1][j][1]
-                if i > limit:
-                    dp[i][j][0] -= dp[i-limit-1][j][1]
-                    # donot - dp[i-limit-1][j][0] b/c dp[i-1][j][0] cannot include dp[i-limit-1][j][0]
-                    # arr with [i-limit-1][j][0] -> arr with [i-1][j][0] -> unstable
-                dp[i][j][0] %= MOD
-                dp[i][j][1] = dp[i][j-1][0] + dp[i][j-1][1]
-                if j > limit:
-                    dp[i][j][1] -= dp[i][j-limit-1][0]
-                dp[i][j][1] %= MOD
-        return (dp[zero][one][0] + dp[zero][one][1]) % MOD
+        # number of way to distribute n items to k buckets: nCk
+        @cache
+        def S(n,k):
+            res = 0
+            d = 1
+            for j in range(k+1):
+                res += d * combination(k,j) * combination(n-j*limit-1, k-1)
+                d *= -1
+            return res % (10**9+7)
+        a,b = zero,one
+        if a > b: a,b = b,a
+        res = 0
+        for k in range(a+1):
+            res += S(a, k) * (S(b, k-1) + 2*S(b, k) + S(b, k+1))
+        return res % (10**9+7)
