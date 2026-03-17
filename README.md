@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/lasksafj/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/lasksafj/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/lasksafj/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1768-design-an-expression-tree-with-evaluate-function](https://github.com/lasksafj/LeetCode/tree/master/1768-design-an-expression-tree-with-evaluate-function) |
 | [1799-minimum-incompatibility](https://github.com/lasksafj/LeetCode/tree/master/1799-minimum-incompatibility) |
 | [1813-maximum-erasure-value](https://github.com/lasksafj/LeetCode/tree/master/1813-maximum-erasure-value) |
@@ -632,6 +633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/lasksafj/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/lasksafj/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/lasksafj/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/lasksafj/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lasksafj/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/lasksafj/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/lasksafj/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
@@ -738,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/lasksafj/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/lasksafj/LeetCode/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/lasksafj/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/lasksafj/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/lasksafj/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/lasksafj/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/lasksafj/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -1021,6 +1024,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/lasksafj/LeetCode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/lasksafj/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/lasksafj/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/lasksafj/LeetCode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1895-largest-magic-square](https://github.com/lasksafj/LeetCode/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/lasksafj/LeetCode/tree/master/1970-last-day-where-you-can-still-cross) |
