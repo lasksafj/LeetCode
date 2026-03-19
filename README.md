@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/lasksafj/LeetCode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1176-diet-plan-performance](https://github.com/lasksafj/LeetCode/tree/master/1176-diet-plan-performance) |
 | [1200-minimum-absolute-difference](https://github.com/lasksafj/LeetCode/tree/master/1200-minimum-absolute-difference) |
+| [1224-maximum-equal-frequency](https://github.com/lasksafj/LeetCode/tree/master/1224-maximum-equal-frequency) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/lasksafj/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-online-majority-element-in-subarray](https://github.com/lasksafj/LeetCode/tree/master/1262-online-majority-element-in-subarray) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/lasksafj/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/lasksafj/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1006-vowel-spellchecker](https://github.com/lasksafj/LeetCode/tree/master/1006-vowel-spellchecker) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/lasksafj/LeetCode/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1224-maximum-equal-frequency](https://github.com/lasksafj/LeetCode/tree/master/1224-maximum-equal-frequency) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/lasksafj/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1244-design-a-leaderboard](https://github.com/lasksafj/LeetCode/tree/master/1244-design-a-leaderboard) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/lasksafj/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
