@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/lasksafj/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3531-count-covered-buildings](https://github.com/lasksafj/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3546-equal-sum-grid-partition-i](https://github.com/lasksafj/LeetCode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/lasksafj/LeetCode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3565-sequential-grid-path-cover](https://github.com/lasksafj/LeetCode/tree/master/3565-sequential-grid-path-cover) |
 | [3566-partition-array-into-two-equal-product-subsets](https://github.com/lasksafj/LeetCode/tree/master/3566-partition-array-into-two-equal-product-subsets) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/lasksafj/LeetCode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/lasksafj/LeetCode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/lasksafj/LeetCode/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3546-equal-sum-grid-partition-i](https://github.com/lasksafj/LeetCode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/lasksafj/LeetCode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3618-find-the-original-typed-string-ii](https://github.com/lasksafj/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
@@ -1054,6 +1056,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/lasksafj/LeetCode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/lasksafj/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/lasksafj/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
+| [3546-equal-sum-grid-partition-i](https://github.com/lasksafj/LeetCode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3565-sequential-grid-path-cover](https://github.com/lasksafj/LeetCode/tree/master/3565-sequential-grid-path-cover) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/lasksafj/LeetCode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -1322,6 +1325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/lasksafj/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/lasksafj/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/lasksafj/LeetCode/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
+| [3546-equal-sum-grid-partition-i](https://github.com/lasksafj/LeetCode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3566-partition-array-into-two-equal-product-subsets](https://github.com/lasksafj/LeetCode/tree/master/3566-partition-array-into-two-equal-product-subsets) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/lasksafj/LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3713-longest-balanced-substring-i](https://github.com/lasksafj/LeetCode/tree/master/3713-longest-balanced-substring-i) |
