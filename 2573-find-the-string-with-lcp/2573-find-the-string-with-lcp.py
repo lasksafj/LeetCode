@@ -1,28 +1,25 @@
 class Solution:
     def findTheString(self, lcp: List[List[int]]) -> str:
-        n = len(lcp)
-        s = [0] * n
+        N = len(lcp)
+        s = [0]*N
         c = 0
-        for i in range(n):
-            if s[i]:
-                continue
+        for i in range(N):
+            if s[i]: continue
             c += 1
+            if c > 26: return ''
             s[i] = c
-            if c > 26:
-                return ''
-            for j in range(i+1, n):
+            for j in range(i+1,N):
                 if lcp[i][j] > 0:
-                    if s[j]:
-                        return ''
-                    s[j] = s[i]
-        # print(s)
-        for i in range(n-1,-1,-1):
-            for j in range(n-1,-1,-1):
+                    if s[j]: return ''
+                    s[j] = c
+        dp = [[0]*N for _ in range(N)]
+        for i in range(N-1,-1,-1):
+            for j in range(N-1,-1,-1):
                 if s[i] == s[j]:
-                    a = lcp[i+1][j+1] if i+1 < n and j+1 < n else 0
-                    if lcp[i][j] != a + 1:
-                        return ''
-                elif lcp[i][j] > 0:
-                    return ''
-        
-        return ''.join([chr(c+96) for c in s])
+                    if i+1 < N and j+1 < N:
+                        dp[i][j] = dp[i+1][j+1] + 1
+                    else:
+                        dp[i][j] = 1
+        if dp != lcp: return ''
+        a = ord('a')
+        return ''.join(chr(c+a-1) for c in s)
