@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
 | [0517-super-washing-machines](https://github.com/lasksafj/LeetCode/tree/master/0517-super-washing-machines) |
 | [0518-coin-change-ii](https://github.com/lasksafj/LeetCode/tree/master/0518-coin-change-ii) |
+| [0582-kill-process](https://github.com/lasksafj/LeetCode/tree/master/0582-kill-process) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0656-coin-path](https://github.com/lasksafj/LeetCode/tree/master/0656-coin-path) |
@@ -403,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0246-strobogrammatic-number](https://github.com/lasksafj/LeetCode/tree/master/0246-strobogrammatic-number) |
 | [0460-lfu-cache](https://github.com/lasksafj/LeetCode/tree/master/0460-lfu-cache) |
+| [0582-kill-process](https://github.com/lasksafj/LeetCode/tree/master/0582-kill-process) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0746-prefix-and-suffix-search](https://github.com/lasksafj/LeetCode/tree/master/0746-prefix-and-suffix-search) |
 | [0756-pyramid-transition-matrix](https://github.com/lasksafj/LeetCode/tree/master/0756-pyramid-transition-matrix) |
@@ -1442,6 +1444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/lasksafj/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/lasksafj/LeetCode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
+| [0582-kill-process](https://github.com/lasksafj/LeetCode/tree/master/0582-kill-process) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/lasksafj/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
@@ -1481,6 +1484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/lasksafj/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
+| [0582-kill-process](https://github.com/lasksafj/LeetCode/tree/master/0582-kill-process) |
 | [0794-swim-in-rising-water](https://github.com/lasksafj/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/lasksafj/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
@@ -1554,6 +1558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/0110-balanced-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/lasksafj/LeetCode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
+| [0582-kill-process](https://github.com/lasksafj/LeetCode/tree/master/0582-kill-process) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/lasksafj/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/lasksafj/LeetCode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/lasksafj/LeetCode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
