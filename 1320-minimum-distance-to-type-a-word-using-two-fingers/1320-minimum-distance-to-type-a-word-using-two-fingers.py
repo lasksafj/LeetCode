@@ -1,13 +1,5 @@
 class Solution:
     def minimumDistance(self, word: str) -> int:
-        i,j = 0,0
-        mp = {}
-        for c in string.ascii_uppercase:
-            mp[c] = (i,j)
-            j += 1
-            if j == 6:
-                j = 0
-                i += 1
         def get_dist(i,j):
             a,b = i//6,i%6
             c,d = j//6,j%6
