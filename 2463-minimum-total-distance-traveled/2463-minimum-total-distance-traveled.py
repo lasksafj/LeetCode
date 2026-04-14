@@ -2,23 +2,16 @@ class Solution:
     def minimumTotalDistance(self, robot: List[int], factory: List[List[int]]) -> int:
         robot.sort()
         factory.sort()
-        m,n = len(robot),len(factory)
-        dp = [[inf]*n for _ in range(m)]
-        for j in range(n):
-            limit = factory[j][1]
-            for i in range(m):
-                dp[i][j] = dp[i][j-1] if j > 0 else inf
-                s = 0
-                for k in range(i, max(-1, i-limit), -1):
-                    s += abs(robot[k] - factory[j][0])
-                    if j <= 0:
-                        a = inf
-                    if k <= 0:
-                        a = 0
-                    if k > 0 and j > 0:
-                        a = dp[k-1][j-1]
-                    dp[i][j] = min(dp[i][j], a + s)
-                    # dp[i][j] = min(dp[i][j], (dp[k-1][j-1] if k>0 and j>0 else 0) + s)
-                    # print(j, i, k, s, dp[j-1][j])
-        # print(dp)
-        return dp[m-1][n-1]
+        M,N = len(robot)+1, len(factory)+1
+        dp = [[[inf]*M for _ in range(N)] for _ in range(M)]
+        for j in range(N):
+            for k in range(M):
+                dp[0][j][k] = 0
+        for i in range(1, M):
+            r_p = robot[i-1]
+            for j in range(1, N):
+                f_p,l = factory[j-1]
+                dp[i][j][0] = min(dp[i][j-1])
+                for k in range(1, l+1):
+                    dp[i][j][k] = min(dp[i][j][k], dp[i-1][j][k-1] + abs(r_p-f_p) )
+        return min(dp[-1][-1])
