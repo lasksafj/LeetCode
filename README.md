@@ -937,6 +937,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/lasksafj/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/lasksafj/LeetCode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3783-permutations-iv](https://github.com/lasksafj/LeetCode/tree/master/3783-permutations-iv) |
+| [3783-mirror-distance-of-an-integer](https://github.com/lasksafj/LeetCode/tree/master/3783-mirror-distance-of-an-integer) |
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/lasksafj/LeetCode/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3830-find-closest-person](https://github.com/lasksafj/LeetCode/tree/master/3830-find-closest-person) |
