@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
 | [0370-range-addition](https://github.com/lasksafj/LeetCode/tree/master/0370-range-addition) |
+| [0396-rotate-function](https://github.com/lasksafj/LeetCode/tree/master/0396-rotate-function) |
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/lasksafj/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0474-ones-and-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0474-ones-and-zeroes) |
@@ -535,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/lasksafj/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/lasksafj/LeetCode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0396-rotate-function](https://github.com/lasksafj/LeetCode/tree/master/0396-rotate-function) |
 | [0474-ones-and-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0474-ones-and-zeroes) |
 | [0518-coin-change-ii](https://github.com/lasksafj/LeetCode/tree/master/0518-coin-change-ii) |
 | [0651-4-keys-keyboard](https://github.com/lasksafj/LeetCode/tree/master/0651-4-keys-keyboard) |
@@ -869,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
 | [0326-power-of-three](https://github.com/lasksafj/LeetCode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/lasksafj/LeetCode/tree/master/0342-power-of-four) |
+| [0396-rotate-function](https://github.com/lasksafj/LeetCode/tree/master/0396-rotate-function) |
 | [0504-base-7](https://github.com/lasksafj/LeetCode/tree/master/0504-base-7) |
 | [0640-solve-the-equation](https://github.com/lasksafj/LeetCode/tree/master/0640-solve-the-equation) |
 | [0651-4-keys-keyboard](https://github.com/lasksafj/LeetCode/tree/master/0651-4-keys-keyboard) |
