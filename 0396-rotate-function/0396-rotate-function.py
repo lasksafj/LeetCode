@@ -1,16 +1,15 @@
-fmax = lambda x,y: x if x>y else y
-
 class Solution:
     def maxRotateFunction(self, nums: List[int]) -> int:
-        N = len(nums)
         s = sum(nums)
-        cur = 0
-        for i in range(N):
-            cur += nums[i]*i
-        res = cur
-        j = 0
-        for i in range(N, 2*N):
-            cur += nums[i%N]*i - nums[j]*j - s
-            res = fmax(res, cur)
-            j += 1
+        a = 0
+        for i,n in enumerate(nums):
+            a += i*n
+        res = a
+        l = 0
+        r = s
+        for n in nums:
+            r -= n
+            a = a-r-l+n*(len(nums)-1)
+            l += n
+            res = max(res, a)
         return res
