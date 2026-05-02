@@ -542,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0651-4-keys-keyboard](https://github.com/lasksafj/LeetCode/tree/master/0651-4-keys-keyboard) |
 | [0656-coin-path](https://github.com/lasksafj/LeetCode/tree/master/0656-coin-path) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/lasksafj/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0788-rotated-digits](https://github.com/lasksafj/LeetCode/tree/master/0788-rotated-digits) |
 | [0799-champagne-tower](https://github.com/lasksafj/LeetCode/tree/master/0799-champagne-tower) |
 | [0806-domino-and-tromino-tiling](https://github.com/lasksafj/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
@@ -878,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/lasksafj/LeetCode/tree/master/0679-24-game) |
 | [0738-monotone-increasing-digits](https://github.com/lasksafj/LeetCode/tree/master/0738-monotone-increasing-digits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/lasksafj/LeetCode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
+| [0788-rotated-digits](https://github.com/lasksafj/LeetCode/tree/master/0788-rotated-digits) |
 | [0826-soup-servings](https://github.com/lasksafj/LeetCode/tree/master/0826-soup-servings) |
 | [0830-largest-triangle-area](https://github.com/lasksafj/LeetCode/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/lasksafj/LeetCode/tree/master/0840-magic-squares-in-grid) |
