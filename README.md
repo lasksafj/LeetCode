@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/lasksafj/LeetCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2751-robot-collisions](https://github.com/lasksafj/LeetCode/tree/master/2751-robot-collisions) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/lasksafj/LeetCode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/lasksafj/LeetCode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2808-painting-the-walls](https://github.com/lasksafj/LeetCode/tree/master/2808-painting-the-walls) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
 | [2906-construct-product-matrix](https://github.com/lasksafj/LeetCode/tree/master/2906-construct-product-matrix) |
@@ -589,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/lasksafj/LeetCode/tree/master/2463-minimum-total-distance-traveled) |
 | [2573-find-the-string-with-lcp](https://github.com/lasksafj/LeetCode/tree/master/2573-find-the-string-with-lcp) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/lasksafj/LeetCode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/lasksafj/LeetCode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2808-painting-the-walls](https://github.com/lasksafj/LeetCode/tree/master/2808-painting-the-walls) |
 | [2850-construct-the-longest-new-string](https://github.com/lasksafj/LeetCode/tree/master/2850-construct-the-longest-new-string) |
 | [2854-decremental-string-concatenation](https://github.com/lasksafj/LeetCode/tree/master/2854-decremental-string-concatenation) |
