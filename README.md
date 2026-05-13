@@ -428,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/lasksafj/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0246-strobogrammatic-number](https://github.com/lasksafj/LeetCode/tree/master/0246-strobogrammatic-number) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/lasksafj/LeetCode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0460-lfu-cache](https://github.com/lasksafj/LeetCode/tree/master/0460-lfu-cache) |
 | [0582-kill-process](https://github.com/lasksafj/LeetCode/tree/master/0582-kill-process) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
@@ -684,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/lasksafj/LeetCode/tree/master/0011-container-with-most-water) |
 | [0135-candy](https://github.com/lasksafj/LeetCode/tree/master/0135-candy) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/lasksafj/LeetCode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0517-super-washing-machines](https://github.com/lasksafj/LeetCode/tree/master/0517-super-washing-machines) |
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0738-monotone-increasing-digits](https://github.com/lasksafj/LeetCode/tree/master/0738-monotone-increasing-digits) |
@@ -793,6 +795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/lasksafj/LeetCode/tree/master/0075-sort-colors) |
 | [0259-3sum-smaller](https://github.com/lasksafj/LeetCode/tree/master/0259-3sum-smaller) |
 | [0296-best-meeting-point](https://github.com/lasksafj/LeetCode/tree/master/0296-best-meeting-point) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/lasksafj/LeetCode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/lasksafj/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
@@ -992,6 +995,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0358-rearrange-string-k-distance-apart](https://github.com/lasksafj/LeetCode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0594-longest-harmonious-subsequence](https://github.com/lasksafj/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0829-subdomain-visit-count](https://github.com/lasksafj/LeetCode/tree/master/0829-subdomain-visit-count) |
 | [0900-reordered-power-of-2](https://github.com/lasksafj/LeetCode/tree/master/0900-reordered-power-of-2) |
@@ -1063,6 +1067,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0358-rearrange-string-k-distance-apart](https://github.com/lasksafj/LeetCode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0407-trapping-rain-water-ii](https://github.com/lasksafj/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
 | [0658-find-k-closest-elements](https://github.com/lasksafj/LeetCode/tree/master/0658-find-k-closest-elements) |
@@ -1184,6 +1189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/lasksafj/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0246-strobogrammatic-number](https://github.com/lasksafj/LeetCode/tree/master/0246-strobogrammatic-number) |
 | [0248-strobogrammatic-number-iii](https://github.com/lasksafj/LeetCode/tree/master/0248-strobogrammatic-number-iii) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/lasksafj/LeetCode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0474-ones-and-zeroes](https://github.com/lasksafj/LeetCode/tree/master/0474-ones-and-zeroes) |
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
 | [0640-solve-the-equation](https://github.com/lasksafj/LeetCode/tree/master/0640-solve-the-equation) |
