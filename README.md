@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/lasksafj/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/lasksafj/LeetCode/tree/master/0135-candy) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/lasksafj/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/lasksafj/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/lasksafj/LeetCode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/lasksafj/LeetCode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/lasksafj/LeetCode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -1465,6 +1466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/lasksafj/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/lasksafj/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/lasksafj/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0259-3sum-smaller](https://github.com/lasksafj/LeetCode/tree/master/0259-3sum-smaller) |
 | [0362-design-hit-counter](https://github.com/lasksafj/LeetCode/tree/master/0362-design-hit-counter) |
