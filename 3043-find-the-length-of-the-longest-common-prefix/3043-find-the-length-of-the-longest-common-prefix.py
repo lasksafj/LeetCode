@@ -1,21 +1,22 @@
 class Solution:
     def longestCommonPrefix(self, arr1: List[int], arr2: List[int]) -> int:
-        trie = {}
-        for n in arr1:
-            cur = trie
-            for ch in str(n):
-                if ch not in cur:
-                    cur[ch] = {}
-                cur = cur[ch]
+        T = {}
+        for a in arr1:
+            a = str(a)
+            t = T
+            for c in a:
+                if c not in t:
+                    t[c] = {}
+                t = t[c]
         res = 0
-        for n in arr2:
-            cur = trie
+        for a in arr2:
+            a = str(a)
+            t = T
             l = 0
-            for ch in str(n):
-                if ch in cur:
-                    cur = cur[ch]
-                    l += 1
-                else:
+            for c in a:
+                if c not in t:
                     break
+                t = t[c]
+                l += 1
             res = max(res, l)
         return res
