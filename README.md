@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/lasksafj/LeetCode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/lasksafj/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/lasksafj/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2297-jump-game-viii](https://github.com/lasksafj/LeetCode/tree/master/2297-jump-game-viii) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/lasksafj/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1944-number-of-visible-people-in-a-queue](https://github.com/lasksafj/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [2211-count-collisions-on-a-road](https://github.com/lasksafj/LeetCode/tree/master/2211-count-collisions-on-a-road) |
+| [2297-jump-game-viii](https://github.com/lasksafj/LeetCode/tree/master/2297-jump-game-viii) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/lasksafj/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/lasksafj/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2751-robot-collisions](https://github.com/lasksafj/LeetCode/tree/master/2751-robot-collisions) |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/lasksafj/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/lasksafj/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1985-maximum-subarray-min-product](https://github.com/lasksafj/LeetCode/tree/master/1985-maximum-subarray-min-product) |
+| [2297-jump-game-viii](https://github.com/lasksafj/LeetCode/tree/master/2297-jump-game-viii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 ## Prefix Sum
@@ -607,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2118-maximum-earnings-from-taxi](https://github.com/lasksafj/LeetCode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/lasksafj/LeetCode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/lasksafj/LeetCode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
+| [2297-jump-game-viii](https://github.com/lasksafj/LeetCode/tree/master/2297-jump-game-viii) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/lasksafj/LeetCode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/lasksafj/LeetCode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/lasksafj/LeetCode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -1195,6 +1199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0499-the-maze-iii](https://github.com/lasksafj/LeetCode/tree/master/0499-the-maze-iii) |
+| [2297-jump-game-viii](https://github.com/lasksafj/LeetCode/tree/master/2297-jump-game-viii) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/lasksafj/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/lasksafj/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/lasksafj/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -1844,6 +1849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [2297-jump-game-viii](https://github.com/lasksafj/LeetCode/tree/master/2297-jump-game-viii) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/lasksafj/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/lasksafj/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/lasksafj/LeetCode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
