@@ -1,14 +1,12 @@
 class Solution:
     def canReach(self, s: str, minJump: int, maxJump: int) -> bool:
-        N = len(s)
-        dp = [False]*N
-        dp[0] = True
-        r = 0
+        dp = [0]*len(s)
+        pref = [0]*(len(s)+1)
+        dp[0] = 1
         for i,c in enumerate(s):
-            if not dp[i]: continue
-            r = max(r, i+1)
-            for j in range(max(r, i+minJump), min(N, i+maxJump+1)):
-                if s[j] == '0':
-                    dp[j] = True
-            r = max(r, i+maxJump)
-        return dp[-1]
+            l = max(0, i-maxJump)
+            r = i-minJump
+            if c == '0' and l <= r and pref[r+1]-pref[l] > 0:
+                dp[i] = 1
+            pref[i+1] = pref[i] + dp[i]
+        return dp[-1] == 1
