@@ -1,39 +1,35 @@
 class Solution:
     def stringIndices(self, wordsContainer: List[str], wordsQuery: List[str]) -> List[int]:
-        default_i = 0
+        T = {}
         mi = inf
-        for i,word in enumerate(wordsContainer):
-            if len(word) < mi:
-                default_i = i
-                mi = len(word)
-        
-        root = {}
-        def add(i, word, root):
-            root['idx'] = default_i
-            for ch in word:
-                if ch not in root:
-                    root[ch] = {}
-                root = root[ch]
-                if 'min_len' not in root or root['min_len'] > len(word):
-                    root['min_len'] = len(word)
-                    root['idx'] = i
-        
+        mi_i = -1
         for i,word in enumerate(wordsContainer):
             word = word[::-1]
-            add(i, word, root)
+            l = len(word)
+            if l < mi:
+                mi = l
+                mi_i = i
+            cur = T
+            for w in word:
+                if w not in cur:
+                    cur[w] = {}
+                cur = cur[w]
+                if 'len' not in cur:
+                    cur['len'] = l
+                if 'ans' not in cur:
+                    cur['ans'] = i
+                    continue
+                if cur['len'] > l:
+                    cur['ans'] = i
+                    cur['len'] = l
+        T['ans'] = mi_i
         res = []
         for word in wordsQuery:
             word = word[::-1]
-            cur = root
-            added = False
-            for ch in word:
-                if ch in cur:
-                    cur = cur[ch]
-                else:
-                    res.append(cur['idx'])
-                    added = True
+            cur = T
+            for w in word + '#':
+                if w not in cur:
+                    res.append(cur['ans'])
                     break
-            if not added:
-                res.append(cur['idx'])
-                    
+                cur = cur[w]
         return res
