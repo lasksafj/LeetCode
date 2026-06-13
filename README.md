@@ -348,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/lasksafj/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3837-grid-teleportation-traversal](https://github.com/lasksafj/LeetCode/tree/master/3837-grid-teleportation-traversal) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/lasksafj/LeetCode/tree/master/3838-path-existence-queries-in-a-graph-i) |
+| [3838-weighted-word-mapping](https://github.com/lasksafj/LeetCode/tree/master/3838-weighted-word-mapping) |
 | [3840-find-x-value-of-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3840-find-x-value-of-array-ii) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/lasksafj/LeetCode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
@@ -1116,6 +1117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3773-minimum-pair-removal-to-sort-array-i](https://github.com/lasksafj/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/lasksafj/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/lasksafj/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3838-weighted-word-mapping](https://github.com/lasksafj/LeetCode/tree/master/3838-weighted-word-mapping) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
 ## Heap (Priority Queue)
 |  |
@@ -1348,6 +1350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/lasksafj/LeetCode/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/lasksafj/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3821-count-cells-in-overlapping-horizontal-and-vertical-substrings](https://github.com/lasksafj/LeetCode/tree/master/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings) |
+| [3838-weighted-word-mapping](https://github.com/lasksafj/LeetCode/tree/master/3838-weighted-word-mapping) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/lasksafj/LeetCode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
 | [3867-lexicographically-smallest-string-after-adjacent-removals](https://github.com/lasksafj/LeetCode/tree/master/3867-lexicographically-smallest-string-after-adjacent-removals) |
