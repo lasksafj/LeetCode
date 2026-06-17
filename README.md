@@ -620,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/lasksafj/LeetCode/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/lasksafj/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/lasksafj/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [1987-number-of-unique-good-subsequences](https://github.com/lasksafj/LeetCode/tree/master/1987-number-of-unique-good-subsequences) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/lasksafj/LeetCode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/lasksafj/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2086-count-number-of-special-subsequences](https://github.com/lasksafj/LeetCode/tree/master/2086-count-number-of-special-subsequences) |
@@ -1289,6 +1290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/lasksafj/LeetCode/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/lasksafj/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1980-find-unique-binary-string](https://github.com/lasksafj/LeetCode/tree/master/1980-find-unique-binary-string) |
+| [1987-number-of-unique-good-subsequences](https://github.com/lasksafj/LeetCode/tree/master/1987-number-of-unique-good-subsequences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/lasksafj/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/lasksafj/LeetCode/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/lasksafj/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
