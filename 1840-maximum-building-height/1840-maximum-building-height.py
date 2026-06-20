@@ -1,28 +1,21 @@
 class Solution:
     def maxBuilding(self, n: int, restrictions: List[List[int]]) -> int:
         restrictions.sort()
-        # print(restrictions)
-        prev_h = 0
-        prev_i = 1
-        A = []
-        for i,h in restrictions:
-            A.append([i,min(h, i-prev_i+prev_h)])
-            prev_i,prev_h = A[-1]
-        # print(A)
-        prev_h = inf
-        prev_i = n
-        for j in range(len(A)-1,-1,-1):
-            i,h = A[j]
-            A[j][1] = min(h, prev_i-i+prev_h)
-            prev_i,prev_h = A[j]
-            
-        # print(A)
-        
-        prev_h = 0
-        prev_i = 1
-        res = 0
-        for i,h in A:
-            x = (i-prev_i + (prev_h+h))//2
-            res = max(res, x)
-            prev_i,prev_h = i,h
-        return max(res, prev_h+n-prev_i)
+        if restrictions and restrictions[0][0] == 1:
+            restrictions = restrictions[1:]
+        A = [[1,0]]
+        for i, r in restrictions:
+            j, h = A[-1]
+            h += i-j
+            A.append([i, min(h, r)])
+        res = n - A[-1][0] + A[-1][1]
+        for k in range(len(A)-1,0,-1):
+            res = max(res, A[k][1])
+            i1,h1 = A[k-1]
+            i2,h2 = A[k]
+            if i2-i1 < h1-h2:
+                A[k-1][1] = h2+i2-i1
+            else:
+                h = (i2-i1+h1+h2)//2
+                res = max(res, h)
+        return res
