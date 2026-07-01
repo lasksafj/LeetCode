@@ -1,40 +1,35 @@
 class Solution:
     def maximumSafenessFactor(self, grid: List[List[int]]) -> int:
-        def dist(a,b,c,d):
-            return abs(a-c) + abs(b-d)
-        
-        q = []
-        n = len(grid)
-        A = [[inf]*n for _ in range(n)]
-        vis = [[0]*n for _ in range(n)]
-        for i in range(n):
-            for j in range(n):
+        M,N = len(grid),len(grid[0])
+        q = deque()
+        safe = [[-1]*N for _ in range(M)]
+        for i in range(M):
+            for j in range(N):
                 if grid[i][j] == 1:
-                    if (i==0 and j==0) or (i==n-1 and j==n-1):
-                        return 0
-                    A[i][j] = 0
-                    q.append((0,i,j))
+                    q.append([i,j])
+                    safe[i][j] = 0
+        k = 1
         while q:
-            s,i,j = heappop(q)
+            for _ in range(len(q)):
+                i,j = q.popleft()
+                for ni,nj in [[i+1,j],[i-1,j],[i,j+1],[i,j-1]]:
+                    if 0<=ni<M and 0<=nj<N and safe[ni][nj] == -1:
+                        safe[ni][nj] = k
+                        q.append([ni,nj])
+            k += 1
+        pq = [[-safe[0][0], 0,0]]
+        dist = [[0]*N for _ in range(M)]
+        dist[0][0] = safe[0][0]
+        while pq:
+            cur,i,j = heappop(pq)
+            cur = -cur
+            if (i,j) == (M-1,N-1):
+                return cur
+            if cur < dist[i][j]: continue
             for ni,nj in [[i+1,j],[i-1,j],[i,j+1],[i,j-1]]:
-                if 0<=ni<n and 0<=nj<n and A[ni][nj] > s+1:
-                    A[ni][nj] = s+1
-                    heappush(q, (s+1,ni,nj))
-
-        q = [(-A[0][0],0,0)]
-        vis = [[0]*n for _ in range(n)]
-        vis[0][0] = A[0][0]
-        while q:
-            # print(q)
-            s,i,j = heappop(q)
-            s = -s
-            if i==n-1 and j==n-1:
-                return s
-
-            for ni,nj in [[i+1,j],[i-1,j],[i,j+1],[i,j-1]]:
-                if 0<=ni<n and 0<=nj<n and vis[ni][nj] < min(s, A[ni][nj]):
-                    d = min(s, A[ni][nj])
-                    heappush(q, (-d, ni,nj))
-                    vis[ni][nj] = d
-            
-        return 0
+                if 0<=ni<M and 0<=nj<N:
+                    h = min(cur, safe[ni][nj])
+                    if dist[ni][nj] < h:
+                        dist[ni][nj] = h
+                        heappush(pq, [-h,ni,nj])
+        return dist[-1][-1]
