@@ -13,5 +13,8 @@ class Solution:
                     ncost = cost[i][j] + grid[ni][nj]
                     if ncost < health and ncost < cost[ni][nj]:
                         cost[ni][nj] = cost[i][j] + grid[ni][nj]
-                        q.append([ni,nj])
+                        if grid[ni][nj] == 0:
+                            q.appendleft([ni,nj])
+                        else:
+                            q.append([ni,nj])
         return False
