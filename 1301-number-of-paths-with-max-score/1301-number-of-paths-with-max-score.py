@@ -1,28 +1,22 @@
 class Solution:
     def pathsWithMaxScore(self, board: List[str]) -> List[int]:
         M,N = len(board),len(board[0])
-        dp1 = [[-inf]*(N+1) for _ in range(M+1)]
-        # dp1[-1][-1] = 0
-        dp2 = [[0]*(N+1) for _ in range(M+1)]
-        # dp2[-1][-1] = 1
-        for i in range(M-1,-1,-1):
-            for j in range(N-1,-1,-1):
-                if i==M-1 and j==N-1:
-                    dp1[i][j] = 0
-                    dp2[i][j] = 1
-                    continue
-                if board[i][j] == 'X':
-                    dp1[i][j] = -inf
-                    continue
-                ma = max(dp1[i][j+1], dp1[i+1][j], dp1[i+1][j+1])
-                if ma == dp1[i][j+1]:
-                    dp2[i][j] = dp2[i][j+1]
-                if ma == dp1[i+1][j]:
-                    dp2[i][j] += dp2[i+1][j]
-                if ma == dp1[i+1][j+1]:
-                    dp2[i][j] += dp2[i+1][j+1]
-                dp2[i][j] %= 1000000007
-                dp1[i][j] = ma + (int(board[i][j]) if board[i][j] != 'E' else 0)
-        # for r in dp1:
-        #     print(r)
-        return [dp1[0][0],dp2[0][0]] if dp1[0][0] > -inf else [0,0]
+        dp = [[[-inf,0] for _ in range(N+1)] for _ in range(M+1)]
+        MOD = 10**9+7
+        dp[0][0] = [0,1]
+        for i in range(1, M+1):
+            for j in range(1, N+1):
+                x = board[i-1][j-1]
+                if x == 'X': continue
+                elif x in 'SE':
+                    x = 0
+                else:
+                    x = int(x)
+                a,b,c = dp[i-1][j], dp[i][j-1], dp[i-1][j-1]
+                ma = max(a[0], b[0], c[0])
+                way = 0
+                for q in [a,b,c]:
+                    if q[0] == ma:
+                        way += q[1]
+                dp[i][j] = [ma+x, way%MOD]
+        return dp[-1][-1] if dp[-1][-1][0] > -inf else [0,0]
