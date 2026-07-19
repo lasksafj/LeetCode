@@ -6,10 +6,11 @@ class Solution:
         st = []
         S = set()
         for i,c in enumerate(s):
-            while st and c not in S and st[-1] > c and last[st[-1]] > i:
+            if c in S: 
+                continue
+            while st and st[-1] > c and last[st[-1]] > i:
                 S.remove(st[-1])
                 st.pop()
-            if c not in S:
-                st.append(c)
-                S.add(c)
+            st.append(c)
+            S.add(c)
         return ''.join(st)
