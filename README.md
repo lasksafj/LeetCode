@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-friends-of-appropriate-ages](https://github.com/lasksafj/LeetCode/tree/master/0852-friends-of-appropriate-ages) |
 | [0869-similar-string-groups](https://github.com/lasksafj/LeetCode/tree/master/0869-similar-string-groups) |
 | [0874-walking-robot-simulation](https://github.com/lasksafj/LeetCode/tree/master/0874-walking-robot-simulation) |
+| [0877-stone-game](https://github.com/lasksafj/LeetCode/tree/master/0877-stone-game) |
 | [0901-advantage-shuffle](https://github.com/lasksafj/LeetCode/tree/master/0901-advantage-shuffle) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/lasksafj/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/lasksafj/LeetCode/tree/master/0940-fruit-into-baskets) |
@@ -629,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0808-number-of-matching-subsequences](https://github.com/lasksafj/LeetCode/tree/master/0808-number-of-matching-subsequences) |
 | [0826-soup-servings](https://github.com/lasksafj/LeetCode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/lasksafj/LeetCode/tree/master/0867-new-21-game) |
+| [0877-stone-game](https://github.com/lasksafj/LeetCode/tree/master/0877-stone-game) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/lasksafj/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-distinct-subsequences-ii](https://github.com/lasksafj/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/lasksafj/LeetCode/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -1009,6 +1011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/lasksafj/LeetCode/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/lasksafj/LeetCode/tree/master/0840-magic-squares-in-grid) |
 | [0867-new-21-game](https://github.com/lasksafj/LeetCode/tree/master/0867-new-21-game) |
+| [0877-stone-game](https://github.com/lasksafj/LeetCode/tree/master/0877-stone-game) |
 | [0900-reordered-power-of-2](https://github.com/lasksafj/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/lasksafj/LeetCode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/lasksafj/LeetCode/tree/master/1018-largest-perimeter-triangle) |
@@ -1110,6 +1113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0877-stone-game](https://github.com/lasksafj/LeetCode/tree/master/0877-stone-game) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
 | [3462-vowels-game-in-a-string](https://github.com/lasksafj/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 ## Counting
