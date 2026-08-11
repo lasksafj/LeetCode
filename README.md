@@ -646,6 +646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/lasksafj/LeetCode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/lasksafj/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
+| [1510-stone-game-iv](https://github.com/lasksafj/LeetCode/tree/master/1510-stone-game-iv) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/lasksafj/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/lasksafj/LeetCode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/lasksafj/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
@@ -1028,6 +1029,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/lasksafj/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/lasksafj/LeetCode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/lasksafj/LeetCode/tree/master/1448-maximum-69-number) |
+| [1510-stone-game-iv](https://github.com/lasksafj/LeetCode/tree/master/1510-stone-game-iv) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/lasksafj/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/lasksafj/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1622-fancy-sequence](https://github.com/lasksafj/LeetCode/tree/master/1622-fancy-sequence) |
@@ -1120,6 +1122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/lasksafj/LeetCode/tree/master/0877-stone-game) |
+| [1510-stone-game-iv](https://github.com/lasksafj/LeetCode/tree/master/1510-stone-game-iv) |
 | [1685-stone-game-v](https://github.com/lasksafj/LeetCode/tree/master/1685-stone-game-v) |
 | [3462-vowels-game-in-a-string](https://github.com/lasksafj/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 ## Counting
@@ -2064,4 +2067,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/lasksafj/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/lasksafj/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
+## Minimax
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/lasksafj/LeetCode/tree/master/1510-stone-game-iv) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/lasksafj/LeetCode/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/lasksafj/LeetCode/tree/master/1510-stone-game-iv) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/lasksafj/LeetCode/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
