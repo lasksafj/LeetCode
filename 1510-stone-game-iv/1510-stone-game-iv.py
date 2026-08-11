@@ -10,6 +10,8 @@ class Solution:
                 mi = 1
                 for a in sq:
                     if i-a < 0: break
-                    mi = min(mi, dp[i-a][t^1])
+                    if dp[i-a][t^1] == 0:
+                        mi = 0
+                        break
                 dp[i][t] = mi^1
         return True if dp[n][1] else False
