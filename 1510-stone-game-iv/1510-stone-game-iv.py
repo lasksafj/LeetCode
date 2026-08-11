@@ -1,8 +1,5 @@
 class Solution:
     def winnerSquareGame(self, n: int) -> bool:
-        sq = []
-        for i in range(1, int(sqrt(n))+1):
-            sq.append(i*i)
         dp = [[0]*2 for _ in range(n+1)]
         dp[0][0] = 1
         for i in range(n+1):
