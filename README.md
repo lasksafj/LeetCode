@@ -318,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3689-maximum-total-subarray-value-i](https://github.com/lasksafj/LeetCode/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/lasksafj/LeetCode/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/lasksafj/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3705-find-the-largest-almost-missing-integer](https://github.com/lasksafj/LeetCode/tree/master/3705-find-the-largest-almost-missing-integer) |
 | [3707-find-the-most-common-response](https://github.com/lasksafj/LeetCode/tree/master/3707-find-the-most-common-response) |
 | [3716-longest-subsequence-with-decreasing-adjacent-difference](https://github.com/lasksafj/LeetCode/tree/master/3716-longest-subsequence-with-decreasing-adjacent-difference) |
@@ -1571,6 +1572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/lasksafj/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/lasksafj/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3697-minimum-increments-for-target-multiples-in-an-array](https://github.com/lasksafj/LeetCode/tree/master/3697-minimum-increments-for-target-multiples-in-an-array) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/lasksafj/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/lasksafj/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3826-maximum-profit-from-valid-topological-order-in-dag](https://github.com/lasksafj/LeetCode/tree/master/3826-maximum-profit-from-valid-topological-order-in-dag) |
 | [3841-concatenated-divisibility](https://github.com/lasksafj/LeetCode/tree/master/3841-concatenated-divisibility) |
