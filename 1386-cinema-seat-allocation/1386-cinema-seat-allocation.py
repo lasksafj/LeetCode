@@ -1,6 +1,5 @@
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
-        reservedSeats.sort()
         mp = defaultdict(int)
         for i,j in reservedSeats:
             mp[i] |= 1<<j
