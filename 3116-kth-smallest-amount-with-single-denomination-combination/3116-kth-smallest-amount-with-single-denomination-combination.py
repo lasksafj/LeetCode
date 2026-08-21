@@ -1,35 +1,33 @@
 class Solution:
     def findKthSmallest(self, coins: List[int], k: int) -> int:
-        coins.sort()
-        mp = [0] * 2**len(coins)
-        for mask in range(1, 2**len(coins)):
-            A = [v for i,v in enumerate(coins) if (1<<i)&mask > 0]
-            d = A[0]
-            for a in A:
-                d = lcm(d,a)
-            mp[mask] = d
-        
-        l,r = 0,k*coins[0]
+        N = len(coins)
+        mp = {}
+        for mask in range(1, 1<<N):
+            s = 1
+            for i,c in enumerate(coins):
+                if mask&(1<<i):
+                    s = lcm(s, c)
+            mp[mask] = s
+        l,r = min(coins), max(coins)*k
+        res = 0
         while l <= r:
-            mi = (l+r)//2
-            no = 0
-            # inclusion-exclusion principle
-            for mask in range(1, 2**len(coins)):
-                if bin(mask).count('1') % 2:
-                    no += mi//mp[mask]
+            x = (l+r)//2
+            d = 0
+            for mask in range(1, 1<<N):
+                s = x // mp[mask]
+                if bin(mask).count('1') & 1:
+                    d += s
                 else:
-                    no -= mi//mp[mask]
-            
-            if no < k:
-                l = mi+1
-            elif no > k:
-                r = mi-1
+                    d -= s
+            if d > k:
+                r = x-1
+            elif d < k:
+                l = x+1
             else:
-                min_rem = inf
+                mi = x
                 for c in coins:
-                    if mi%c < min_rem:
-                        min_rem = mi%c
-                        res = mi//c * c
-                return res
-                        
+                    if x%c < mi:
+                        mi = x%c
+                        res = c * (x//c)
+                break
         return res
