@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/lasksafj/LeetCode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/lasksafj/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2086-count-number-of-special-subsequences](https://github.com/lasksafj/LeetCode/tree/master/2086-count-number-of-special-subsequences) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/lasksafj/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/lasksafj/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2118-maximum-earnings-from-taxi](https://github.com/lasksafj/LeetCode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2126-destroying-asteroids](https://github.com/lasksafj/LeetCode/tree/master/2126-destroying-asteroids) |
@@ -818,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/lasksafj/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/lasksafj/LeetCode/tree/master/1975-maximum-matrix-sum) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/lasksafj/LeetCode/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/lasksafj/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2126-destroying-asteroids](https://github.com/lasksafj/LeetCode/tree/master/2126-destroying-asteroids) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/lasksafj/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/lasksafj/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
