@@ -394,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3876-construct-uniform-parity-array-ii](https://github.com/lasksafj/LeetCode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3890-smallest-subarray-to-sort-in-every-sliding-window](https://github.com/lasksafj/LeetCode/tree/master/3890-smallest-subarray-to-sort-in-every-sliding-window) |
 | [3903-smallest-stable-index-i](https://github.com/lasksafj/LeetCode/tree/master/3903-smallest-stable-index-i) |
+| [3904-smallest-stable-index-ii](https://github.com/lasksafj/LeetCode/tree/master/3904-smallest-stable-index-ii) |
 | [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/lasksafj/LeetCode/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Stack
 |  |
@@ -486,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/lasksafj/LeetCode/tree/master/3833-merge-operations-for-minimum-travel-time) |
 | [3850-equal-sum-grid-partition-ii](https://github.com/lasksafj/LeetCode/tree/master/3850-equal-sum-grid-partition-ii) |
 | [3903-smallest-stable-index-i](https://github.com/lasksafj/LeetCode/tree/master/3903-smallest-stable-index-i) |
+| [3904-smallest-stable-index-ii](https://github.com/lasksafj/LeetCode/tree/master/3904-smallest-stable-index-ii) |
 ## Hash Table
 |  |
 | ------- |
