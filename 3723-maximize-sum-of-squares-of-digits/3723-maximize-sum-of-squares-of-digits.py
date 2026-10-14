@@ -2,9 +2,8 @@ class Solution:
     def maxSumOfSquares(self, num: int, sum: int) -> str:
         if sum > num*9:
             return ''
-        res = ''
-        for i in range(num):
-            a = min(sum,9)
-            res += str(a)
-            sum -= min(sum,9)
+        res = '9' * (sum//9)
+        if sum%9:
+            res += str(sum%9)
+        res += '0' * (num - len(res))
         return res
